@@ -371,7 +371,7 @@ mount_effect     elephant +11, chariot +11
 attributes       sea_faring, hide_improved_forest, very_hardy, can_swim, warcry
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         9, 3, arrow, 120, 35, missile, archery, piercing, none, 0 ,15
+stat_pri         9, 3, arrow, 110, 35, missile, archery, piercing, none, 0 ,15
 stat_pri_attr    no
 stat_sec         5, 2, no, 0, 0, melee, simple, piercing, knife, 0 ,0.8
 stat_sec_attr    no
