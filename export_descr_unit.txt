@@ -345,7 +345,7 @@ mount_effect     elephant +11, chariot +11
 attributes       sea_faring, hide_improved_forest, very_hardy, can_swim, warcry
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         8, 3, arrow, 120, 35, missile, archery, piercing, none, 0 ,15
+stat_pri         8, 3, arrow, 110, 35, missile, archery, piercing, none, 0 ,15
 stat_pri_attr    no
 stat_sec         6, 2, no, 0, 0, melee, simple, piercing, knife, 0 ,0.8
 stat_sec_attr    no
@@ -1664,7 +1664,7 @@ dictionary       barb_chariot_light_briton      ; British Light Chariots
 category         cavalry
 class            missile
 voice_type       Medium_1
-soldier          barb_chariot_archer, 18, 9, 0.25
+soldier          barb_chariot_archer, 18, 9, 0.35
 mount            barbarian heavy chariot
 mount_effect     elephant -8, camel -4, horse -4
 attributes       sea_faring, hide_forest,  frighten_foot, cantabrian_circle
@@ -1689,15 +1689,15 @@ ownership        britons
 type             barb chariot heavy briton
 dictionary       barb_chariot_heavy_briton      ; British Heavy Chariots
 category         cavalry
-class            heavy
+class            missile
 voice_type       Heavy_1
-soldier          barb_crew_heavy, 18, 9, 0.35
+soldier          barb_chariot_archer, 27, 9, 0.35
 mount            barbarian heavy chariot
 mount_effect     elephant -8, camel -4, horse -4
-attributes       sea_faring, hide_forest,  frighten_foot
-formation        7, 9, 15, 15, 2, square
+attributes       sea_faring, hide_forest,  frighten_foot, cantabrian_circle
+formation        8.5, 9, 15, 15, 2, square
 stat_health      1, 3
-stat_pri         13, 5, no, 0, 0, melee, simple, piercing, sword, 0 ,1
+stat_pri         18, 2, arrow2, 120, 60, missile, archery, piercing, none, 0 ,1
 stat_pri_attr    no
 stat_sec         10, 8, no, 0, 0, melee, blade, slashing, none, 0 ,1
 stat_sec_attr    ap, area, spear
@@ -1709,7 +1709,7 @@ stat_mental      19, impetuous, untrained
 stat_charge_dist 200
 stat_fire_delay  100000
 stat_food        60, 300
-stat_cost        2, 980, 360, 60, 90, 980
+stat_cost        2, 1470, 540, 90, 140, 1470
 ownership        britons
  
  
@@ -2199,15 +2199,15 @@ ownership        germans
 type             barb british general briton
 dictionary       barb_british_general_briton      ; Barbarian Warlord
 category         cavalry
-class            heavy
+class            missile
 voice_type       General_1
-soldier          barb_crew_heavy, 18, 9, 0.35
+soldier          barb_chariot_archer, 27, 9, 0.35
 mount            barbarian heavy chariot
 mount_effect     elephant -8, camel -4, horse -4
 attributes       sea_faring,  frighten_foot, general_unit, hardy, command, , power_charge
-formation        7, 9, 15, 15, 2, square
+formation        8.5, 9, 15, 15, 2, square
 stat_health      2, 4
-stat_pri         13, 5, no, 0, 0, melee, simple, piercing, sword, 0 ,1
+stat_pri         18, 2, arrow2, 120, 60, missile, archery, piercing, none, 0 ,1
 stat_pri_attr    area, spear, spear_bonus_10
 stat_sec         10, 8, no, 0, 0, melee, blade, slashing, none, 0 ,1
 stat_sec_attr    ap, area, spear
