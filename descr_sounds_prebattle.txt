@@ -1,0 +1,51 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Prebattle speech
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: 1d streamed priority 500 volume -20 fadein 0 fadeout 1
+DEFAULT: randomdelay 0 rndvolume 0 pan .5 delay 0
+DEFAULT: dry_level 1.0 wet_level 0
+DEFAULT: streamed pref SPEECH
+DEFAULT: probability 1
+
+event PREBATTLE_CHEERING streamed looped volume -50 fadeout 5 pref INTERFACE
+    folder data/sounds/Voice/Human/Generic
+    background_cheering.mp3
+end
+
+BANK: prebattle_speech
+
+    restricted Roman_Comments_11_1
+    restricted Roman_Extro_14_1
+    restricted Roman_Extros_2_01
+    restricted Roman_Extros_2_02
+    restricted Roman_Extros_2_03
+    restricted Roman_Extros_2_07
+    restricted Roman_Extros_2_08
+    restricted Roman_Extros_2_09
+    restricted Roman_Extros_2_10
+    restricted Roman_Extros_2_11
+    restricted Roman_Extros_2_14
+    restricted Roman_Generic_01
+    restricted Roman_Generic_04
+    restricted Roman_Generic_07
+    restricted Roman_Generic_08
+    restricted Roman_Generic_09
+    restricted Roman_Generic_12
+    restricted Roman_Generic_14
+    restricted Roman_Generic_18
+    restricted Roman_Generic_19
+    restricted Roman_Intro_12_1
+
+    cultures roman, barbarian, carthaginian, greek, eastern, egyptian
+        element CHEERING start 2 next 2
+            event volume 0 pref INTERFACE 
+                folder data/sounds/Voice/Human/Generic
+                Cheer01.mp3
+                Cheer02.mp3
+            end
+
+source export_descr_sounds_prebattle.txt
+

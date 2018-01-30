@@ -1,0 +1,3065 @@
+BANK: battle_events
+	cultures Egyptian,Carthaginian,Eastern
+			notification Allied_Army_Leader_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Allied_Army_Leader_Killed_1.mp3
+				end
+			notification Allied_Army_Leader_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Allied_Army_Leader_Killed_2.mp3
+				end
+			notification Allied_Army_Leader_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Allied_Army_Leader_Killed_3.mp3
+				end
+			notification Allied_Army_Routed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Allied_Army_Routed_1.mp3
+				end
+			notification Allied_Army_Routed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Allied_Army_Routed_2.mp3
+				end
+			notification Allied_Army_Routed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Allied_Army_Routed_3.mp3
+				end
+			notification Allied_General_Routed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Allied_General_Routed_1.mp3
+				end
+			notification Allied_General_Routed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Allied_General_Routed_2.mp3
+				end
+			notification Allied_General_Routed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Allied_General_Routed_3.mp3
+				end
+			notification Enemy_Army_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Army_Routing_1.mp3
+				end
+			notification Enemy_Army_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Army_Routing_2.mp3
+				end
+			notification Enemy_Army_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Army_Routing_3.mp3
+				end
+			notification Enemy_General_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_General_Killed_1.mp3
+				end
+			notification Enemy_General_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_General_Killed_2.mp3
+				end
+			notification Enemy_General_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_General_Killed_3.mp3
+				end
+			notification Enemy_General_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_General_Routing_1.mp3
+				end
+			notification Enemy_General_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_General_Routing_2.mp3
+				end
+			notification Enemy_General_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_General_Routing_3.mp3
+				end
+			notification Enemy_King_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_King_Killed_1.mp3
+				end
+			notification Enemy_King_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_King_Killed_2.mp3
+				end
+			notification Enemy_King_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_King_Killed_3.mp3
+				end
+			notification Enemy_King_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_King_Routing_1.mp3
+				end
+			notification Enemy_King_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_King_Routing_2.mp3
+				end
+			notification Enemy_King_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_King_Routing_3.mp3
+				end
+			notification Enemy_Ladders_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Ladders_Attacking_Walls_1.mp3
+				end
+			notification Enemy_Ladders_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Ladders_Attacking_Walls_2.mp3
+				end
+			notification Enemy_Ladders_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Ladders_Attacking_Walls_3.mp3
+				end
+			notification Enemy_Reinforcements_Arrive 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Reinforcements_Arrive_1.mp3
+				end
+			notification Enemy_Reinforcements_Arrive 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Reinforcements_Arrive_2.mp3
+				end
+			notification Enemy_Reinforcements_Arrive 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Reinforcements_Arrive_3.mp3
+				end
+			notification Enemy_Roman_Leader_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Roman_Leader_Killed_1.mp3
+				end
+			notification Enemy_Roman_Leader_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Roman_Leader_Killed_2.mp3
+				end
+			notification Enemy_Roman_Leader_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Roman_Leader_Killed_3.mp3
+				end
+			notification Enemy_Roman_Leader_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Roman_Leader_Routing_1.mp3
+				end
+			notification Enemy_Roman_Leader_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Roman_Leader_Routing_2.mp3
+				end
+			notification Enemy_Roman_Leader_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Roman_Leader_Routing_3.mp3
+				end
+			notification Enemy_Sapping_Damaged 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Sapping_Damaged_1.mp3
+				end
+			notification Enemy_Sapping_Damaged 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Sapping_Damaged_2.mp3
+				end
+			notification Enemy_Sapping_Damaged 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Sapping_Damaged_3.mp3
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Siege_Towers_Attacking_Walls_1.mp3
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Siege_Towers_Attacking_Walls_2.mp3
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Siege_Towers_Attacking_Walls_3.mp3
+				end
+			notification Enemy_Siege_Towers_Destroyed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Siege_Towers_Destroyed_1.mp3
+				end
+			notification Enemy_Siege_Towers_Destroyed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Siege_Towers_Destroyed_2.mp3
+				end
+			notification Enemy_Siege_Towers_Destroyed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Siege_Towers_Destroyed_3.mp3
+				end
+			notification Enemy_Walls_Breached_By_Player 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Walls_Breached_By_Player_1.mp3
+				end
+			notification Enemy_Walls_Breached_By_Player 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Walls_Breached_By_Player_2.mp3
+				end
+			notification Enemy_Walls_Breached_By_Player 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Walls_Breached_By_Player_3.mp3
+				end
+			notification Enemy_Walls_Captured_By_Player 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Walls_Captured_By_Player_1.mp3
+				end
+			notification Enemy_Walls_Captured_By_Player 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Walls_Captured_By_Player_2.mp3
+				end
+			notification Enemy_Walls_Undermined_By_Player 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Walls_Undermined_By_Player_1.mp3
+				end
+			notification Enemy_Walls_Undermined_By_Player 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Walls_Undermined_By_Player_2.mp3
+				end
+			notification Enemy_Walls_Undermined_By_Player 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Enemy_Walls_Undermined_By_Player_3.mp3
+				end
+			notification Player_Army_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Army_Routing_1.mp3
+				end
+			notification Player_Army_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Army_Routing_2.mp3
+				end
+			notification Player_Army_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Army_Routing_3.mp3
+				end
+			notification Player_Defeat_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Defeat_Average_1.mp3
+				end
+			notification Player_Defeat_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Defeat_Average_2.mp3
+				end
+			notification Player_Defeat_Average 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Defeat_Average_3.mp3
+				end
+			notification Player_Defeat_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Defeat_Clear_1.mp3
+				end
+			notification Player_Defeat_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Defeat_Clear_2.mp3
+				end
+			notification Player_Defeat_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Defeat_Clear_3.mp3
+				end
+			notification Player_Defeat_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Defeat_Close_1.mp3
+				end
+			notification Player_Defeat_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Defeat_Close_2.mp3
+				end
+			notification Player_Defeat_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Defeat_Close_3.mp3
+				end
+			notification Player_Defeat_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Defeat_Crushing_1.mp3
+				end
+			notification Player_Defeat_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Defeat_Crushing_2.mp3
+				end
+			notification Player_Defeat_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Defeat_Crushing_3.mp3
+				end
+			notification Player_Draw 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Draw_1.mp3
+				end
+			notification Player_Draw 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Draw_2.mp3
+				end
+			notification Player_Draw 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Draw_3.mp3
+				end
+			notification Player_General_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_General_Killed_1.mp3
+				end
+			notification Player_General_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_General_Killed_2.mp3
+				end
+			notification Player_General_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_General_Killed_3.mp3
+				end
+			notification Player_General_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_General_Routing_1.mp3
+				end
+			notification Player_General_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_General_Routing_2.mp3
+				end
+			notification Player_General_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_General_Routing_3.mp3
+				end
+			notification Player_Ladders_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Ladders_Attacking_Walls_1.mp3
+				end
+			notification Player_Ladders_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Ladders_Attacking_Walls_2.mp3
+				end
+			notification Player_Ladders_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Ladders_Attacking_Walls_3.mp3
+				end
+			notification Player_Leader_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Leader_Killed_1.mp3
+				end
+			notification Player_Leader_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Leader_Killed_2.mp3
+				end
+			notification Player_Leader_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Leader_Killed_3.mp3
+				end
+			notification Player_Leader_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Leader_Routing_1.mp3
+				end
+			notification Player_Leader_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Leader_Routing_2.mp3
+				end
+			notification Player_Leader_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Leader_Routing_3.mp3
+				end
+			notification Player_Ram_Attacking_Gate 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Ram_Attacking_Gate_1.mp3
+				end
+			notification Player_Ram_Attacking_Gate 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Ram_Attacking_Gate_2.mp3
+				end
+			notification Player_Ram_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Ram_Attacking_Walls_1.mp3
+				end
+			notification Player_Ram_Breached_Gate 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Ram_Breached_Gate_1.mp3
+				end
+			notification Player_Ram_Breached_Gate 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Ram_Breached_Gate_2.mp3
+				end
+			notification Player_Ram_Breached_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Ram_Breached_Walls_1.mp3
+				end
+			notification Player_Reinforcements_Arrive 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Reinforcements_Arrive_1.mp3
+				end
+			notification Player_Reinforcements_Arrive 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Reinforcements_Arrive_2.mp3
+				end
+			notification Player_Reinforcements_Arrive 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Reinforcements_Arrive_3.mp3
+				end
+			notification Player_Sapping_Begun 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Sapping_Begun_1.mp3
+				end
+			notification Player_Sapping_Begun 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Sapping_Begun_2.mp3
+				end
+			notification Player_Sapping_Begun 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Sapping_Begun_3.mp3
+				end
+			notification Player_Sapping_Complete 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Sapping_Complete_1.mp3
+				end
+			notification Player_Sapping_Damaged 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Sapping_Damaged_1.mp3
+				end
+			notification Player_Sapping_Damaged 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Sapping_Damaged_2.mp3
+				end
+			notification Player_Sapping_Damaged 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Sapping_Damaged_3.mp3
+				end
+			notification Player_Sapping_Failed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Sapping_Failed_1.mp3
+				end
+			notification Player_Sapping_Failed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Sapping_Failed_2.mp3
+				end
+			notification Player_Siege_Towers_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Siege_Towers_Attacking_Walls_1.mp3
+				end
+			notification Player_Siege_Towers_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Siege_Towers_Attacking_Walls_2.mp3
+				end
+			notification Player_Siege_Towers_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Siege_Towers_Attacking_Walls_3.mp3
+				end
+			notification Player_Siege_Towers_Destroyed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Siege_Towers_Destroyed_1.mp3
+				end
+			notification Player_Siege_Towers_Destroyed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Siege_Towers_Destroyed_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Defeat_Average_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Defeat_Average_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Defeat_Clear_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Defeat_Clear_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Defeat_Clear_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Defeat_Close_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Defeat_Close_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Defeat_Close_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Defeat_Crushing_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Defeat_Crushing_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Defeat_Crushing_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Draw 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Draw_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Draw 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Draw_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Draw 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Draw_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Victory_Average_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Victory_Average_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Victory_Average_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Victory_Clear_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Victory_Clear_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Victory_Clear_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Victory_Close_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Victory_Close_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Victory_Close_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Victory_Crushing_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Victory_Crushing_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Time_Limit_Expired_Victory_Crushing_3.mp3
+				end
+			notification Player_Victory_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Victory_Average_1.mp3
+				end
+			notification Player_Victory_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Victory_Average_2.mp3
+				end
+			notification Player_Victory_Average 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Victory_Average_3.mp3
+				end
+			notification Player_Victory_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Victory_Clear_1.mp3
+				end
+			notification Player_Victory_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Victory_Clear_2.mp3
+				end
+			notification Player_Victory_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Victory_Clear_3.mp3
+				end
+			notification Player_Victory_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Victory_Close_1.mp3
+				end
+			notification Player_Victory_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Victory_Close_2.mp3
+				end
+			notification Player_Victory_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Victory_Close_3.mp3
+				end
+			notification Player_Victory_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Victory_Crushing_1.mp3
+				end
+			notification Player_Victory_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Victory_Crushing_2.mp3
+				end
+			notification Player_Victory_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Victory_Crushing_3.mp3
+				end
+			notification Player_Walls_Breached_By_Enemy 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Walls_Breached_By_Enemy_1.mp3
+				end
+			notification Player_Walls_Breached_By_Enemy 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Walls_Breached_By_Enemy_2.mp3
+				end
+			notification Player_Walls_Breached_By_Enemy 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Walls_Breached_By_Enemy_3.mp3
+				end
+			notification Player_Walls_Captured_By_Enemy 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Walls_Captured_By_Enemy_1.mp3
+				end
+			notification Player_Walls_Captured_By_Enemy 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Walls_Captured_By_Enemy_2.mp3
+				end
+			notification Player_Walls_Undermined_By_Enemy 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Walls_Undermined_By_Enemy_1.mp3
+				end
+			notification Player_Walls_Undermined_By_Enemy 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Arabic_Player_Walls_Undermined_By_Enemy_2.mp3
+				end
+	cultures Barbarian
+			notification Allied_Army_Leader_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Allied_Army_Leader_Killed_1.mp3
+				end
+			notification Allied_Army_Leader_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Allied_Army_Leader_Killed_2.mp3
+				end
+			notification Allied_Army_Leader_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Allied_Army_Leader_Killed_3.mp3
+				end
+			notification Allied_Army_Routed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Allied_Army_Routed_1.mp3
+				end
+			notification Allied_Army_Routed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Allied_Army_Routed_2.mp3
+				end
+			notification Allied_Army_Routed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Allied_Army_Routed_3.mp3
+				end
+			notification Allied_General_Routed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Allied_General_Routed_1.mp3
+				end
+			notification Allied_General_Routed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Allied_General_Routed_2.mp3
+				end
+			notification Allied_General_Routed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Allied_General_Routed_3.mp3
+				end
+			notification Enemy_Army_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Army_Routing_1.mp3
+				end
+			notification Enemy_Army_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Army_Routing_2.mp3
+				end
+			notification Enemy_Army_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Army_Routing_3.mp3
+				end
+			notification Enemy_General_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_General_Killed_1.mp3
+				end
+			notification Enemy_General_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_General_Killed_2.mp3
+				end
+			notification Enemy_General_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_General_Killed_3.mp3
+				end
+			notification Enemy_General_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_General_Routing_1.mp3
+				end
+			notification Enemy_General_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_General_Routing_2.mp3
+				end
+			notification Enemy_General_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_General_Routing_3.mp3
+				end
+			notification Enemy_King_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_King_Killed_1.mp3
+				end
+			notification Enemy_King_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_King_Killed_2.mp3
+				end
+			notification Enemy_King_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_King_Killed_3.mp3
+				end
+			notification Enemy_King_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_King_Routing_1.mp3
+				end
+			notification Enemy_King_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_King_Routing_2.mp3
+				end
+			notification Enemy_King_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_King_Routing_3.mp3
+				end
+			notification Enemy_Ladders_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Ladders_Attacking_Walls_1.mp3
+				end
+			notification Enemy_Ladders_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Ladders_Attacking_Walls_2.mp3
+				end
+			notification Enemy_Ladders_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Ladders_Attacking_Walls_3.mp3
+				end
+			notification Enemy_Reinforcements_Arrive 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Reinforcements_Arrive_1.mp3
+				end
+			notification Enemy_Reinforcements_Arrive 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Reinforcements_Arrive_2.mp3
+				end
+			notification Enemy_Reinforcements_Arrive 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Reinforcements_Arrive_3.mp3
+				end
+			notification Enemy_Roman_Leader_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Roman_Leader_Killed_1.mp3
+				end
+			notification Enemy_Roman_Leader_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Roman_Leader_Killed_2.mp3
+				end
+			notification Enemy_Roman_Leader_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Roman_Leader_Killed_3.mp3
+				end
+			notification Enemy_Roman_Leader_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Roman_Leader_Routing_1.mp3
+				end
+			notification Enemy_Roman_Leader_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Roman_Leader_Routing_2.mp3
+				end
+			notification Enemy_Roman_Leader_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Roman_Leader_Routing_3.mp3
+				end
+			notification Enemy_Sapping_Damaged 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Sapping_Damaged_1.mp3
+				end
+			notification Enemy_Sapping_Damaged 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Sapping_Damaged_2.mp3
+				end
+			notification Enemy_Sapping_Damaged 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Sapping_Damaged_3.mp3
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Siege_Towers_Attacking_Walls_1.mp3
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Enemy_Siege_Towers_Destroyed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Siege_Towers_Destroyed_1.mp3
+				end
+			notification Enemy_Siege_Towers_Destroyed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Siege_Towers_Destroyed_2.mp3
+				end
+			notification Enemy_Siege_Towers_Destroyed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Siege_Towers_Destroyed_3.mp3
+				end
+			notification Enemy_Walls_Breached_By_Player 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Walls_Breached_By_Player_1.mp3
+				end
+			notification Enemy_Walls_Breached_By_Player 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Walls_Breached_By_Player_2.mp3
+				end
+			notification Enemy_Walls_Breached_By_Player 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Walls_Breached_By_Player_3.mp3
+				end
+			notification Enemy_Walls_Captured_By_Player 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Walls_Captured_By_Player_1.mp3
+				end
+			notification Enemy_Walls_Captured_By_Player 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Enemy_Walls_Captured_By_Player_2.mp3
+				end
+			notification Enemy_Walls_Undermined_By_Player 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Enemy_Walls_Undermined_By_Player 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Enemy_Walls_Undermined_By_Player 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Army_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Army_Routing_1.mp3
+				end
+			notification Player_Army_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Army_Routing_2.mp3
+				end
+			notification Player_Army_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Army_Routing_3.mp3
+				end
+			notification Player_Defeat_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Defeat_Average_1.mp3
+				end
+			notification Player_Defeat_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Defeat_Average_2.mp3
+				end
+			notification Player_Defeat_Average 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Defeat_Average_3.mp3
+				end
+			notification Player_Defeat_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Defeat_Clear_1.mp3
+				end
+			notification Player_Defeat_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Defeat_Clear_2.mp3
+				end
+			notification Player_Defeat_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Defeat_Clear_3.mp3
+				end
+			notification Player_Defeat_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Defeat_Close_1.mp3
+				end
+			notification Player_Defeat_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Defeat_Close_2.mp3
+				end
+			notification Player_Defeat_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Defeat_Close_3.mp3
+				end
+			notification Player_Defeat_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Defeat_Crushing_1.mp3
+				end
+			notification Player_Defeat_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Defeat_Crushing_2.mp3
+				end
+			notification Player_Defeat_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Defeat_Crushing_3.mp3
+				end
+			notification Player_Draw 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Draw_1.mp3
+				end
+			notification Player_Draw 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Draw_2.mp3
+				end
+			notification Player_Draw 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Draw_3.mp3
+				end
+			notification Player_General_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_General_Killed_1.mp3
+				end
+			notification Player_General_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_General_Killed_2.mp3
+				end
+			notification Player_General_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_General_Killed_3.mp3
+				end
+			notification Player_General_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_General_Routing_1.mp3
+				end
+			notification Player_General_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_General_Routing_2.mp3
+				end
+			notification Player_General_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_General_Routing_3.mp3
+				end
+			notification Player_Ladders_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Ladders_Attacking_Walls_1.mp3
+				end
+			notification Player_Ladders_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Ladders_Attacking_Walls_2.mp3
+				end
+			notification Player_Ladders_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Leader_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Leader_Killed_1.mp3
+				end
+			notification Player_Leader_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Leader_Killed_2.mp3
+				end
+			notification Player_Leader_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Leader_Killed_3.mp3
+				end
+			notification Player_Leader_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Leader_Routing_1.mp3
+				end
+			notification Player_Leader_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Leader_Routing_2.mp3
+				end
+			notification Player_Leader_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Leader_Routing_3.mp3
+				end
+			notification Player_Ram_Attacking_Gate 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Ram_Attacking_Gate_1.mp3
+				end
+			notification Player_Ram_Attacking_Gate 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Ram_Attacking_Gate_2.mp3
+				end
+			notification Player_Ram_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Ram_Attacking_Walls_1.mp3
+				end
+			notification Player_Ram_Breached_Gate 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Ram_Breached_Gate_1.mp3
+				end
+			notification Player_Ram_Breached_Gate 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Ram_Breached_Gate_2.mp3
+				end
+			notification Player_Ram_Breached_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Ram_Breached_Walls_1.mp3
+				end
+			notification Player_Reinforcements_Arrive 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Reinforcements_Arrive_1.mp3
+				end
+			notification Player_Reinforcements_Arrive 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Reinforcements_Arrive_2.mp3
+				end
+			notification Player_Reinforcements_Arrive 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Reinforcements_Arrive_3.mp3
+				end
+			notification Player_Sapping_Begun 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Sapping_Begun 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Sapping_Begun 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Sapping_Complete 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Sapping_Damaged 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Sapping_Damaged 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Sapping_Damaged 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Sapping_Failed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Sapping_Failed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Siege_Towers_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Siege_Towers_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Siege_Towers_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Siege_Towers_Destroyed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Siege_Towers_Destroyed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Defeat_Average_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Defeat_Average_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Defeat_Clear_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Defeat_Clear_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Defeat_Clear_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Defeat_Close_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Defeat_Close_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Defeat_Close_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Defeat_Crushing_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Defeat_Crushing_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Defeat_Crushing_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Draw 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Draw_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Draw 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Draw_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Draw 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Draw_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Victory_Average_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Victory_Average_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Victory_Average_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Victory_Clear_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Victory_Clear_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Victory_Clear_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Victory_Close_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Victory_Close_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Victory_Close_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Victory_Crushing_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Victory_Crushing_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Time_Limit_Expired_Victory_Crushing_3.mp3
+				end
+			notification Player_Victory_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Victory_Average_1.mp3
+				end
+			notification Player_Victory_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Victory_Average_2.mp3
+				end
+			notification Player_Victory_Average 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Victory_Average_3.mp3
+				end
+			notification Player_Victory_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Victory_Clear_1.mp3
+				end
+			notification Player_Victory_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Victory_Clear_2.mp3
+				end
+			notification Player_Victory_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Victory_Clear_3.mp3
+				end
+			notification Player_Victory_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Victory_Close_1.mp3
+				end
+			notification Player_Victory_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Victory_Close_2.mp3
+				end
+			notification Player_Victory_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Victory_Close_3.mp3
+				end
+			notification Player_Victory_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Victory_Crushing_1.mp3
+				end
+			notification Player_Victory_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Victory_Crushing_2.mp3
+				end
+			notification Player_Victory_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Victory_Crushing_3.mp3
+				end
+			notification Player_Walls_Breached_By_Enemy 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					; Barbarian_Player_Walls_Breached_By_Enemy_1.wav
+				end
+			notification Player_Walls_Breached_By_Enemy 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Walls_Breached_By_Enemy_2.mp3
+				end
+			notification Player_Walls_Breached_By_Enemy 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Walls_Breached_By_Enemy_3.mp3
+				end
+			notification Player_Walls_Captured_By_Enemy 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Walls_Captured_By_Enemy_1.mp3
+				end
+			notification Player_Walls_Captured_By_Enemy 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Walls_Captured_By_Enemy_2.mp3
+				end
+			notification Player_Walls_Undermined_By_Enemy 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Walls_Undermined_By_Enemy_1.mp3
+				end
+			notification Player_Walls_Undermined_By_Enemy 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Barbarian_Player_Walls_Undermined_By_Enemy_2.mp3
+				end
+	cultures Greek
+			notification Allied_Army_Leader_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Allied_Army_Leader_Killed_1.mp3
+				end
+			notification Allied_Army_Leader_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Allied_Army_Leader_Killed_2.mp3
+				end
+			notification Allied_Army_Leader_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Allied_Army_Leader_Killed_3.mp3
+				end
+			notification Allied_Army_Routed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Allied_Army_Routed_1.mp3
+				end
+			notification Allied_Army_Routed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Allied_Army_Routed_2.mp3
+				end
+			notification Allied_Army_Routed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Allied_Army_Routed_3.mp3
+				end
+			notification Allied_General_Routed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Allied_General_Routed_1.mp3
+				end
+			notification Allied_General_Routed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Allied_General_Routed_2.mp3
+				end
+			notification Allied_General_Routed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Allied_General_Routed_3.mp3
+				end
+			notification Enemy_Army_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Army_Routing_1.mp3
+				end
+			notification Enemy_Army_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Army_Routing_2.mp3
+				end
+			notification Enemy_Army_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Army_Routing_3.mp3
+				end
+			notification Enemy_General_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_General_Killed_1.mp3
+				end
+			notification Enemy_General_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_General_Killed_2.mp3
+				end
+			notification Enemy_General_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_General_Killed_3.mp3
+				end
+			notification Enemy_General_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_General_Routing_1.mp3
+				end
+			notification Enemy_General_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_General_Routing_2.mp3
+				end
+			notification Enemy_General_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_General_Routing_3.mp3
+				end
+			notification Enemy_King_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_King_Killed_1.mp3
+				end
+			notification Enemy_King_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_King_Killed_2.mp3
+				end
+			notification Enemy_King_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_King_Killed_3.mp3
+				end
+			notification Enemy_King_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_King_Routing_1.mp3
+				end
+			notification Enemy_King_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_King_Routing_2.mp3
+				end
+			notification Enemy_King_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_King_Routing_3.mp3
+				end
+			notification Enemy_Ladders_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Ladders_Attacking_Walls_1.mp3
+				end
+			notification Enemy_Ladders_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Ladders_Attacking_Walls_2.mp3
+				end
+			notification Enemy_Ladders_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Ladders_Attacking_Walls_3.mp3
+				end
+			notification Enemy_Reinforcements_Arrive 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Reinforcements_Arrive_1.mp3
+				end
+			notification Enemy_Reinforcements_Arrive 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Reinforcements_Arrive_2.mp3
+				end
+			notification Enemy_Reinforcements_Arrive 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Reinforcements_Arrive_3.mp3
+				end
+			notification Enemy_Roman_Leader_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Roman_Leader_Killed_1.mp3
+				end
+			notification Enemy_Roman_Leader_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Roman_Leader_Killed_2.mp3
+				end
+			notification Enemy_Roman_Leader_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Roman_Leader_Killed_3.mp3
+				end
+			notification Enemy_Roman_Leader_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Roman_Leader_Routing_1.mp3
+				end
+			notification Enemy_Roman_Leader_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Roman_Leader_Routing_2.mp3
+				end
+			notification Enemy_Roman_Leader_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Roman_Leader_Routing_3.mp3
+				end
+			notification Enemy_Sapping_Damaged 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Sapping_Damaged_1.mp3
+				end
+			notification Enemy_Sapping_Damaged 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Sapping_Damaged_2.mp3
+				end
+			notification Enemy_Sapping_Damaged 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Sapping_Damaged_3.mp3
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Siege_Towers_Attacking_Walls_1.mp3
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Siege_Towers_Attacking_Walls_2.mp3
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Siege_Towers_Attacking_Walls_3.mp3
+				end
+			notification Enemy_Siege_Towers_Destroyed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Siege_Towers_Destroyed_1.mp3
+				end
+			notification Enemy_Siege_Towers_Destroyed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Siege_Towers_Destroyed_2.mp3
+				end
+			notification Enemy_Siege_Towers_Destroyed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Siege_Towers_Destroyed_3.mp3
+				end
+			notification Enemy_Walls_Breached_By_Player 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Walls_Breached_By_Player_1.mp3
+				end
+			notification Enemy_Walls_Breached_By_Player 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Walls_Breached_By_Player_2.mp3
+				end
+			notification Enemy_Walls_Breached_By_Player 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Walls_Breached_By_Player_3.mp3
+				end
+			notification Enemy_Walls_Captured_By_Player 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Walls_Captured_By_Player_1.mp3
+				end
+			notification Enemy_Walls_Captured_By_Player 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Walls_Captured_By_Player_2.mp3
+				end
+			notification Enemy_Walls_Undermined_By_Player 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Walls_Undermined_By_Player_1.mp3
+				end
+			notification Enemy_Walls_Undermined_By_Player 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Walls_Undermined_By_Player_2.mp3
+				end
+			notification Enemy_Walls_Undermined_By_Player 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Enemy_Walls_Undermined_By_Player_3.mp3
+				end
+			notification Player_Army_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Army_Routing_1.mp3
+				end
+			notification Player_Army_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Army_Routing_2.mp3
+				end
+			notification Player_Army_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Army_Routing_3.mp3
+				end
+			notification Player_Defeat_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Defeat_Average_1.mp3
+				end
+			notification Player_Defeat_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Defeat_Average_2.mp3
+				end
+			notification Player_Defeat_Average 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Defeat_Average_3.mp3
+				end
+			notification Player_Defeat_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Defeat_Clear_1.mp3
+				end
+			notification Player_Defeat_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Defeat_Clear_2.mp3
+				end
+			notification Player_Defeat_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Defeat_Clear_3.mp3
+				end
+			notification Player_Defeat_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Defeat_Close_1.mp3
+				end
+			notification Player_Defeat_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Defeat_Close_2.mp3
+				end
+			notification Player_Defeat_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Defeat_Close_3.mp3
+				end
+			notification Player_Defeat_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Defeat_Crushing_1.mp3
+				end
+			notification Player_Defeat_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Defeat_Crushing_2.mp3
+				end
+			notification Player_Defeat_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Defeat_Crushing_3.mp3
+				end
+			notification Player_Draw 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Draw_1.mp3
+				end
+			notification Player_Draw 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Draw_2.mp3
+				end
+			notification Player_Draw 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Draw_3.mp3
+				end
+			notification Player_General_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_General_Killed_1.mp3
+				end
+			notification Player_General_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_General_Killed_2.mp3
+				end
+			notification Player_General_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_General_Killed_3.mp3
+				end
+			notification Player_General_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_General_Routing_1.mp3
+				end
+			notification Player_General_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_General_Routing_2.mp3
+				end
+			notification Player_General_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_General_Routing_3.mp3
+				end
+			notification Player_Ladders_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Ladders_Attacking_Walls_1.mp3
+				end
+			notification Player_Ladders_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Ladders_Attacking_Walls_2.mp3
+				end
+			notification Player_Ladders_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Ladders_Attacking_Walls_3.mp3
+				end
+			notification Player_Leader_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Leader_Killed_1.mp3
+				end
+			notification Player_Leader_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Leader_Killed_2.mp3
+				end
+			notification Player_Leader_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Leader_Killed_3.mp3
+				end
+			notification Player_Leader_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Leader_Routing_1.mp3
+				end
+			notification Player_Leader_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Leader_Routing_2.mp3
+				end
+			notification Player_Leader_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Leader_Routing_3.mp3
+				end
+			notification Player_Ram_Attacking_Gate 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Ram_Attacking_Gate_1.mp3
+				end
+			notification Player_Ram_Attacking_Gate 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Ram_Attacking_Gate_2.mp3
+				end
+			notification Player_Ram_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Ram_Attacking_Walls_1.mp3
+				end
+			notification Player_Ram_Breached_Gate 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Ram_Breached_Gate_1.mp3
+				end
+			notification Player_Ram_Breached_Gate 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Ram_Breached_Gate_2.mp3
+				end
+			notification Player_Ram_Breached_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Ram_Breached_Walls_1.mp3
+				end
+			notification Player_Reinforcements_Arrive 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Reinforcements_Arrive_1.mp3
+				end
+			notification Player_Reinforcements_Arrive 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Reinforcements_Arrive_2.mp3
+				end
+			notification Player_Reinforcements_Arrive 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Reinforcements_Arrive_3.mp3
+				end
+			notification Player_Sapping_Begun 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Sapping_Begun_1.mp3
+				end
+			notification Player_Sapping_Begun 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Sapping_Begun_2.mp3
+				end
+			notification Player_Sapping_Begun 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Sapping_Begun_3.mp3
+				end
+			notification Player_Sapping_Complete 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Sapping_Complete_1.mp3
+				end
+			notification Player_Sapping_Damaged 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Sapping_Damaged_1.mp3
+				end
+			notification Player_Sapping_Damaged 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Sapping_Damaged_2.mp3
+				end
+			notification Player_Sapping_Damaged 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Sapping_Damaged_3.mp3
+				end
+			notification Player_Sapping_Failed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Sapping_Failed_1.mp3
+				end
+			notification Player_Sapping_Failed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Sapping_Failed_2.mp3
+				end
+			notification Player_Siege_Towers_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Siege_Towers_Attacking_Walls_1.mp3
+				end
+			notification Player_Siege_Towers_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Siege_Towers_Attacking_Walls_2.mp3
+				end
+			notification Player_Siege_Towers_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Siege_Towers_Attacking_Walls_3.mp3
+				end
+			notification Player_Siege_Towers_Destroyed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Siege_Towers_Destroyed_1.mp3
+				end
+			notification Player_Siege_Towers_Destroyed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Siege_Towers_Destroyed_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Defeat_Average_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Defeat_Average_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Defeat_Clear_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Defeat_Clear_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Defeat_Clear_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Defeat_Close_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Defeat_Close_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Defeat_Close_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Defeat_Crushing_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Defeat_Crushing_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Defeat_Crushing_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Draw 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Draw_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Draw 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Draw_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Draw 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Draw_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Victory_Average_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Victory_Average_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Victory_Average_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Victory_Clear_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Victory_Clear_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Victory_Clear_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Victory_Close_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Victory_Close_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Victory_Close_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Victory_Crushing_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Victory_Crushing_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Time_Limit_Expired_Victory_Crushing_3.mp3
+				end
+			notification Player_Victory_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Victory_Average_1.mp3
+				end
+			notification Player_Victory_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Victory_Average_2.mp3
+				end
+			notification Player_Victory_Average 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Victory_Average_3.mp3
+				end
+			notification Player_Victory_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Victory_Clear_1.mp3
+				end
+			notification Player_Victory_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Victory_Clear_2.mp3
+				end
+			notification Player_Victory_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Victory_Clear_3.mp3
+				end
+			notification Player_Victory_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Victory_Close_1.mp3
+				end
+			notification Player_Victory_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Victory_Close_2.mp3
+				end
+			notification Player_Victory_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Victory_Close_3.mp3
+				end
+			notification Player_Victory_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Victory_Crushing_1.mp3
+				end
+			notification Player_Victory_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Victory_Crushing_2.mp3
+				end
+			notification Player_Victory_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Victory_Crushing_3.mp3
+				end
+			notification Player_Walls_Breached_By_Enemy 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Walls_Breached_By_Enemy_1.mp3
+				end
+			notification Player_Walls_Breached_By_Enemy 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Walls_Breached_By_Enemy_2.mp3
+				end
+			notification Player_Walls_Breached_By_Enemy 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Walls_Breached_By_Enemy_3.mp3
+				end
+			notification Player_Walls_Captured_By_Enemy 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Walls_Captured_By_Enemy_1.mp3
+				end
+			notification Player_Walls_Captured_By_Enemy 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Walls_Captured_By_Enemy_2.mp3
+				end
+			notification Player_Walls_Undermined_By_Enemy 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Walls_Undermined_By_Enemy_1.mp3
+				end
+			notification Player_Walls_Undermined_By_Enemy 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Greek_Player_Walls_Undermined_By_Enemy_2.mp3
+				end
+	cultures Roman
+			notification Allied_Army_Leader_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Allied_Army_Leader_Killed_1.mp3
+				end
+			notification Allied_Army_Leader_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Allied_Army_Leader_Killed_2.mp3
+				end
+			notification Allied_Army_Leader_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Allied_Army_Leader_Killed_3.mp3
+				end
+			notification Allied_Army_Routed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Allied_Army_Routed_1.mp3
+				end
+			notification Allied_Army_Routed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Allied_Army_Routed_2.mp3
+				end
+			notification Allied_Army_Routed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Allied_Army_Routed_3.mp3
+				end
+			notification Allied_General_Routed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Allied_General_Routed_1.mp3
+				end
+			notification Allied_General_Routed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Allied_General_Routed_2.mp3
+				end
+			notification Allied_General_Routed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Allied_General_Routed_3.mp3
+				end
+			notification Enemy_Army_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Army_Routing_1.mp3
+				end
+			notification Enemy_Army_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Army_Routing_2.mp3
+				end
+			notification Enemy_Army_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Army_Routing_3.mp3
+				end
+			notification Enemy_General_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_General_Killed_1.mp3
+				end
+			notification Enemy_General_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_General_Killed_2.mp3
+				end
+			notification Enemy_General_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_General_Killed_3.mp3
+				end
+			notification Enemy_General_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_General_Routing_1.mp3
+				end
+			notification Enemy_General_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_General_Routing_2.mp3
+				end
+			notification Enemy_General_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_General_Routing_3.mp3
+				end
+			notification Enemy_King_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_King_Killed_1.mp3
+				end
+			notification Enemy_King_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_King_Killed_2.mp3
+				end
+			notification Enemy_King_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_King_Killed_3.mp3
+				end
+			notification Enemy_King_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_King_Routing_1.mp3
+				end
+			notification Enemy_King_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_King_Routing_2.mp3
+				end
+			notification Enemy_King_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_King_Routing_3.mp3
+				end
+			notification Enemy_Ladders_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Ladders_Attacking_Walls_1.mp3
+				end
+			notification Enemy_Ladders_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Ladders_Attacking_Walls_2.mp3
+				end
+			notification Enemy_Ladders_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Ladders_Attacking_Walls_3.mp3
+				end
+			notification Enemy_Reinforcements_Arrive 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Reinforcements_Arrive_1.mp3
+				end
+			notification Enemy_Reinforcements_Arrive 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Reinforcements_Arrive_2.mp3
+				end
+			notification Enemy_Reinforcements_Arrive 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Reinforcements_Arrive_3.mp3
+				end
+			notification Enemy_Roman_Leader_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Roman_Leader_Killed_1.mp3
+				end
+			notification Enemy_Roman_Leader_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Roman_Leader_Killed_2.mp3
+				end
+			notification Enemy_Roman_Leader_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Roman_Leader_Killed_3.mp3
+				end
+			notification Enemy_Roman_Leader_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Roman_Leader_Routing_1.mp3
+				end
+			notification Enemy_Roman_Leader_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Roman_Leader_Routing_2.mp3
+				end
+			notification Enemy_Roman_Leader_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Roman_Leader_Routing_3.mp3
+				end
+			notification Enemy_Sapping_Damaged 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Sapping_Damaged_1.mp3
+				end
+			notification Enemy_Sapping_Damaged 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Sapping_Damaged_2.mp3
+				end
+			notification Enemy_Sapping_Damaged 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Sapping_Damaged_3.mp3
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Siege_Towers_Attacking_Walls_1.mp3
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Siege_Towers_Attacking_Walls_2.mp3
+				end
+			notification Enemy_Siege_Towers_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Siege_Towers_Attacking_Walls_3.mp3
+				end
+			notification Enemy_Siege_Towers_Destroyed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Siege_Towers_Destroyed_1.mp3
+				end
+			notification Enemy_Siege_Towers_Destroyed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Siege_Towers_Destroyed_2.mp3
+				end
+			notification Enemy_Siege_Towers_Destroyed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Siege_Towers_Destroyed_3.mp3
+				end
+			notification Enemy_Walls_Breached_By_Player 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Walls_Breached_By_Player_1.mp3
+				end
+			notification Enemy_Walls_Breached_By_Player 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Walls_Breached_By_Player_2.mp3
+				end
+			notification Enemy_Walls_Breached_By_Player 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Walls_Breached_By_Player_3.mp3
+				end
+			notification Enemy_Walls_Captured_By_Player 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Walls_Captured_By_Player_1.mp3
+				end
+			notification Enemy_Walls_Captured_By_Player 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Walls_Captured_By_Player_2.mp3
+				end
+			notification Enemy_Walls_Undermined_By_Player 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Walls_Undermined_By_Player_1.mp3
+				end
+			notification Enemy_Walls_Undermined_By_Player 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Walls_Undermined_By_Player_2.mp3
+				end
+			notification Enemy_Walls_Undermined_By_Player 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Enemy_Walls_Undermined_By_Player_3.mp3
+				end
+			notification Player_Army_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Army_Routing_1.mp3
+				end
+			notification Player_Army_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Army_Routing_2.mp3
+				end
+			notification Player_Army_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Army_Routing_3.mp3
+				end
+			notification Player_Defeat_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Defeat_Average_1.mp3
+				end
+			notification Player_Defeat_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Defeat_Average_2.mp3
+				end
+			notification Player_Defeat_Average 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Defeat_Average_3.mp3
+				end
+			notification Player_Defeat_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Defeat_Clear_1.mp3
+				end
+			notification Player_Defeat_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Defeat_Clear_2.mp3
+				end
+			notification Player_Defeat_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Defeat_Clear_3.mp3
+				end
+			notification Player_Defeat_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Defeat_Close_1.mp3
+				end
+			notification Player_Defeat_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Defeat_Close_2.mp3
+				end
+			notification Player_Defeat_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Defeat_Close_3.mp3
+				end
+			notification Player_Defeat_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Defeat_Crushing_1.mp3
+				end
+			notification Player_Defeat_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Defeat_Crushing_2.mp3
+				end
+			notification Player_Defeat_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Defeat_Crushing_3.mp3
+				end
+			notification Player_Draw 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Draw_1.mp3
+				end
+			notification Player_Draw 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Draw_2.mp3
+				end
+			notification Player_Draw 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Draw_3.mp3
+				end
+			notification Player_General_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_General_Killed_1.mp3
+				end
+			notification Player_General_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_General_Killed_2.mp3
+				end
+			notification Player_General_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_General_Killed_3.mp3
+				end
+			notification Player_General_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_General_Routing_1.mp3
+				end
+			notification Player_General_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_General_Routing_2.mp3
+				end
+			notification Player_General_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_General_Routing_3.mp3
+				end
+			notification Player_Ladders_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Ladders_Attacking_Walls_1.mp3
+				end
+			notification Player_Ladders_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Ladders_Attacking_Walls_2.mp3
+				end
+			notification Player_Ladders_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Ladders_Attacking_Walls_3.mp3
+				end
+			notification Player_Leader_Killed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Leader_Killed_1.mp3
+				end
+			notification Player_Leader_Killed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Leader_Killed_2.mp3
+				end
+			notification Player_Leader_Killed 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Leader_Killed_3.mp3
+				end
+			notification Player_Leader_Routing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Leader_Routing_1.mp3
+				end
+			notification Player_Leader_Routing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Leader_Routing_2.mp3
+				end
+			notification Player_Leader_Routing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Leader_Routing_3.mp3
+				end
+			notification Player_Ram_Attacking_Gate 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Ram_Attacking_Gate_1.mp3
+				end
+			notification Player_Ram_Attacking_Gate 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Ram_Attacking_Gate_2.mp3
+				end
+			notification Player_Ram_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Ram_Attacking_Walls_1.mp3
+				end
+			notification Player_Ram_Breached_Gate 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Ram_Breached_Gate_1.mp3
+				end
+			notification Player_Ram_Breached_Gate 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Ram_Breached_Gate_2.mp3
+				end
+			notification Player_Ram_Breached_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Ram_Breached_Walls_1.mp3
+				end
+			notification Player_Reinforcements_Arrive 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Reinforcements_Arrive_1.mp3
+				end
+			notification Player_Reinforcements_Arrive 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Reinforcements_Arrive_2.mp3
+				end
+			notification Player_Reinforcements_Arrive 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Reinforcements_Arrive_3.mp3
+				end
+			notification Player_Sapping_Begun 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Sapping_Begun_1.mp3
+				end
+			notification Player_Sapping_Begun 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Sapping_Begun_2.mp3
+				end
+			notification Player_Sapping_Begun 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Sapping_Begun_3.mp3
+				end
+			notification Player_Sapping_Complete 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Sapping_Complete_1.mp3
+				end
+			notification Player_Sapping_Damaged 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Sapping_Damaged_1.mp3
+				end
+			notification Player_Sapping_Damaged 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Sapping_Damaged_2.mp3
+				end
+			notification Player_Sapping_Damaged 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Sapping_Damaged_3.mp3
+				end
+			notification Player_Sapping_Failed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Sapping_Failed_1.mp3
+				end
+			notification Player_Sapping_Failed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Sapping_Failed_2.mp3
+				end
+			notification Player_Siege_Towers_Attacking_Walls 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Siege_Towers_Attacking_Walls_1.mp3
+				end
+			notification Player_Siege_Towers_Attacking_Walls 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Siege_Towers_Attacking_Walls_2.mp3
+				end
+			notification Player_Siege_Towers_Attacking_Walls 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Siege_Towers_Attacking_Walls_3.mp3
+				end
+			notification Player_Siege_Towers_Destroyed 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Siege_Towers_Destroyed_1.mp3
+				end
+			notification Player_Siege_Towers_Destroyed 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Siege_Towers_Destroyed_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Defeat_Average_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Defeat_Average_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Defeat_Clear_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Defeat_Clear_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Defeat_Clear_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Defeat_Close_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Defeat_Close_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Defeat_Close_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Defeat_Crushing_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Defeat_Crushing_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Defeat_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Defeat_Crushing_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Draw 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Draw_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Draw 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Draw_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Draw 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Draw_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Victory_Average_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Victory_Average_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Average 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Victory_Average_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Victory_Clear_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Victory_Clear_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Victory_Clear_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Victory_Close_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Victory_Close_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Victory_Close_3.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Victory_Crushing_1.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Victory_Crushing_2.mp3
+				end
+			notification Player_Time_Limit_Expired_Victory_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Time_Limit_Expired_Victory_Crushing_3.mp3
+				end
+			notification Player_Victory_Average 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Victory_Average_1.mp3
+				end
+			notification Player_Victory_Average 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Victory_Average_2.mp3
+				end
+			notification Player_Victory_Average 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Victory_Average_3.mp3
+				end
+			notification Player_Victory_Clear 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Victory_Clear_1.mp3
+				end
+			notification Player_Victory_Clear 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Victory_Clear_2.mp3
+				end
+			notification Player_Victory_Clear 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Victory_Clear_3.mp3
+				end
+			notification Player_Victory_Close 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Victory_Close_1.mp3
+				end
+			notification Player_Victory_Close 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Victory_Close_2.mp3
+				end
+			notification Player_Victory_Close 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Victory_Close_3.mp3
+				end
+			notification Player_Victory_Crushing 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Victory_Crushing_1.mp3
+				end
+			notification Player_Victory_Crushing 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Victory_Crushing_2.mp3
+				end
+			notification Player_Victory_Crushing 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Victory_Crushing_3.mp3
+				end
+			notification Player_Walls_Breached_By_Enemy 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Walls_Breached_By_Enemy_1.mp3
+				end
+			notification Player_Walls_Breached_By_Enemy 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Walls_Breached_By_Enemy_2.mp3
+				end
+			notification Player_Walls_Breached_By_Enemy 3
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Walls_Breached_By_Enemy_3.mp3
+				end
+			notification Player_Walls_Captured_By_Enemy 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Walls_Captured_By_Enemy_1.mp3
+				end
+			notification Player_Walls_Captured_By_Enemy 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Walls_Captured_By_Enemy_2.mp3
+				end
+			notification Player_Walls_Undermined_By_Enemy 1
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Walls_Undermined_By_Enemy_1.mp3
+				end
+			notification Player_Walls_Undermined_By_Enemy 2
+				event
+					folder data/sounds/Voice/Human/Localized/Battle_Events
+					Roman_Player_Walls_Undermined_By_Enemy_2.mp3
+				end

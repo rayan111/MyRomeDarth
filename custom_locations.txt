@@ -1,0 +1,378 @@
+; custom locations , add new locations at the bottom
+
+custom_location		Darth:Balkans 1
+{
+	location		155	97		
+	image			data/menu/balkans1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Balkans 2
+{
+	location		122	78		
+	image			data/menu/balkans2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Balkans 3
+{
+	location		123	96		
+	image			data/menu/balkans3.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Crimaia Field
+{
+	location		176	101		
+	image			data/menu/crimaia_field.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Plains 1
+{
+	location		220	125		
+	image			data/menu/plains1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Plains 2
+{
+	location		152	129		
+	image			data/menu/plains2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Plains Arid
+{
+	location		72 	44		
+	image			data/menu/plains_arid.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Sicely Coast
+{
+	location		99	50		
+	image			data/menu/Sicely_coast.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Corsica Hills
+{
+	location		69	85		
+	image			data/menu/Corsica_hills.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Salt Coast
+{
+	location		72	133		
+	image			data/menu/Salt_coast.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Greek Lands 1
+{
+	location		136	58		
+	image			data/menu/greek1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Greek Lands 2
+{
+	location		127	78		
+	image			data/menu/greek2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:GreekLands 3
+{
+	location		138	51		
+	image			data/menu/greek3.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Middle East
+{
+	location		158	63		
+	image			data/menu/middle_east.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Middle East 2
+{
+	location		162	53		
+	image			data/menu/middle_east2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Desert
+{
+	location		221	59		
+	image			data/menu/sand.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Spain
+{
+	location		16	88		
+	image			data/menu/spain1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Forest
+{
+	location		83	44		
+	image			data/menu/forest1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Steppes
+{
+	location		172	123		
+	image			data/menu/steppes1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Highlands
+{
+	location		52	142		
+	image			data/menu/highlands1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Highlands
+{
+	location		51	151		
+	image			data/menu/highlands2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Flat
+{
+	location		204	110		
+	image			data/menu/flat1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Near the Nile
+{
+	location		184	20		
+	image			data/menu/near_the_nile.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Rocky Flat
+{
+	location		195	4		
+	image			data/menu/rockyflat.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:River
+{
+	location		146	85		
+	image			data/menu/river1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Darth:Mountains
+{
+	location		141	104		
+	image			data/menu/mountain1.tga
+	sett_locked		no
+	summer			no
+}
+
+
+custom_location		British Grassland
+{
+	location		123	96		
+	image			data/menu/grass1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Gallic Countryside
+{
+	location		161	112		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Italian Lowland
+{
+	location		48	126		
+	image			data/menu/grass3.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Sahara Desert
+{
+	location		20	7		
+	image			data/menu/sand1.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Libyan Plains
+{
+	location		175	8		
+	image			data/menu/sand2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Arabian Dunes
+{
+	location		224	47		
+	image			data/menu/sand3.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Germanic Forest
+{
+	location		90	127		
+	image			data/menu/forest1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Nordic Woodland
+{
+	location		74	117		
+	image			data/menu/forest2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Cappadocian Forest
+{
+	location		93	116		
+	image			data/menu/forest3.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Prippet Marshes
+{
+	location		5	62		
+	image			data/menu/baron1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Sierra Nevada
+{
+	location		83	37		
+	image			data/menu/baron2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Scottish Highland
+{
+	location		118	122		
+	image			data/menu/baron3.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Armenian Mountains
+{
+	location		189	59		
+	image			data/menu/mountain1.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		Pontic Peaks
+{
+	location		204	59		
+	image			data/menu/mountain2.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		Alpine Valley
+{
+	location		96	96		
+	image			data/menu/mountain3.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		Tuscan Bay
+{
+	location		87	78		
+	image			data/menu/coast1.tga
+	sett_locked		no
+	summer			no
+
+}
+
+custom_location		Greek Shore
+{
+	location		103	43		
+	image			data/menu/coast2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		African Coast
+{
+	location		86	27		
+	image			data/menu/coast3.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Moon River
+{
+	location		21	71		
+	image			data/menu/river1.tga
+	sett_locked		yes
+	summer			no
+}
+custom_location		River Jordan
+{
+	location		172	118		
+	image			data/menu/river2.tga
+	sett_locked		yes
+	summer			no
+}
+custom_location		Nile Bridge
+{
+	location		212	53		
+	image			data/menu/river3.tga
+	sett_locked		yes
+	summer			yes
+}
+

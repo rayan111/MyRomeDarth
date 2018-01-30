@@ -1,0 +1,12 @@
+plan
+
+{
+
+floor	underlay_standing_stones.cas 	overlay_standing_stones.cas
+	borders	border_limits_64m_diameter.CAS
+	
+standing_stones,		0,	0,	0,	0
+
+
+
+	}

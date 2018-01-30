@@ -1,0 +1,9 @@
+plan
+
+{
+
+floor	        hay_field_new_128_64_underlay.CAS	hay_field_new_128_64_overlay.CAS
+		
+;				x,		y,		rot,	z,
+hay_field_new_128_64,          0,	        0,	        0,	 0,
+}

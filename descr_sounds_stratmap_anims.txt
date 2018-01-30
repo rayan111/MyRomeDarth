@@ -1,0 +1,138 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Animation based sounds for strat map
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: 3D minPitch .9 maxPitch 1.1 fadein 0 fadeout 0 mindist 3 volume 0 probability 1 rndvolume 0 randomdelay 0  effect_level .25 priority 10
+
+event SM_ANIM_FOOTSTEP rndvolume -20 volume -30
+	folder data/sounds/SFX/Individual/Footsteps/Infantry/Dirt
+	DIRT_1
+	DIRT_2
+	DIRT_3
+	DIRT_4
+	DIRT_5
+	DIRT_6
+end
+
+event SM_ANIM_BATTLE mindist 8 volume -10
+folder data/sounds/SFX/Campaign_Map
+Battle_02M
+end
+
+event SM_ANIM_SWOOSH
+folder data/sounds/SFX/Individual/Melee/Swooshes/Swoosh_Medium_Long
+Swoosh_Med_Long_01
+Swoosh_Med_Long_02
+end
+
+event SM_ANIM_SMALL_SWOOSH mindist 2
+folder data/sounds/SFX/Individual/Melee/Swooshes/Swoosh_Low_Long
+Swoosh_Low_Long_01
+Swoosh_Low_Long_02
+Swoosh_Low_Long_03
+Swoosh_Low_Long_04
+folder data/sounds/SFX/Individual/Melee/Swooshes/Swoosh_Medium_Short
+Swoosh_Medium_Short_01
+Swoosh_Medium_Short_02
+Swoosh_Medium_Short_03
+Swoosh_Medium_Short_04
+Swoosh_Medium_Short_05
+Swoosh_Medium_Short_06
+Swoosh_Medium_Short_07
+Swoosh_Medium_Short_08
+Swoosh_Medium_Short_09
+Swoosh_Medium_Short_10
+Swoosh_Medium_Short_11
+end
+
+event SM_ANIM_SCRAPE
+folder data/sounds/SFX/Individual/Melee/Sword/Sword_Hit_Breastplate
+Sword_Hit_Breastplate_06
+Sword_Hit_Breastplate_07
+
+end
+
+event SM_ANIM_FALL  
+folder data/sounds/SFX/Individual/Falls/Infantry
+Fall_Infantry_Grass_03
+Fall_Infantry_Grass_04
+Fall_Infantry_Grass_05
+Fall_Infantry_Grass_06
+Fall_Infantry_Grass_07
+end
+
+
+
+event SM_ANIM_IDLE_NECK_CRACK mindist 2 probability .1
+folder data/sounds/voice/human/Generic
+	Infantry_Neck_Cracking_01
+	Infantry_Neck_Cracking_01
+end
+
+event SM_ANIM_IDLE_STRETCH_ARMS mindist 2 probability .1
+folder data/sounds/voice/human/Generic
+	Inf_Stretch_02
+	Inf_Stretch_03
+	Inf_Stretch_04
+	Inf_Stretch_06
+	Inf_Stretch_07
+	Inf_Stretch_09
+end
+
+event SM_ANIM_IDLE_STRETCH_BACK mindist 2 probability .1
+folder data/sounds/voice/human/Generic
+	Inf_Stretch_02
+	Inf_Stretch_03
+	Inf_Stretch_04
+	Inf_Stretch_06
+	Inf_Stretch_07
+	Inf_Stretch_09
+end
+
+
+event SM_ANIM_IDLE_SNEEZE mindist 2 probability .1
+folder data/sounds/voice/human/Generic
+	Infantry_Sneezing_05
+	Infantry_Sneezing_02
+	Infantry_Sneezing_03
+	Infantry_Sneezing_01
+end
+
+event SM_ANIM_IDLE_SCRATCH_HEAD mindist 2 probability .1
+folder data/sounds/voice/human/Generic
+	Infantry_Scratch_Head_02
+	Infantry_Scratch_Head_01
+
+end
+
+event SM_ANIM_IDLE_CLEAR_THROAT mindist 2 probability .1
+folder data/sounds/voice/human/Generic
+	Infantry_ClearThroat_01
+	Infantry_ClearThroat_02
+	Infantry_ClearThroat_05
+	Infantry_ClearThroat_07
+end
+
+event SM_ANIM_IDLE_SNIFF mindist 2 probability .1
+folder data/sounds/voice/human/Generic
+	Infantry_Sniff_Nose_01
+	Infantry_Sniff_Nose_02
+end
+
+
+
+event SM_BODY_HIT volume 0
+				folder data/sounds/SFX/Individual/Melee/Elephant
+				Kick_Body_Low
+				Punch_Body_1
+				Punch_Body_2
+				Swipe_Kick
+			
+				folder data/sounds/SFX/Individual/Melee/Thuds
+				Axe_Hit_Flesh_02
+				Axe_Hit_Flesh_03
+				Dagger_Hit_Flesh_01
+				Mace_Hit_Flesh_02
+				
+				
+				end

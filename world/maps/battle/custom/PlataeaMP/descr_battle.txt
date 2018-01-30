@@ -1,0 +1,155 @@
+; From Historic Battles MOD
+
+battle		PlataeaMP    multiplayer not_singleplayer
+playable
+	greek_cities
+macedon
+parthia
+pontus
+end
+nonplayable
+	
+end
+
+
+start_date	-479 summer
+end_date	-479 summer
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of factions section <<<<
+
+faction	greek_cities
+character	Pausanias, general, command 0, influence 0, management 1, subterfuge 0, age 20, , x 81, y 94 
+
+army
+unit		greek cavalry			                        soldiers 108 exp 3 armour 3 weapon_lvl 3
+unit		greek hoplite spartan		                        soldiers 160 exp 3 armour 3 weapon_lvl 0
+unit		greek hoplite2					        soldiers 160 exp 3 armour 3 weapon_lvl 0
+unit		greek hoplite elite2	 			        soldiers 160 exp 3 armour 3 weapon_lvl 0
+unit		greek hoplite2 		                                soldiers 160 exp 3 armour 3 weapon_lvl 0
+unit		greek hoplite elite2		 		        soldiers 160 exp 3 armour 3 weapon_lvl 0
+
+
+faction	macedon
+character	Philip, general, command 0, influence 0, management 1, subterfuge 0, age 20, , x 81, y 94 
+
+army
+unit		merc greek hoplites				        soldiers 160 exp 3 armour 2 weapon_lvl 0
+unit		greek archer				                soldiers 181 exp 3 armour 3 weapon_lvl 3
+unit		greek peltast		                                soldiers 181 exp 3 armour 3 weapon_lvl 3
+unit		greek heavy peltast		                        soldiers 181 exp 3 armour 3 weapon_lvl 3
+
+
+faction	parthia
+character	Mardonius, general, command 0, influence 0, management 1, subterfuge 0, age 20, , x 81, y 94 
+
+army
+
+unit		east infantry			        soldiers 251 exp 3 armour 3 weapon_lvl 0
+unit		east infantry			        soldiers 251 exp 3 armour 3 weapon_lvl 0
+unit		east infantry			        soldiers 251 exp 3 armour 3 weapon_lvl 0
+unit		east infantry			        soldiers 251 exp 3 armour 3 weapon_lvl 0
+unit		east infantry			        soldiers 251 exp 3 armour 3 weapon_lvl 0
+unit		east infantry			        soldiers 251 exp 3 armour 3 weapon_lvl 0
+unit		east infantry			        soldiers 251 exp 3 armour 3 weapon_lvl 0
+unit		east infantry 				                soldiers 251 exp 3 armour 3 weapon_lvl 0
+unit		east archer 				                soldiers 200 exp 3 armour 3 weapon_lvl 2
+
+faction	pontus
+character	Herakles, general, command 0, influence 0, management 0, subterfuge 0, age 30, , x 112, y 65 
+
+army
+unit		east persian cavalry				        soldiers 108 exp 3 armour 3 weapon_lvl 0
+unit		east persian cavalry			                soldiers 108 exp 3 armour 3 weapon_lvl 0
+unit		east persian cavalry				        soldiers 108 exp 3 armour 3 weapon_lvl 0
+unit		east persian cavalry		                        soldiers 108 exp 3 armour 3 weapon_lvl 0
+unit		east infantry 				                soldiers 250 exp 3 armour 3 weapon_lvl 0
+unit		east infantry 				                soldiers 250 exp 3 armour 3 weapon_lvl 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of battle section <<<<
+
+battle	20, 60
+constant_weather_and_time ( day_time 8.00, year_day 180, latitude 20, temperate_summer, clear_summer_shower, duration	0 )
+
+home_faction	greek_cities
+alliance	can_deploy can_view, greek_cities, macedon, attacking
+alliance	can_deploy can_view, parthia, pontus, attacking
+
+army	greek_cities, 0, no_withdraw, supporting_armies 0
+
+deployment_area_point -1000 , 1000 
+deployment_area_point  1000 , 1000 
+deployment_area_point  1000 ,-1000 
+deployment_area_point -1000 ,-1000
+
+unit			0, -60.754, 350.198, -95, formation_type square, formation_width 25
+unit			1, -66.500, 270.198, -95, formation_type square, formation_width 25
+unit			2, -70.000, 310.198, -95, formation_type square, formation_width 25
+unit			3, -73.500, 350.198, -95, formation_type square, formation_width 25
+unit			4, -77.000, 390.198, -95, formation_type square, formation_width 25
+unit			5, -80.754, 430.198, -95, formation_type square, formation_width 25
+
+army	macedon, 0, no_withdraw, supporting_armies 0
+
+deployment_area_point -1000 , 1000 
+deployment_area_point  1000 , 1000 
+deployment_area_point  1000 ,-1000 
+deployment_area_point -1000 ,-1000
+
+unit			0, -45.754, 420.198, -95, formation_type square, formation_width 25
+unit			1, -40.754, 362.198, -95, formation_type square, formation_width 25
+unit			2, -30.754, 280.198, -95, formation_type square, formation_width 25
+unit			3, -45.754, 400.198, -95, formation_type square, formation_width 25
+
+
+army	parthia, 0, no_withdraw, supporting_armies 0
+
+deployment_area_point -1000 , 1000 
+deployment_area_point  1000 , 1000 
+deployment_area_point  1000 ,-1000 
+deployment_area_point -1000 ,-1000 
+
+
+unit			0, -320.754, 400.198, -275, formation_type square, formation_width 25
+unit			1, -320.754, 380.198, -275, formation_type square, formation_width 25
+unit			2, -320.754, 280.198, -275, formation_type square, formation_width 25
+unit			3, -320.754, 300.198, -275, formation_type square, formation_width 25
+unit			4, -320.754, 320.198, -275, formation_type square, formation_width 25
+unit			5, -320.754, 340.198, -275, formation_type square, formation_width 25
+unit			6, -320.754, 360.198, -275, formation_type square, formation_width 25
+unit			7, -350.754, 320.198, -275, formation_type square, formation_width 25
+unit			8, -350.754, 380.198, -275, formation_type square, formation_width 25
+
+army	pontus, 0, no_withdraw, supporting_armies 0
+
+deployment_area_point -1000 , 1000 
+deployment_area_point  1000 , 1000 
+deployment_area_point  1000 ,-1000 
+deployment_area_point -1000 ,-1000 
+
+unit			0, -320.754, 220.198, -275, formation_type square, formation_width 25
+unit			1, -360.754, 190.198, -275, formation_type square, formation_width 25
+unit			2, -340.754, 510.198, -275, formation_type square, formation_width 25
+unit			3, -380.754, 480.198, -275, formation_type square, formation_width 25
+unit			4, -300.754, 332.198, -275, formation_type square, formation_width 25
+unit			5, -300.754, 300.198, -275, formation_type square, formation_width 25
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of objectives scripting section <<<<
+
+objectives
+
+alliance 0
+condition destroy_or_rout_enemy
+
+alliance 1
+condition destroy_or_rout_enemy
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of army scripting section <<<<
+
+script
+descr_script.txt

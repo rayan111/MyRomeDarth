@@ -1,0 +1,14 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; BANK: character_vocal         - Voices for characters on stratmap
+;;
+;; Keywords: type, culture, vocal
+;; Allowed types:    general, admiral, assassin, spy, diplomat
+;; Allowed cultures: roman, barbarian, eastern, carthaginian, greek, egyptian
+;; Allowed vocals:
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: 3d volume -15 probability 1 fadein 0 fadeout 0 mindist 20 minPitch .9 maxPitch 1 effect_level .5 delay .2 priority 500
+DEFAULT: pref SPEECH
+
+source export_descr_sounds_stratmap_voice.txt

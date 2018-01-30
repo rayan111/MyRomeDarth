@@ -1,0 +1,504 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; structure sound bank
+;;
+;; categories:	ambient, major, tower, gate, wall
+;; type:		<building rcid>
+;; what:		transition, fire, ambient
+;;
+;; ambient sound is a looped sound
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+DEFAULT: 3D mindist 30 priority 250 volume 0 probability 1 fadein 0 fadeout 0 minpitch 1 maxpitch 1 distancepriority 0 randomdelay 0  effect_level .25
+
+event BURNING_OIL mindist 20 priority 240
+	folder data/sounds/SFX/structure
+	POURBOILINGOIL_1
+	POURBOILINGOIL_2
+	POURBOILINGOIL_3
+end
+
+BANK: structure
+
+	fire_proximity 70
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;    INDIVIDUAL STRUCTURE TYPES     ;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type paddock, roman_farm_B
+		what ambient
+			event mindist 3 minpitch 1.0 maxpitch 1.0 priority 20 looped fadein .5 fadeout .5
+				folder data/sounds/SFX/environment/structures
+				farm_animals_close_01
+				farm_animals_close_02
+				end
+	
+type village_well
+		what ambient
+			event mindist 1 minpitch 1.0 maxpitch 1.0 priority 20 volume -20 looped 
+				folder data/sounds/SFX/environment/structures
+				village_well_02
+			end
+
+type stove
+		what ambient
+			event mindist 1 minpitch 1.0 maxpitch 1.0 priority 20 looped fadein .5 fadeout .5 volume -10
+				folder data/sounds/SFX/environment/structures
+				stove_01
+			end
+
+			
+type henge, henge_half_built
+ 		what ambient
+			event mindist 3 minpitch 1.0 maxpitch 1.0 priority 20 looped fadein .5 fadeout .5
+				folder data/sounds/SFX/environment/structures
+				henge_03
+			end
+
+			
+type barbarian_town_wall_watchtower, barbarian_wooden_town_watchtower, barbarian_wooden_village_watchtower, barbarian_standalone_watchtower
+ 		what ambient
+			event mindist 2 minpitch 1.0 maxpitch 1.0 priority 20 looped 
+				folder data/sounds/SFX/environment/structures
+				wood_watchtower_creak
+			end	
+	
+type public_gardens, roman_country_villa, roman_pool_A
+ 		what ambient
+			event mindist 7 minpitch 1.0 maxpitch 1.0 priority 20 volume -15 looped fadein .5 fadeout .5
+				folder data/sounds/SFX/environment/structures
+				public_gardens_04w
+				public_gardens_06w
+			end			
+			
+			
+			
+type theatre
+ 		what ambient
+			event mindist 3 minpitch 1.0 maxpitch 1.0 priority 20 volume 0 looped fadein .5 fadeout .5
+				folder data/sounds/SFX/environment/structures
+				theatre
+			end	
+
+			
+type stone_stables, barbarian_stables, warlords_stable ;, royal_cavalry_stables, elite_cavalry_stables
+ 		what ambient
+			event mindist 4 minpitch 1.0 maxpitch 1.0 priority 20 volume 0 looped fadein .5 fadeout .5
+				folder data/sounds/SFX/environment/structures
+				horse_stables
+			end				
+
+			
+type camel_stables
+ 		what ambient
+			event mindist 4 minpitch 1.0 maxpitch 1.0 priority 20 volume 0 looped fadein .5 fadeout .5
+				folder data/sounds/SFX/environment/structures
+				camel_stables
+			end			
+			
+		
+	
+type egyptian_lake, egyptian_sacred_lake
+ 		what ambient
+			event mindist 5 minpitch 1.0 maxpitch 1.0 priority 20 volume 0 looped fadein .5 fadeout .5
+				folder data/sounds/SFX/environment/structures
+				lake
+			end	
+			
+type roman_blacksmith, eastern_blacksmith, barbarian_blacksmith, egyptian_blacksmith, roman_armourer, barbarian_armourer, eastern_armourer, egyptian_armourer, eastern_foundry, roman_foundry, egyptian_foundry
+		what ambient
+			event mindist 4 minpitch 1.0 maxpitch 1.0 priority 20 volume 0 looped fadein .5 fadeout .5
+				folder data/sounds/SFX/environment/structures
+				blacksmith
+			end					
+						
+										
+
+																		
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;    AMBIENT ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+	category ambient
+		what fire
+			event mindist 10 minpitch .8 maxpitch 1.1 volume -10 priority 240
+				folder data/sounds/SFX/Structure/buildings
+				building_on_fire_high
+			end
+			
+	what transition
+			event lod 1 mindist 20 priority 250
+				folder data/sounds/SFX/Structure/Buildings
+				Building_Destroyed_02
+				Building_Destroyed_03
+				end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;  CITY  AMBIENCE ;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+			
+				
+	what ambient
+			event mindist 4 minpitch .8 maxpitch 1.1 priority 0 volume 0 looped 
+				folder data/sounds/SFX/Structure/Buildings
+				building_ambience_activity_02
+				building_ambience_activity_04
+				building_ambience_activity_birds_04
+				building_ambience_activity_birds_06
+				building_ambience_morning_04
+				building_ambience_morning_06
+										
+			end
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;     MAJOR    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	
+			category major
+		what fire 
+			event mindist 10 minpitch .8 maxpitch 1.1 priority 240 volume 0
+				folder data/sounds/SFX/Structure/buildings
+				building_on_fire_high
+			end
+	
+			category gate
+		what fire
+			event mindist 10 minpitch .8 maxpitch 1.1 priority 240 volume 0
+				folder data/sounds/SFX/Structure/buildings
+				building_on_fire_med
+			end
+
+	 
+			
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;    WALLS        ;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;		
+	
+	
+	
+;;;;;;;;;    STONE WALLS   ;;;;;;;;;;;;;;;;;				
+	
+type roman_huge_city_wall_straight
+	what transition
+			event lod 1	
+				folder data/sounds/SFX/Structure/Walls
+				Epic_Stone_Wall_Collapse_01
+				end
+
+				event lod 2	
+				folder data/sounds/SFX/Structure/Walls
+				Epic_Stone_Wall_Collapse_02
+				end
+				
+				event lod 3	
+				folder data/sounds/SFX/Structure/Walls
+				Epic_Stone_Wall_Collapse_03
+				end
+				
+				event lod 4	
+				folder data/sounds/SFX/Structure/Walls
+				Epic_Stone_Wall_Collapse_04
+				end
+				
+				
+				event lod 5	
+				folder data/sounds/SFX/Structure/Walls
+				Epic_Stone_Wall_Collapse_05
+				end
+				
+				
+category wall
+		what transition
+			event lod 1		; 20% damage
+				folder data/sounds/SFX/Structure/Walls
+				Stone_Wall_Collapse_01
+
+			end
+			event lod 2 	; 40% damage
+				folder data/sounds/SFX/Structure/Walls
+				Stone_Wall_Collapse_02
+
+			end
+			event lod 3		; 60% damage
+				folder data/sounds/SFX/Structure/Walls
+				Stone_Wall_Collapse_03
+
+			end
+			event lod 4		; 80% damage
+				folder data/sounds/SFX/Structure/Walls
+				Stone_Wall_Collapse_04
+			end
+			event lod 5		; 100% damage
+				folder data/sounds/SFX/Structure/Walls
+				stone_Wall_Collapse_05
+			end
+	
+			
+;;;;;;;;;    WOOD WALLS   ;;;;;;;;;;;;;;;;;			
+			
+	type barbarian_town_wall_straight, wooden_short_wall_straight, wooden_tall_wall_straight
+			what transition
+			event lod 1		; 50% damage
+				folder data/sounds/SFX/Structure/Walls
+				Wood_Wall_Collapse_01
+			end
+		
+			event lod 2		; 100% damage
+				folder data/sounds/SFX/Structure/Walls
+				Wood_Wall_Collapse_02
+			end
+
+				
+						
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;            TOWERS            ;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;			
+
+
+;;;;;;;;;    STONE TOWERS   ;;;;;;;;;;;;;;;;;				
+
+type roman_huge_city_internal_corner_watchtower, roman_huge_city_external_corner_watchtower, roman_huge_city_wall_watchtower
+	what transition
+		
+	event lod 1	
+				folder data/sounds/SFX/Structure/towers
+				Epic_stone_tower_Collapse_01
+			end
+
+		event lod 2	
+				folder data/sounds/SFX/Structure/towers
+				Epic_stone_tower_Collapse_02
+			end
+				
+		event lod 3	
+				folder data/sounds/SFX/Structure/towers
+				Epic_stone_tower_Collapse_03
+			end
+			
+			
+category tower
+		what transition
+			event lod 1		; 20% damage
+				folder data/sounds/SFX/Structure/towers
+				tower_Collapse_01
+			end
+			event lod 2 	; 60% damage
+				folder data/sounds/SFX/Structure/towers
+				tower_Collapse_02
+			end
+			event lod 3		; 100% damage
+				folder data/sounds/SFX/Structure/towers
+				tower_collapse_03
+			end
+			
+
+						
+;;;;;;;;;    WOOD TOWERS   ;;;;;;;;;;;;;;;;;	
+	
+	type barbarian_town_wall_watchtower, wooden_tall_wall_watchtower, wooden_tall_wall_external_corner_watchtower, wooden_short_wall_watchtower, wooden_short_wall_external_corner_watchtower
+		what transition
+		event lod 1		; 100% damage
+				folder data/sounds/SFX/Structure/towers
+				Wood_Tower_Collapse_01
+			end
+		
+				
+			
+			
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;					
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; gate sound bank
+;;
+;; transition: open_to_closed closed_to_open open_to_next_damage
+;;			   closed_to_next_damage closed_impacted open_impacted
+;;
+;; event lod: 0 - undamaged, 1 - damaged, 2 - collapsed
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;     IRON GATE
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+BANK: gate
+	type roman_huge_city_gateway, roman_city_gateway, greek_city_gateway, greek_huge_city_gateway, egyptian_city_gateway, egyptian_huge_city_gateway, eastern_city_gateway, eastern_huge_city_gateway
+	
+		;epyptian, greek, carthage
+		
+		transition open_to_closed
+				 event mindist 20 minpitch 1.0 maxpitch 1.0 priority 230
+					folder data/sounds/SFX/structure/gates/iron
+					iron_gate_close_02
+				 end
+	  			 
+		
+		transition closed_to_open
+				 event mindist 20 minpitch 1.0 maxpitch 1.0 priority 230
+					folder data/sounds/SFX/structure/gates/iron
+					iron_gate_open_02
+ 				 end
+
+		
+		transition open_to_next_damage
+				 event lod 0 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/iron
+					iron_gate_small_damage_01
+					iron_gate_small_damage_02
+				 end
+	  			 event lod 1 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/iron
+					iron_gate_large_damage_01
+					iron_gate_large_damage_02
+
+
+				 end
+	  			 
+		transition closed_to_next_damage
+				 event lod 0 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/iron
+					iron_gate_small_damage_01
+					iron_gate_small_damage_02
+				 end
+	  			 event lod 1 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/iron
+					iron_gate_large_damage_01
+					iron_gate_large_damage_02
+				 end
+	  			
+		transition closed_impacted
+				 event lod 0 mindist 25 volume -10 minpitch .9 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/iron
+					iron_gate_impact_01
+					iron_gate_impact_02
+					iron_gate_impact_03
+					iron_gate_impact_04
+
+				 end
+	  			 event lod 1 mindist 25 volume -5 minpitch .9 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/iron
+					iron_gate_impact_01
+					iron_gate_impact_02
+					iron_gate_impact_03
+					iron_gate_impact_04
+				 end
+	  			 event lod 2 mindist 25 volume 0 minpitch .9 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/iron
+					iron_gate_impact_01
+					iron_gate_impact_02
+					iron_gate_impact_03
+					iron_gate_impact_04
+				 end
+		
+				 transition open_impacted
+				 event lod 0 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/iron
+					iron_gate_impact_01
+					iron_gate_impact_02
+					iron_gate_impact_03
+					iron_gate_impact_04
+				 end
+	  			 event lod 1 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/iron
+					iron_gate_impact_01
+					iron_gate_impact_02
+					iron_gate_impact_03
+					iron_gate_impact_04
+				 end
+	  			 event lod 2 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/iron
+					iron_gate_impact_01
+					iron_gate_impact_02
+					iron_gate_impact_03
+					iron_gate_impact_04
+				 end
+
+				 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				 
+;;;;;;;;;;;; WOODEN gate 	 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+				 
+	type   wooden_tall_gateway, barbarian_town_gateway, barbarian_wooden_village_gateway, wooden_short_gateway, roman_town_gateway, greek_town_gateway, egyptian_town_gateway, eastern_town_gateway
+		transition open_to_closed
+				 event mindist 20 minpitch 1.0 maxpitch 1.0 priority 230
+					folder data/sounds/SFX/structure/gates/wood
+					wood_gate_close_02
+				end
+	  			
+		
+				 transition closed_to_open
+				 event mindist 20 minpitch 1.0 maxpitch 1.0 priority 230
+					folder data/sounds/SFX/structure/gates/wood
+					wood_gate_open_02
+				 end
+	  			
+		
+				 transition open_to_next_damage
+				 event lod 0 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/wood
+					wood_gate_small_damage_01
+					wood_gate_small_damage_02
+				 end
+	  			 event lod 1 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/wood
+					wood_gate_large_damage_01
+					wood_gate_large_damage_02
+
+
+				 end
+	  			
+		transition closed_to_next_damage
+				 event lod 0 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/wood
+					wood_gate_small_damage_01
+					wood_gate_small_damage_02
+				 end
+	  			 event lod 1 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/wood
+					wood_gate_large_damage_01
+					wood_gate_large_damage_02
+				 end
+	  			
+				
+		transition closed_impacted
+				 event lod 0 mindist 25 volume -10 minpitch .9 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/wood
+					wood_gate_small_impact_01
+					wood_gate_small_impact_02
+					
+
+				 end
+	  			 event lod 1 mindist 25 volume -5 minpitch .9 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/wood
+					wood_gate_large_impact_01
+					wood_gate_large_impact_02
+				 end
+	  			 event lod 2 mindist 25 volume 0 minpitch .9 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/wood
+					wood_gate_large_impact_01
+					wood_gate_large_impact_02
+				 end
+		
+				 transition open_impacted
+				 event lod 0 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/wood
+					wood_gate_small_impact_01
+					wood_gate_small_impact_02
+					
+				 end
+	  			 event lod 1 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/wood
+					wood_gate_large_impact_01
+					wood_gate_large_impact_02
+				 end
+	  			 event lod 2 mindist 25 minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/structure/gates/wood
+					wood_gate_large_impact_01
+					wood_gate_large_impact_02
+				 end

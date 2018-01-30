@@ -1,0 +1,86 @@
+faction romans_julii
+model roman_city_militia			 40
+model roman_peasant   60
+
+faction romans_brutii
+model roman_city_militia			 40
+model roman_peasant   60
+
+faction romans_scipii
+model roman_city_militia			 40
+model roman_peasant   60
+
+faction romans_senate
+model roman_city_militia			 40
+model roman_peasant   60
+
+faction macedon
+model greek_levy_pikeman			 40
+model greek_peasant   60
+
+faction egypt
+model Ptolemaic_Garisson			 40
+model egyptian_peasant   60
+
+faction seleucid
+model greek_levy_pikeman			 40
+model greek_peasant   60
+
+faction carthage
+model carthage_town_militia			 40
+model carthaginian_peasant   60
+
+faction parthia
+model persian_sparabara			 40
+model east_peasant   60
+
+faction pontus
+model persian_sparabara			 40
+model east_peasant   60
+
+faction gauls
+model warband_sword_gaul			 40
+model barb_peasant   60
+
+faction germans
+model warband_axe			 40
+model barb_peasant   60
+
+faction britons
+model warband_sword_briton			 40
+model barb_peasant   60
+
+faction armenia
+model persian_sparabara			 40
+model east_peasant   60
+
+faction dacia
+model warband_falx			 40
+model barb_peasant   60
+
+faction greek_cities
+model greek_armoured_hoplite			 40
+model greek_peasant   60
+
+faction numidia
+model desert_infantry			 40
+model carthaginian_peasant   60
+
+faction scythia
+model warband_axe_scythia			 40
+model barb_peasant   60
+
+faction spain
+model carthaginian_infantry			 40
+model barb_peasant   60
+
+faction thrace
+model Thracian_hoplite			 40
+model greek_peasant   60
+
+faction slave
+model roman_peasant			 40
+model carthaginian_peasant   60
+
+
+

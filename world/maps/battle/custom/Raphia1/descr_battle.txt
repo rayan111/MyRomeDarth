@@ -1,0 +1,131 @@
+; From Historic Battles MOD
+
+battle		Raphia1    multiplayer
+playable
+	seleucid
+egypt
+end
+nonplayable
+	
+end
+
+
+start_date	-217 summer
+end_date	-217 summer
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of factions section <<<<
+
+faction	seleucid
+character	Antiochus, general, command 1, influence 1, management 1, subterfuge 0, age 20, , x 81, y 94 
+
+army
+
+unit		greek royal cavalry		                        soldiers 108 exp 3 armour 3 weapon_lvl 0
+unit		greek medium cavalry		                        soldiers 108 exp 3 armour 3 weapon_lvl 0
+unit		greek silver shield pikemen				soldiers 240 exp 3 armour 0 weapon_lvl 0
+unit		greek silver shield pikemen	 			soldiers 240 exp 3 armour 0 weapon_lvl 0
+unit		greek silver shield pikemen	                        soldiers 240 exp 3 armour 0 weapon_lvl 0
+unit		greek silver shield pikemen	 		        soldiers 240 exp 3 armour 0 weapon_lvl 0
+unit		greek pikemen 		                                soldiers 240 exp 3 armour 0 weapon_lvl 0
+unit		greek peltast				                soldiers 180 exp 3 armour 2 weapon_lvl 3
+unit		greek pikemen  		                                soldiers 161 exp 3 armour 3 weapon_lvl 0
+unit		greek pikemen  		                                soldiers 161 exp 3 armour 3 weapon_lvl 0
+unit		greek peltast		                                soldiers 181 exp 3 armour 2 weapon_lvl 3
+unit		greek elephant african		                        soldiers 30 exp 2 armour 0 weapon_lvl 0
+unit		greek elephant african		                        soldiers 30 exp 2 armour 0 weapon_lvl 0
+
+faction	egypt
+character	Ptolemy, general, command 1, influence 1, management 1, subterfuge 0, age 20, , x 81, y 94 
+
+army
+
+unit		Ptolemaic late General		                soldiers 25 exp 3 armour 3 weapon_lvl 0
+unit		egyptian cleruch		                        soldiers 120 exp 3 armour 3 weapon_lvl 0
+unit		Ptolemaic Cavalry	                                soldiers 120 exp 3 armour 3 weapon_lvl 0
+unit		Ptolemaic Garisson	 		                soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		Ptolemaic Garisson	 		                soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		Ptolemaic Garisson	                                soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		Ptolemaic Garisson	 		                soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		machimoi pikemen	 		                soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		egyptian peltast				        soldiers 180 exp 3 armour 2 weapon_lvl 3
+unit		machimoi pikemen 		                soldiers 240 exp 3 armour 3 weapon_lvl 2
+unit		machimoi pikemen		                soldiers 240 exp 3 armour 3 weapon_lvl 2
+unit		egyptian peltast		                        soldiers 201 exp 3 armour 2 weapon_lvl 3
+unit		greek elephant small 		                        soldiers 30 exp 3 armour 0 weapon_lvl 1
+unit		greek elephant small		                        soldiers 30 exp 3 armour 0 weapon_lvl 1
+unit		egyptian archer		                                soldiers 250 exp 3 armour 3 weapon_lvl 3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of battle section <<<<
+
+battle	100, 0
+constant_weather_and_time ( day_time 8.00, year_day 180, latitude 20, temperate_summer, clear_summer_shower, duration	0 )
+
+home_faction	seleucid
+alliance	can_deploy can_view, seleucid, attacking
+alliance	can_deploy can_view, egypt, attacking
+
+army	seleucid, 0, no_withdraw, supporting_armies 0
+
+deployment_area_point -1000 , 1000 
+deployment_area_point  1000 , 1000 
+deployment_area_point  1000 ,-1000 
+deployment_area_point -1000 ,-1000
+
+unit			0, -83.754, 470.198, -95, formation_type square, formation_width 25
+unit			1, -63.000, 230.198, -95, formation_type square, formation_width 25
+unit			2, -70.000, 310.198, -95, formation_type square, formation_width 25
+unit			3, -73.500, 350.198, -95, formation_type square, formation_width 25
+unit			4, -77.000, 390.198, -95, formation_type square, formation_width 25
+unit			5, -80.500, 430.198, -95, formation_type square, formation_width 25
+unit			6, -66.500, 270.198, -95, formation_type square, formation_width 25
+unit			7, -60.754, 200.198, -95, formation_type square, formation_width 25
+unit			8, -40.754, 262.198, -95, formation_type square, formation_width 25
+unit			9, -30.754, 280.198, -95, formation_type square, formation_width 25
+unit			10, -85.754, 510.198, -95, formation_type square, formation_width 25
+unit			11, -85.754, 200.198, -95, formation_type square, formation_width 25
+unit			12, -110.754, 510.198, -95, formation_type square, formation_width 25
+
+
+army	egypt, 0, no_withdraw, supporting_armies 0
+
+deployment_area_point -1000 , 1000 
+deployment_area_point  1000 , 1000 
+deployment_area_point  1000 ,-1000 
+deployment_area_point -1000 ,-1000 
+
+
+unit			0, -380.500, 340.198, -275, formation_type square, formation_width 25
+unit			1, -383.754, 470.198, -275, formation_type square, formation_width 25
+unit			2, -363.000, 220.198, -275, formation_type square, formation_width 25
+unit			3, -370.000, 310.198, -275, formation_type square, formation_width 25
+unit			4, -373.500, 350.198, -275, formation_type square, formation_width 25
+unit			5, -377.000, 390.198, -275, formation_type square, formation_width 25
+unit			6, -380.500, 430.198, -275, formation_type square, formation_width 25
+unit			7, -366.500, 270.198, -275, formation_type square, formation_width 25
+unit			8, -360.754, 180.198, -275, formation_type square, formation_width 25
+unit			9, -390.754, 252.198, -275, formation_type square, formation_width 25
+unit			10, -380.754, 280.198, -275, formation_type square, formation_width 25
+unit			11, -385.754, 510.198, -275, formation_type square, formation_width 25
+unit			12, -325.754, 200.198, -275, formation_type square, formation_width 25
+unit			13, -350.754, 510.198, -275, formation_type square, formation_width 25
+unit			14, -420.754, 340.198, -275, formation_type square, formation_width 25
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of objectives scripting section <<<<
+
+objectives
+
+alliance 0
+condition destroy_or_rout_enemy
+
+alliance 1
+condition destroy_or_rout_enemy
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of army scripting section <<<<
+
+script
+descr_script.txt

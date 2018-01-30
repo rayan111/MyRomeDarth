@@ -1,0 +1,375 @@
+;;;;;;;;;;;;;;;;
+DEFAULT: 3d mindist 6 minPitch 1 maxPitch 1 volume 0 probability 1 priority 190 distancepriority -1 fadein 0 fadeout 0 randomdelay 0  effect_level .25
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event TOWER_SPEAR_FIRING priority 110 mindist 6 minPitch .8 maxPitch 1.1 rndvolume -10 volume 0
+folder data/sounds/SFX/Individual/Missiles/crossbow
+Tower_Ballista_fire_01
+Tower_Ballista_fire_02
+Tower_Ballista_fire_03
+Tower_Ballista_fire_04
+end
+
+event TOWER_ARROW_FIRING priority 110 mindist 5 minPitch .8 maxPitch 1.1 rndvolume -20 volume -10
+folder data/sounds/SFX/Individual/Missiles/crossbow
+ crossbow_01
+ crossbow_02
+ crossbow_03
+ crossbow_04
+ crossbow_05
+ crossbow_06
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+BANK: unit_missile_attack
+
+	unit infantry missile, skirmish
+		stage ready
+			event lod 5
+				folder data/sounds/SFX/Group/Missile/Archers
+				Archer_Group_Fire_Ready_Small_01b
+				Archer_Group_Fire_Ready_Small_02b
+				Archer_Group_Fire_Ready_Small_03b
+				
+				end
+			event lod 20 
+				folder data/sounds/SFX/Group/Missile/Archers
+				Archer_Group_Fire_Ready_Medium_01b
+				Archer_Group_Fire_Ready_Medium_02b
+				Archer_Group_Fire_Ready_Medium_03b
+							
+				end
+			event lod 40 
+				folder data/sounds/SFX/Group/Missile/Archers
+				Archer_Group_Fire_Ready_Large_01b
+				Archer_Group_Fire_Ready_Large_02b
+				Archer_Group_Fire_Ready_Large_03b
+			
+				end
+		
+							
+				
+		stage aim
+				event lod 5
+				folder data/sounds/SFX/Group/Missile/Archers
+				Archer_Group_Aim_Small_01
+				Archer_Group_Aim_Small_02
+				Archer_Group_Aim_Small_03
+				
+				end
+			event lod 20 
+				folder data/sounds/SFX/Group/Missile/Archers
+				Archer_Group_Aim_Medium_01
+				Archer_Group_Aim_Medium_02
+				Archer_Group_Aim_Medium_03
+							
+				end
+			event lod 40 
+				folder data/sounds/SFX/Group/Missile/Archers
+				Archer_Group_Aim_Large_01
+				Archer_Group_Aim_Large_02
+				Archer_Group_Aim_Large_03
+			
+				end
+							
+			
+			
+		stage fire
+			event lod 5 volume -10
+				folder data/sounds/SFX/Group/Missile/Archers
+				
+				Archer_group_fire_small_01c
+				Archer_group_fire_small_02c
+				Archer_group_fire_small_03c
+				end
+		
+			event lod 20 volume -10
+			folder data/sounds/SFX/Group/Missile/Archers
+				Archer_group_fire_medium_01c
+				Archer_group_fire_medium_02c
+				Archer_group_fire_medium_03c
+
+				end
+				
+			event lod 40
+			folder data/sounds/SFX/Group/Missile/Archers
+				Archer_group_fire_large_01c
+				Archer_group_fire_large_02c
+				Archer_group_fire_large_03c
+				
+				end
+			
+
+				
+				
+				
+;;;;;;;;;;;   SLINGER   ;;;;;;;;;;;;;;;				
+					
+		
+	type barb slinger briton, carthaginian slinger, east slinger, egyptian slingers, merc rhodian slingers, merc balearic slingers,  warband hurler briton, Roman Slingers
+		
+	stage ready
+			event lod 5
+				folder data/sounds/SFX/Group/Missile/Slingers
+				Slinger_Group_Aim_Small_01
+				Slinger_Group_Aim_Small_02
+				Slinger_Group_Aim_Small_03
+				end
+			event lod 20
+				folder data/sounds/SFX/Group/Missile/Slingers
+				Slinger_Group_Aim_Medium_01
+				Slinger_Group_Aim_Medium_02
+				Slinger_Group_Aim_Medium_03
+				end
+			event lod 40
+				folder data/sounds/SFX/Group/Missile/Slingers
+				Slinger_Group_Aim_Large_01
+				Slinger_Group_Aim_Large_02
+				Slinger_Group_Aim_Large_03
+				end
+		
+			
+	stage aim
+			event lod 5
+				folder data/sounds/SFX/Group/Missile/Slingers
+				Slinger_Group_Aim_Small_01
+				Slinger_Group_Aim_Small_02
+				Slinger_Group_Aim_Small_03
+				end
+			event lod 20
+				folder data/sounds/SFX/Group/Missile/Slingers
+				Slinger_Group_Aim_Medium_01
+				Slinger_Group_Aim_Medium_02
+				Slinger_Group_Aim_Medium_03
+				end
+			event lod 40
+				folder data/sounds/SFX/Group/Missile/Slingers
+				Slinger_Group_Aim_Large_01
+				Slinger_Group_Aim_Large_02
+				Slinger_Group_Aim_Large_03
+				end
+		
+		stage fire
+			event lod 5
+				folder data/sounds/SFX/Group/Missile/Slingers
+				Slinger_Group_Fire_Small_01
+				Slinger_Group_Fire_Small_02
+				Slinger_Group_Fire_Small_03
+				end
+			
+				event lod 20
+				folder data/sounds/SFX/Group/Missile/Slingers
+				Slinger_Group_Fire_medium_01
+				Slinger_Group_Fire_medium_02
+				Slinger_Group_Fire_medium_03
+				end
+			
+				event lod 40
+				folder data/sounds/SFX/Group/Missile/Slingers
+				Slinger_Group_Fire_Large_01
+				Slinger_Group_Fire_Large_02
+				Slinger_Group_Fire_Large_03
+				end
+
+		
+			
+			
+			
+;;;;;;;;;;   HORSE SPEARMEN    ;;;;;;;;;;;;;;;;;;;;;;;;		
+			
+	type numidian cavalry, east cavalry, east heavy cavalry, east generals cavalry early, greek cavalry, roman cavalry auxillia, eastern rebel general, merc numidian cavalry			
+		
+			stage ready
+			event lod 5
+			folder data/sounds/SFX
+				
+			end
+			event lod 15
+				folder data/sounds/SFX
+				
+			end
+			event lod 25
+				folder data/sounds/SFX
+				
+			end
+		
+			
+		stage aim
+			event lod 5
+				folder data/sounds/SFX
+				
+			end
+			event lod 15
+				folder data/sounds/SFX
+				
+			end
+			event lod 25
+				folder data/sounds/SFX
+				
+			end
+		
+			
+		stage fire
+				event lod 5 delay 1
+				folder data/sounds/SFX/Group/Missile/Spearman
+				Spearman_Group_Fire_Small_01a
+				Spearman_Group_Fire_Small_02a
+				Spearman_Group_Fire_Small_03a
+				end
+			
+				event lod 15 delay 1
+				folder data/sounds/SFX/Group/Missile/Spearman
+				Spearman_Group_Fire_Medium_01a
+				Spearman_Group_Fire_Medium_02a
+				Spearman_Group_Fire_Medium_03a
+							
+				end
+			
+				event lod 25 delay 1
+				folder data/sounds/SFX/Group/Missile/Spearman
+				Spearman_Group_Fire_Large_01a
+				Spearman_Group_Fire_Large_02a
+				Spearman_Group_Fire_Large_03a
+						
+				end				
+		
+;;;;;;;;;;   INFANTRY SPEARMEN    ;;;;;;;;;;;;;;;;;;;;;;;;		
+			
+		
+	weapon spear
+			stage ready
+			event lod 5
+			folder data/sounds/SFX
+				
+			end
+			event lod 20
+				folder data/sounds/SFX
+				
+			end
+			event lod 40
+				folder data/sounds/SFX
+				
+			end
+		
+			
+		stage aim
+			event lod 5
+				folder data/sounds/SFX
+				
+			end
+			event lod 20
+				folder data/sounds/SFX
+				
+			end
+			event lod 40
+				folder data/sounds/SFX
+				
+			end
+		
+			
+		stage fire
+				event lod 5 delay .4
+				folder data/sounds/SFX/Group/Missile/Spearman
+				Spearman_Group_Fire_Small_01a
+				Spearman_Group_Fire_Small_02a
+				Spearman_Group_Fire_Small_03a
+				end
+			
+				event lod 20 delay .4
+				folder data/sounds/SFX/Group/Missile/Spearman
+				Spearman_Group_Fire_Medium_01a
+				Spearman_Group_Fire_Medium_02a
+				Spearman_Group_Fire_Medium_03a
+							
+				end
+			
+				event lod 40 delay .4
+				folder data/sounds/SFX/Group/Missile/Spearman
+				Spearman_Group_Fire_Large_01a
+				Spearman_Group_Fire_Large_02a
+				Spearman_Group_Fire_Large_03a
+						
+				end								
+				
+				
+				
+;;;;;;;;;;;;;;   HORSE , CAMEL  ARCHERS  ;;;;;;;;;;;;;;;;;;;
+									
+unit cavalry missile, skirmish
+		stage ready
+			event lod 5
+				folder data/sounds/SFX/Group/Missile/Archers
+				Archer_Group_Ready_Small_01
+				Archer_Group_Ready_Small_02
+				Archer_Group_Ready_Small_03
+				
+				end
+			event lod 15 
+				folder data/sounds/SFX/Group/Missile/Archers
+				Archer_Group_Ready_Medium_01
+				Archer_Group_Ready_Medium_02
+				Archer_Group_Ready_Medium_03
+							
+				end
+			event lod 25 
+				folder data/sounds/SFX/Group/Missile/Archers
+				Archer_Group_Ready_Large_01
+				Archer_Group_Ready_Large_02
+				Archer_Group_Ready_Large_03
+			
+				end
+		
+							
+				
+		stage aim
+			event lod 5
+				folder data/sounds/SFX/Group/Missile/Archers
+				Archer_Group_Aim_Small_01
+				Archer_Group_Aim_Small_02
+				Archer_Group_Aim_Small_03
+				
+				end
+			event lod 15 
+				folder data/sounds/SFX/Group/Missile/Archers
+				Archer_Group_Aim_Medium_01
+				Archer_Group_Aim_Medium_02
+				Archer_Group_Aim_Medium_03
+							
+				end
+			event lod 25 
+				folder data/sounds/SFX/Group/Missile/Archers
+				Archer_Group_Aim_Large_01
+				Archer_Group_Aim_Large_02
+				Archer_Group_Aim_Large_03
+			
+				end
+							
+			
+			
+		stage fire
+			event lod 5 volume -10
+				folder data/sounds/SFX/Group/Missile/Archers
+				
+				Archer_group_fire_small_01c
+				Archer_group_fire_small_02c
+				Archer_group_fire_small_03c
+				end
+		
+			event lod 15 volume -10
+			folder data/sounds/SFX/Group/Missile/Archers
+				Archer_group_fire_medium_01c
+				Archer_group_fire_medium_02c
+				Archer_group_fire_medium_03c
+
+				end
+				
+			event lod 25 
+			folder data/sounds/SFX/Group/Missile/Archers
+				Archer_group_fire_large_01c
+				Archer_group_fire_large_02c
+				Archer_group_fire_large_03c
+				
+				end

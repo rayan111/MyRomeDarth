@@ -1,0 +1,20 @@
+;; This file contains descriptions used for the fonts in the game.
+;;
+;; The syntax is simple, the keyword 'font' is followed by a size specify (from any in the list below), 
+;; followed by the filename of the font (this file must be in the data/fonts directory), followed by
+;; a size (in pixels I think).  The keyword 'kerned' can optionally be used at the end of a line to 
+;; specify that that font should always be rendered with kerning enabled.  Some fonts look better with kerning,
+;; some without
+;;
+;; Fonts used should generally be truetype 1 fonts, although some truetype 2 fonts work.  The easiest
+;; Thing to do is suck it and see
+;;
+;; The fonts currently recognised by the game are: tnr, tnr_med, tnr_sml, verdana, verdana_med, verdana_sml
+
+font	tnr				font_18.cuf		18
+font	tnr_med			font_14.cuf		14
+font	tnr_sml			font_10.cuf		10
+font	verdana			sml_font_18.cuf 18
+font	verdana_med		sml_font_14.cuf	14
+font	verdana_sml		sml_font_10.cuf	10
+	

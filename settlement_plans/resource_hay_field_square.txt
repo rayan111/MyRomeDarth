@@ -1,0 +1,12 @@
+plan
+
+{
+	floor		underlay_hay_field_square.cas overlay_hay_field_square.cas
+
+;			x,	y,	rot,	z,
+
+hay_field_square,	0	0	0	0
+
+
+
+}

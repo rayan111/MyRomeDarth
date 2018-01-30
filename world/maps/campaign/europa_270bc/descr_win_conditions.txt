@@ -1,0 +1,116 @@
+romans_julii
+hold_regions Latium Central_Gaul Attica Africa Apulia Latium Macedonia Campania Sicilia_Poeni Numidia
+take_regions 80
+short_campaign outlive_factions
+gauls
+
+romans_brutii
+hold_regions Apulia Latium Macedonia Attica
+take_regions 80
+short_campaign outlive_factions
+macedon greek_cities
+
+romans_scipii
+hold_regions Campania Latium Africa Sicilia_Poeni Numidia
+take_regions 80
+short_campaign outlive_factions
+carthage numidia
+
+romans_senate
+hold_regions Latium
+
+macedon
+hold_regions Macedonia Thessalia Apulia Umbria Epirus Latium
+take_regions 80
+short_campaign outlive_factions
+greek_cities thrace
+
+egypt
+hold_regions Nile_Delta Middle_Egypt 
+take_regions 80
+short_campaign outlive_factions
+seleucid armenia
+
+seleucid
+hold_regions Syria Cilicia Assyria Babylonia
+take_regions 80
+short_campaign outlive_factions
+egypt
+
+carthage
+hold_regions Africa Byzacium Sardinia Sicilia_Romanus Sicilia_Poeni Etruria Hispania Corsica Latium Lusitania
+take_regions 80
+short_campaign outlive_factions
+romans_scipii spain
+
+parthia
+hold_regions Media Elymais Arabia Phrygia
+take_regions 80
+short_campaign outlive_factions
+seleucid armenia
+
+pontus
+hold_regions Cappadocia Bithynia Pontus
+take_regions 80
+short_campaign outlive_factions
+armenia thrace
+
+gauls
+hold_regions Central_Gaul Lugdinensis Aquitania Armorica Liguria Venetia Cisalpine_Gaul Umbria Latium
+take_regions 80
+short_campaign outlive_factions
+romans_julii romans_senate
+
+germans
+hold_regions Germania_Superior Germania_Inferior Boihaemum Agri_Decumates 
+take_regions 80
+short_campaign outlive_factions
+dacia scythia
+
+britons
+hold_regions Britannia_Superior Tribus_Silurii Britannia_Inferior Hibernia
+take_regions 80
+short_campaign outlive_factions
+gauls
+
+armenia
+hold_regions Armenia Colchis Regnum_Palmyrae
+take_regions 80
+short_campaign outlive_factions
+seleucid
+
+dacia
+hold_regions Pannonia Dacia Tribus_Iazyges Illyria Dalmatia
+take_regions 80
+short_campaign outlive_factions
+macedon thrace
+
+greek_cities
+hold_regions Attica Peloponnesus Crete Rhodos Sicilia_Graecus Bruttium Lycia Latium
+take_regions 80
+short_campaign outlive_factions
+macedon thrace
+
+numidia
+hold_regions Gaetulia Sahara Tripolitania Libya
+take_regions 80
+short_campaign outlive_factions
+carthage
+
+scythia
+hold_regions Scythia Tribus_Sarmatae Tribus_Alanni Tribus_Sakae 
+take_regions 80
+short_campaign outlive_factions
+dacia thrace
+
+spain
+hold_regions Celtiberia Gallaecia
+take_regions 80
+short_campaign outlive_factions
+carthage
+
+thrace
+hold_regions Propontis Thrace
+take_regions 80
+short_campaign outlive_factions
+macedon

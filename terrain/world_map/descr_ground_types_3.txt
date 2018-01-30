@@ -1,0 +1,156 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; ground type decriptions for mediterranean
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+main_ground_types 
+{
+	;type	file letter
+	
+	sand	s
+	grass	g
+	rock	r
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+sub_ground_types
+{	
+	;type	file letter
+		
+	stone	t
+	forest	f
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ground_type_properties	sand
+{
+							;0% lower	100 % lower	100 % upper	0 % upper
+
+	height_band				MIN			MIN			50			100 				
+
+	alternate_ratio			0.1
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ground_type_properties	grass
+{
+							;0% lower	100 % lower	100 % upper	0 % upper
+
+	height_band				50			100			1800		2000 				
+
+	alternate_ratio			0.1
+
+;	splodge sand
+;	{
+;		weight		1.0			
+;		
+;		height_range	300		1800
+;	
+;		branch_probabilities
+;		{
+;			up		0.5
+;			down	0.5
+;			left	0.5
+;			right	0.5
+;		}
+;	
+;		conditions
+;		{
+;			gradient	0	20
+;		}
+;	}		
+	
+;	splodge rock
+;	{
+;		weight		1.0			
+;		
+;		height_range	300		1800
+;
+;		branch_probabilities
+;		{
+;			up		0.5
+;			down	0.5
+;			left	0.5
+;			right	0.5
+;		}
+;
+;		conditions
+;		{
+;			gradient	20	90
+;		}
+;	}
+	
+	splodge forest
+	{
+		weight		10.0			
+		
+		height_range	0		1800
+
+		branch_probabilities
+		{
+			up		0.5
+			down	0.5
+			left	0.5
+			right	0.5
+		}
+
+		conditions
+		{
+			forest
+		}
+	}						
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ground_type_properties	rock
+{
+							;0% lower	100 % lower	100 % upper	0 % upper
+
+	height_band				1800		2000		MAX			MAX 				
+
+	alternate_ratio			0.1
+
+	splodge stone
+	{
+		weight			1.0			
+		
+		height_range	2000	MAX
+
+		branch_probabilities
+		{
+			up		0.5
+			down	0.1
+			left	0.5
+			right	0.5
+		}
+	}			
+	
+	splodge grass
+	{
+		weight			1.0			
+		
+		height_range	2000	MAX
+
+		branch_probabilities
+		{
+			up		0.5
+			down	0.5
+			left	0.5
+			right	0.5
+		}
+	}					
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ground_type_properties	stone
+{
+	alternate_ratio			0.1
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

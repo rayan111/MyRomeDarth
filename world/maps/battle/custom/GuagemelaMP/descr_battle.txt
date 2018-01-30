@@ -1,0 +1,164 @@
+; From Historic Battles MOD
+
+battle		GaugemelaMP multiplayer not_singleplayer
+playable
+	macedon
+greek_cities
+parthia
+pontus
+end
+nonplayable
+	
+end
+
+
+start_date	-331 summer
+end_date	-331 summer
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of factions section <<<<
+
+faction	macedon
+character	Alexander, general, command 0, influence 0, management 1, subterfuge 0, age 20, , x 81, y 94 
+
+army
+unit		greek royal cavalry				                soldiers 120 exp 3 armour 3 weapon_lvl 0
+unit		macedon armoured hoplite			                soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		macedon armoured hoplite		                        soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		macedon armoured hoplite		 		        soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		macedon armoured hoplite				        soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		greek archer				                soldiers 161 exp 3 armour 3 weapon_lvl 3
+unit		greek royal pikemen		                                soldiers 181 exp 3 armour 3 weapon_lvl 3
+unit		greek heavy cavalry			                        soldiers 160 exp 3 armour 3 weapon_lvl 0
+
+faction	greek_cities
+character	Leonidas of_Sparta, general, command 0, influence 0, management 1, subterfuge 0, age 20, , x 81, y 94 
+
+army
+unit		greek royal cavalry				        soldiers 108 exp 3 armour 3 weapon_lvl 0
+unit		greek royal cavalry			                soldiers 108 exp 3 armour 3 weapon_lvl 0
+unit		greek heavy cavalry				        soldiers 108 exp 3 armour 3 weapon_lvl 0
+unit		greek heavy cavalry			                soldiers 108 exp 3 armour 3 weapon_lvl 0
+
+faction	parthia
+character	Darius, general, command 0, influence 0, management 1, subterfuge 0, age 20, , x 81, y 94 
+
+army
+unit		east cavalry				                soldiers 161 exp 3 armour 3 weapon_lvl 3
+unit		east archer				                soldiers 240 exp 3 armour 3 weapon_lvl 3
+unit		east archer		 		                soldiers 240 exp 3 armour 3 weapon_lvl 3
+unit		east archer				                soldiers 240 exp 3 armour 3 weapon_lvl 3
+unit		east infantry 				                soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		east infantry 				                soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		east infantry 			        soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		east infantry 			        soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		east infantry 			        soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		east infantry 			        soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		east hillmen			        soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		east hillmen			        soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		east hillmen			        soldiers 240 exp 3 armour 3 weapon_lvl 0
+unit		east hillmen 				                soldiers 240 exp 6 armour 3 weapon_lvl 0
+
+faction	pontus
+character	Herakles, general, command 0, influence 0, management 0, subterfuge 0, age 30, , x 112, y 65 
+
+army
+unit		east cavalry				                soldiers 158 exp 3 armour 3 weapon_lvl 0
+unit		east cavalry			                soldiers 158 exp 3 armour 3 weapon_lvl 0
+unit		east heavy cavalry				        soldiers 128 exp 3 armour 3 weapon_lvl 3
+unit		east heavy cavalry		                        soldiers 128 exp 3 armour 3 weapon_lvl 0
+unit		east cavalry				soldiers 161 exp 3 armour 3 weapon_lvl 0
+unit		east cavalry				soldiers 161 exp 3 armour 3 weapon_lvl 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of battle section <<<<
+
+battle	80, 28
+variable_weather_and_time ( day_time 12.00, year_day 0, duration	24.00, weather_seed	0 )
+
+home_faction	macedon
+alliance	can_deploy can_view, macedon, greek_cities, attacking
+alliance	can_deploy can_view, parthia, pontus, attacking
+
+army	macedon, 0, no_withdraw, supporting_armies 0
+
+deployment_area_point -1000 , 1000 
+deployment_area_point  1000 , 1000 
+deployment_area_point  1000 ,-1000 
+deployment_area_point -1000 ,-1000
+
+unit			0, -70.000, 310.198, -95, formation_type square, formation_width 25
+unit			1, -73.500, 350.198, -95, formation_type square, formation_width 25
+unit			2, -77.000, 390.198, -95, formation_type square, formation_width 25
+unit			3, -80.754, 430.198, -95, formation_type square, formation_width 25
+unit			4, -20.754, 470.198, -95, formation_type square, formation_width 25
+unit			5, -40.754, 372.198, -95, formation_type square, formation_width 25
+unit			6, -30.754, 280.198, -95, formation_type square, formation_width 25
+unit			7, -20.754, 450.198, -95, formation_type square, formation_width 25
+
+army	greek_cities, 0, no_withdraw, supporting_armies 0
+
+deployment_area_point -1000 , 1000 
+deployment_area_point  1000 , 1000 
+deployment_area_point  1000 ,-1000 
+deployment_area_point -1000 ,-1000
+
+unit			0, -60.754, 480.198, -95, formation_type square, formation_width 25
+unit			1, -80.754, 510.198, -95, formation_type square, formation_width 25
+unit			2, -30.754, 190.198, -95, formation_type square, formation_width 25
+unit			3, -60.754, 220.198, -95, formation_type square, formation_width 25
+
+army	parthia, 0, no_withdraw, supporting_armies 0
+
+deployment_area_point -1000 , 1000 
+deployment_area_point  1000 , 1000 
+deployment_area_point  1000 ,-1000 
+deployment_area_point -1000 ,-1000 
+
+
+unit			0, -300.754, 260.198, -275, formation_type square, formation_width 25
+unit			1, -300.754, 420.198, -275, formation_type square, formation_width 25
+unit			2, -300.754, 368.198, -275, formation_type square, formation_width 25
+unit			3, -300.754, 470.198, -275, formation_type square, formation_width 25
+unit			4, -300.754, 332.198, -275, formation_type square, formation_width 25
+unit			5, -300.754, 300.198, -275, formation_type square, formation_width 25
+unit			6, -320.754, 400.198, -275, formation_type square, formation_width 25
+unit			7, -320.754, 380.198, -275, formation_type square, formation_width 25
+unit			8, -320.754, 280.198, -275, formation_type square, formation_width 25
+unit			9, -320.754, 300.198, -275, formation_type square, formation_width 25
+unit			10, -320.754, 320.198, -275, formation_type square, formation_width 25
+unit			11, -320.754, 340.198, -275, formation_type square, formation_width 25
+unit			12, -320.754, 360.198, -275, formation_type square, formation_width 25
+unit			13, -350.754, 320.198, -275, formation_type square, formation_width 25
+
+army	pontus, 0, no_withdraw, supporting_armies 0
+
+deployment_area_point -1000 , 1000 
+deployment_area_point  1000 , 1000 
+deployment_area_point  1000 ,-1000 
+deployment_area_point -1000 ,-1000 
+
+unit			0, -320.754, 220.198, -275, formation_type square, formation_width 25
+unit			1, -360.754, 190.198, -275, formation_type square, formation_width 25
+unit			2, -340.754, 510.198, -275, formation_type square, formation_width 25
+unit			3, -380.754, 480.198, -275, formation_type square, formation_width 25
+unit			4, -380.754, 316.198, -275, formation_type square, formation_width 25
+unit			5, -350.754, 300.198, -275, formation_type square, formation_width 25
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of objectives scripting section <<<<
+
+objectives
+
+alliance 0
+condition destroy_or_rout_enemy
+
+alliance 1
+condition destroy_or_rout_enemy
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of army scripting section <<<<
+
+script
+descr_script.txt

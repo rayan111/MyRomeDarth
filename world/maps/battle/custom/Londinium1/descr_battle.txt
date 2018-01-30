@@ -1,0 +1,186 @@
+; From Historic Battles MOD
+
+battle		Londinium1
+playable
+	romans_julii
+britons
+end
+nonplayable
+end
+
+
+start_date	60 summer
+end_date	60 summer
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of factions section <<<<
+
+faction	romans_julii
+settlement
+{
+	level city
+	tile 57 128
+
+	year_founded 0
+	fortification 1 barbarian, walls 1 towers 0 gates 1 gate_defences 1
+	population 6000
+	settlement_tax 0
+	battle_pos 32.000 188.366 96.000	rotation_180	0
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type market trader
+		creator britons
+	}
+	building
+	{
+		type temple_of_battle temple_of_battle_shrine
+		creator britons
+	}
+	building
+	{
+		type core_building governors_palace
+		creator britons
+	}
+	building
+	{
+		type barracks city_barracks
+		creator britons
+	}
+	building
+	{
+		type smith blacksmith
+		creator britons
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+		creator britons
+	}
+	building
+	{
+		type taverns bardic_circle
+		creator britons
+	}
+	building
+	{
+		type missiles archery_range
+		creator britons
+	}
+}
+
+faction	romans_julii
+
+
+character	Cnaeus, general, command 1, influence 1, management 1, subterfuge 0, age 20, , x 81, y 94 
+
+army
+unit		roman generals guard cavalry			        soldiers 28 exp 3 armour 0 weapon_lvl 0
+unit		roman city militia			                soldiers 200 exp 3 armour 0 weapon_lvl 0
+unit		roman city militia			                soldiers 200 exp 3 armour 0 weapon_lvl 0
+unit		roman city militia			                soldiers 200 exp 3 armour 0 weapon_lvl 0
+unit		roman archer auxillia			                soldiers 160 exp 3 armour 0 weapon_lvl 0
+unit		roman city militia			                soldiers 200 exp 3 armour 0 weapon_lvl 0
+unit		roman city militia			                soldiers 200 exp 3 armour 0 weapon_lvl 0
+unit		roman city militia			                        soldiers 200 exp 3 armour 0 weapon_lvl 0
+unit		roman archer auxillia			                soldiers 160 exp 3 armour 0 weapon_lvl 0
+unit		merc barbarian infantry			                soldiers 240 exp 3 armour 0 weapon_lvl 0
+unit		roman hastati			                        soldiers 240 exp 3 armour 0 weapon_lvl 0
+unit		merc barbarian infantry			                soldiers 240 exp 3 armour 0 weapon_lvl 0
+unit		roman hastati			                        soldiers 240 exp 3 armour 0 weapon_lvl 0
+
+faction	britons
+character	Budic, general, command 1, influence 1, management 1, subterfuge 0, age 20, , x 81, y 94 
+
+army
+unit		barb medium cavalry briton		                soldiers 160 exp 3 armour 0 weapon_lvl 0
+unit		warband sword briton		                        soldiers 180 exp 3 armour 0 weapon_lvl 0
+unit		warband sword briton 		                        soldiers 180 exp 3 armour 0 weapon_lvl 0
+unit		warband woad briton 		                        soldiers 180 exp 3 armour 0 weapon_lvl 0
+unit		warband woad briton 		                        soldiers 180 exp 3 armour 0 weapon_lvl 0
+unit		warband woad briton 		                        soldiers 180 exp 3 armour 0 weapon_lvl 0
+unit		warband woad briton 		                        soldiers 180 exp 3 armour 0 weapon_lvl 0
+unit		warband sword briton 		                        soldiers 180 exp 3 armour 0 weapon_lvl 0
+unit		warband sword briton 		                        soldiers 180 exp 3 armour 0 weapon_lvl 0
+unit		barb infantry briton 		                        soldiers 240 exp 3 armour 0 weapon_lvl 0
+unit		barb infantry briton 		                soldiers 240 exp 3 armour 0 weapon_lvl 0
+unit		barb infantry briton 		                soldiers 240 exp 3 armour 0 weapon_lvl 0
+unit		barb infantry briton 		                        soldiers 240 exp 3 armour 0 weapon_lvl 0
+unit		Celtic Bowmen		                        soldiers 160 exp 3 armour 0 weapon_lvl 0
+unit		barb onager dacian 		                        soldiers 34 exp 3 armour 0 weapon_lvl 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of battle section <<<<
+
+battle	57, 128
+variable_weather_and_time ( day_time 12.00, year_day 0, duration	345.00, weather_seed	0 )
+
+home_faction	britons
+alliance	can_deploy can_view, romans_julii, defending
+alliance	can_deploy can_view, britons, attacking
+
+army	romans_julii, 0, no_withdraw, supporting_armies 0
+
+deployment_area_point -1000 , 1000 
+deployment_area_point  1000 , 1000 
+deployment_area_point  1000 ,-1000 
+deployment_area_point -1000 ,-1000 
+
+unit			0, 30.754, 60.198, -270, formation_type square, formation_width 25
+unit			1, 360.754, 180.198, -270, formation_type square, formation_width 25
+unit			2, 360.754, 210.198, -270, formation_type square, formation_width 25
+unit			3, 360.754, 240.198, -270, formation_type square, formation_width 25
+unit			4, 360.754, 270.198, -270, formation_type square, formation_width 25
+unit			5, 360.754, 300.198, -270, formation_type square, formation_width 25
+unit			6, 360.754, 330.198, -270, formation_type square, formation_width 25
+unit			7, 360.754, 90.198, -270, formation_type horde, formation_width 25
+unit			8, 360.754, 130.198, -270, formation_type square, formation_width 25
+unit			9, 360.754, 360.198, -270, formation_type horde, formation_width 25
+unit			10, 230.754, 40.198, -270, formation_type horde, formation_width 25
+unit			11, 230.754, -230.198, -270, formation_type horde, formation_width 25
+unit			12, 40.754, 100.198, -270, formation_type horde, formation_width 25
+
+army	britons, 0, no_withdraw, supporting_armies 0
+
+deployment_area_point  0500 , 0380 
+deployment_area_point  0780 , 0380 
+deployment_area_point  0780 ,-0000 
+deployment_area_point  0500 ,-0000 
+
+unit			0, 660.500, 180.198, 275, formation_type horde, formation_width 25
+unit			1, 680.500, 110.198, 275, formation_type horde, formation_width 25
+unit			2, 700.500, 130.198, 275, formation_type horde, formation_width 25
+unit			3, 720.500, 200.198, 275, formation_type horde, formation_width 25
+unit			4, 740.500, 150.198, 275, formation_type horde, formation_width 25
+unit			5, 760.500, 170.198, 275, formation_type horde, formation_width 25
+unit			6, 660.500, 230.198, 275, formation_type horde, formation_width 25
+unit			7, 700.500, 170.198, 275, formation_type horde, formation_width 25
+unit			8, 700.500, 250.198, 275, formation_type horde, formation_width 25
+unit			9, 680.500, 90.198, 275, formation_type horde, formation_width 25
+unit			10, 700.500, 60.198, 275, formation_type horde, formation_width 25
+unit			11, 720.500, 90.198, 275, formation_type horde, formation_width 25
+unit			12, 760.500, 30.198, 275, formation_type horde, formation_width 25
+unit			13, 640.500, 150.198, 275, formation_type square, formation_width 25
+unit			14, 640.500, 90.198, 275, formation_type square, formation_width 25
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of objectives scripting section <<<<
+
+objectives
+alliance 0
+condition destroy_or_rout_enemy
+
+alliance 1
+condition destroy_or_rout_enemy
+condition capture_major_settlement Londinium
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of army scripting section <<<<
+
+scripts
+
+{
+}

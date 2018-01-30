@@ -1,0 +1,196 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; ground type decriptions for 5w - temperate forest winter
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+main_ground_types 
+{
+	;type	file letter
+	
+	mud	m
+	grass	g
+	rock	r
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+sub_ground_types
+{	
+	;type	file letter
+		
+	forest	f
+	farm	a
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ground_type_properties	mud
+{
+							;0% lower	100 % lower	100 % upper	0 % upper
+
+	height_band				MIN			MIN			50			100 				
+
+	alternate_ratio			0.2
+
+	splodge rock
+	{
+		weight		1.0			
+		
+		height_range	MIN		100
+
+		branch_probabilities
+		{
+			up		0.5
+			down	1.0
+			left	1.0
+			right	1.0
+		}
+
+		conditions
+		{
+			gradient	10	85
+		}
+	}			
+
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ground_type_properties	grass
+{
+							;0% lower	100 % lower	100 % upper	0 % upper
+
+	height_band				50			100			500		1200 				
+
+	alternate_ratio			0.75
+
+	splodge farm
+	{
+		weight		1.0			
+		
+		height_range	0		600
+
+		branch_probabilities
+		{
+			up		0.5
+			down	0.5
+			left	0.5
+			right	0.5
+		}
+
+		conditions
+		{
+			gradient	0	10
+		}
+	}	
+	splodge rock
+	{
+		weight		1.0			
+		
+		height_range	20		1200
+
+		branch_probabilities
+		{
+			up		0.5
+			down	0.5
+			left	0.5
+			right	0.5
+		}
+
+		conditions
+		{
+			gradient	10	85
+		}
+	}				
+
+	splodge mud
+	{
+		weight		1.0			
+		
+		height_range	20		200
+
+		branch_probabilities
+		{
+			up		0.5
+			down	0.5
+			left	0.5
+			right	0.5
+		}
+
+		conditions
+		{
+			gradient	0	15
+		}
+	}				
+		
+	splodge forest
+	{
+		weight		10.0			
+		
+		height_range	0		1200
+
+		branch_probabilities
+		{
+			up		0.9
+			down	0.9
+			left	0.9
+			right	0.9
+		}
+
+		conditions
+		{
+			forest
+		}
+	}				
+
+			
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ground_type_properties	rock
+{
+							;0% lower	100 % lower	100 % upper	0 % upper
+
+	height_band				500		1200		MAX			MAX 				
+
+	alternate_ratio			0.1
+
+
+splodge forest
+	{
+		weight		1.0			
+		
+		height_range	20		MAX
+
+		branch_probabilities
+		{
+			up		0.9
+			down	0.9
+			left	0.9
+			right	0.9
+		}
+
+		conditions
+		{
+			forest
+		}
+	}			}
+
+	splodge grass
+	{
+		weight			1.0			
+		
+		height_range	300	MAX
+
+		branch_probabilities
+		{
+			up		0.5
+			down	0.5
+			left	0.5
+			right	0.5
+		}
+
+	}					
+}

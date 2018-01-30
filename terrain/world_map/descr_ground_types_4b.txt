@@ -1,0 +1,164 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; ground type decriptions for 4b - temperate infertile grassland
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+main_ground_types 
+{
+	;type	file letter
+	
+	sand	s
+	grass	g
+	rock	r
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+sub_ground_types
+{	
+	;type	file letter
+		
+	mud	m
+	forest	f
+	farm	a
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ground_type_properties	sand
+{
+							;0% lower	100 % lower	100 % upper	0 % upper
+
+	height_band				MIN			MIN			50			100 				
+
+	alternate_ratio			0.9
+
+	splodge rock
+	{
+		weight		10.0			
+		
+		height_range	MIN		100
+
+		branch_probabilities
+		{
+			up		0.5
+			down	1.0
+			left	1.0
+			right	1.0
+		}
+
+		conditions
+		{
+			gradient	10	85
+		}
+	}			
+
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ground_type_properties	grass
+{
+							;0% lower	100 % lower	100 % upper	0 % upper
+
+	height_band				50			100			1400		1800 				
+
+	alternate_ratio			0.1
+
+	splodge forest
+	{
+		weight		10.0			
+		
+		height_range	0		1800
+
+		branch_probabilities
+		{
+			up		0.5
+			down	0.5
+			left	0.5
+			right	0.5
+		}
+
+		conditions
+		{
+			forest
+		}
+	}	
+
+	splodge farm
+	{
+		weight		10.0			
+		
+		height_range	20		1200
+
+		branch_probabilities
+		{
+			up		0.5
+			down	0.5
+			left	0.5
+			right	0.5
+		}
+
+		conditions
+		{
+			gradient	0	10
+		}
+	}				
+
+	splodge mud
+	{
+		weight		10.0			
+		
+		height_range	20		1200
+
+		branch_probabilities
+		{
+			up		0.5
+			down	0.5
+			left	0.5
+			right	0.5
+		}
+
+		conditions
+		{
+			gradient	0	15
+		}
+	}				
+					
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ground_type_properties	rock
+{
+							;0% lower	100 % lower	100 % upper	0 % upper
+
+	height_band				1400		1800		MAX			MAX 				
+
+	alternate_ratio			0.4
+
+
+	splodge grass
+	{
+		weight			1.0			
+		
+		height_range	2000	MAX
+
+		branch_probabilities
+		{
+			up		0.5
+			down	0.5
+			left	0.5
+			right	0.5
+		}
+	}					
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+

@@ -1,0 +1,2813 @@
+BANK: character_vocal
+	cultures Egyptian,Carthaginian,Eastern
+		type Admiral
+			vocal Attacked_Enemy
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Admiral_Attacked_Enemy_1.wav
+				end
+			vocal Attacking
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Admiral_Attacking_1.wav
+					Arabic_Admiral_Attacking_2.wav
+					Arabic_Admiral_Attacking_3.wav
+				end
+			vocal Battle_lost_retreat
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Admiral_Battle_lost_retreat_1.wav
+					Arabic_Admiral_Battle_lost_retreat_2.wav
+					Arabic_Admiral_Battle_lost_retreat_3.wav
+				end
+			vocal Battle_won
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Admiral_Battle_won_1.wav
+					Arabic_Admiral_Battle_won_2.wav
+					Arabic_Admiral_Battle_won_3.wav
+				end
+			vocal Death_Cry
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					ship_sinking.wav
+					ship_sinking.wav
+					ship_sinking.wav
+				end
+			vocal Joins_Fleet
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Admiral_Joins_Fleet_1.wav
+					Arabic_Admiral_Joins_Fleet_2.wav
+					Arabic_Admiral_Joins_Fleet_3.wav
+				end
+			vocal Leaves_Fleet
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Admiral_Leaves_Fleet_1.wav
+					Arabic_Admiral_Leaves_Fleet_2.wav
+					Arabic_Admiral_Leaves_Fleet_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Admiral_Movement_Completed_1.wav
+					Arabic_Admiral_Movement_Completed_2.wav
+					Arabic_Admiral_Movement_Completed_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Admiral_Movement_Ordered_1.wav
+					Arabic_Admiral_Movement_Ordered_2.wav
+					Arabic_Admiral_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Admiral_Movement_Ordered_Illegal_Move_1.wav
+					Arabic_Admiral_Movement_Ordered_Illegal_Move_2.wav
+					Arabic_Admiral_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Pursue_Retreating_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Admiral_pursue_Retreating_Admiral_1.wav
+					Arabic_Admiral_pursue_Retreating_Admiral_2.wav
+					Arabic_Admiral_pursue_Retreating_Admiral_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Admiral_Selection_1.wav
+					Arabic_Admiral_Selection_2.wav
+					Arabic_Admiral_Selection_3.wav
+				end
+			vocal Units_Disembark
+				event delay 0 pref SFX
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					board_ship.wav
+					board_ship.wav
+				end
+			vocal Units_Embark
+				event delay 0 pref SFX
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					board_ship.wav
+					board_ship.wav
+					board_ship.wav
+				end
+		type Army
+			vocal Ambushed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Ambushed_1.wav
+					Arabic_Army_Ambushed_2.wav
+					Arabic_Army_Ambushed_3.wav
+				end
+			vocal Attacking
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Attacking_1.wav
+					Arabic_Army_Attacking_2.wav
+					Arabic_Army_Attacking_3.wav
+				end
+			vocal Battle_lost_retreat
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Battle_lost_retreat_1.wav
+					Arabic_Army_Battle_lost_retreat_2.wav
+					Arabic_Army_Battle_lost_retreat_3.wav
+				end
+			vocal Battle_won
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Battle_won_1.wav
+					Arabic_Army_Battle_won_2.wav
+					Arabic_Army_Battle_won_3.wav
+				end
+			vocal Building_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Building_Fort_1.wav
+					Arabic_Army_Building_Fort_2.wav
+					Arabic_Army_Building_Fort_3.wav
+				end
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Death_Cry_1.wav
+					Arabic_Army_Death_Cry_2.wav
+					Arabic_Army_Death_Cry_3.wav
+				end
+			vocal Dismantling_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Dismantling_Fort_1.wav
+					Arabic_Army_Dismantling_Fort_2.wav
+					Arabic_Army_Dismantling_Fort_3.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Joins_Army_1.wav
+					Arabic_Army_Joins_Army_2.wav
+					Arabic_Army_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Leaves_Army_1.wav
+					Arabic_Army_Leaves_Army_2.wav
+					Arabic_Army_Leaves_Army_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Movement_Completed_1.wav
+					Arabic_Army_Movement_Completed_2.wav
+					Arabic_Army_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Movement_Disembark_1.wav
+					Arabic_Army_Movement_Disembark_2.wav
+					Arabic_Army_Movement_Disembark_3.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Movement_Embark_1.wav
+					Arabic_Army_Movement_Embark_2.wav
+					Arabic_Army_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Movement_Ordered_1.wav
+					Arabic_Army_Movement_Ordered_2.wav
+					Arabic_Army_Movement_Ordered_3.wav
+					Arabic_Army_Movement_Ordered_4.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Movement_Ordered_Illegal_Move_1.wav
+					Arabic_Army_Movement_Ordered_Illegal_Move_2.wav
+					Arabic_Army_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Placed_for_Ambush
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Placed_for_Ambush_1.wav
+					Arabic_Army_Placed_for_Ambush_2.wav
+					Arabic_Army_Placed_for_Ambush_3.wav
+					Arabic_Army_Placed_for_Ambush_4.wav
+				end
+			vocal Pursue_Retreating_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_pursue_Retreating_Army_1.wav
+					Arabic_Army_pursue_Retreating_Army_2.wav
+					Arabic_Army_pursue_Retreating_Army_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Selected_1.wav
+					Arabic_Army_Selected_2.wav
+					Arabic_Army_Selected_3.wav
+					Arabic_Army_Selected_4.wav
+				end
+			vocal Settlement_Capture_Celebration
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_Settlement_Capture_Celebration_1.wav
+					Arabic_Army_Settlement_Capture_Celebration_2.wav
+					Arabic_Army_Settlement_Capture_Celebration_3.wav
+				end
+			vocal siege_Begun
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_siege_Begun_1.wav
+					Arabic_Army_siege_Begun_2.wav
+				end
+			vocal siege_Besieged
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_siege_Besieged_1.wav
+					Arabic_Army_siege_Besieged_2.wav
+					Arabic_Army_siege_Besieged_3.wav
+				end
+			vocal siege_Lifted
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_siege_Lifted_1.wav
+					Arabic_Army_siege_Lifted_2.wav
+					Arabic_Army_siege_Lifted_3.wav
+				end
+			vocal siege_Ongoing
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Army_siege_Ongoing_1.wav
+					Arabic_Army_siege_Ongoing_2.wav
+				end
+		type Assassin
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Assassin_Death_Cry_1.wav
+					Arabic_Assassin_Death_Cry_2.wav
+					Arabic_Assassin_Death_Cry_3.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Assassin_Joins_Army_1.wav
+					Arabic_Assassin_Joins_Army_2.wav
+					Arabic_Assassin_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Assassin_Leaves_Army_1.wav
+					Arabic_Assassin_Leaves_Army_2.wav
+					Arabic_Assassin_Leaves_Army_3.wav
+				end
+			vocal Movement_BlackOps
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Assassin_Movement_BlackOps_1.wav
+					Arabic_Assassin_Movement_BlackOps_2.wav
+					Arabic_Assassin_Movement_BlackOps_3.wav
+					Arabic_Assassin_Movement_BlackOps_4.wav
+					Arabic_Assassin_Movement_BlackOps_5.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Assassin_Movement_Completed_1.wav
+					Arabic_Assassin_Movement_Completed_2.wav
+					Arabic_Assassin_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Assassin_Movement_Disembark_1.wav
+					Arabic_Assassin_Movement_Disembark_2.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Assassin_Movement_Embark_1.wav
+					Arabic_Assassin_Movement_Embark_2.wav
+					Arabic_Assassin_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Assassin_Movement_Ordered_1.wav
+					Arabic_Assassin_Movement_Ordered_2.wav
+					Arabic_Assassin_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Assassin_Movement_Ordered_Illegal_Move_1.wav
+					Arabic_Assassin_Movement_Ordered_Illegal_Move_2.wav
+					Arabic_Assassin_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Assassin_Selected_1.wav
+					Arabic_Assassin_Selected_2.wav
+					Arabic_Assassin_Selected_3.wav
+				end
+		type Diplomat
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Diplomat_Death_Cry_1.wav
+					Arabic_Diplomat_Death_Cry_2.wav
+					Arabic_Diplomat_Death_Cry_3.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Diplomat_Joins_Army_1.wav
+					Arabic_Diplomat_Joins_Army_2.wav
+					Arabic_Diplomat_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Diplomat_Leaves_Army_1.wav
+					Arabic_Diplomat_Leaves_Army_2.wav
+					Arabic_Diplomat_Leaves_Army_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Diplomat_Movement_Completed_1.wav
+					Arabic_Diplomat_Movement_Completed_2.wav
+					Arabic_Diplomat_Movement_Completed_3.wav
+				end
+			vocal Movement_Diplomacy
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Diplomat_Movement_Diplomacy_1.wav
+					Arabic_Diplomat_Movement_Diplomacy_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Diplomat_Movement_Disembark_1.wav
+					Arabic_Diplomat_Movement_Disembark_2.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Diplomat_Movement_Embark_1.wav
+					Arabic_Diplomat_Movement_Embark_2.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Diplomat_Movement_Ordered_1.wav
+					Arabic_Diplomat_Movement_Ordered_2.wav
+					Arabic_Diplomat_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Diplomat_Movement_Ordered_Illegal_Move_1.wav
+					Arabic_Diplomat_Movement_Ordered_Illegal_Move_2.wav
+					Arabic_Diplomat_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Diplomat_Selected_1.wav
+					Arabic_Diplomat_Selected_2.wav
+					Arabic_Diplomat_Selected_3.wav
+					Arabic_Diplomat_Selected_4.wav
+					Arabic_Diplomat_Selected_5.wav
+					Arabic_Diplomat_Selected_6.wav
+				end
+		type General_1
+			vocal Ambushed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Ambushed_1.wav
+					Arabic_General_1_Ambushed_2.wav
+					Arabic_General_1_Ambushed_3.wav
+				end
+			vocal Attacking
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Attacking_1.wav
+					Arabic_General_1_Attacking_2.wav
+					Arabic_General_1_Attacking_3.wav
+				end
+			vocal Battle_lost_retreat
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Battle_lost_retreat_1.wav
+					Arabic_General_1_Battle_lost_retreat_2.wav
+					Arabic_General_1_Battle_lost_retreat_3.wav
+				end
+			vocal Battle_won
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Battle_won_1.wav
+					Arabic_General_1_Battle_won_2.wav
+					Arabic_General_1_Battle_won_3.wav
+				end
+			vocal Building_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Building_Fort_1.wav
+					Arabic_General_1_Building_Fort_2.wav
+					Arabic_General_1_Building_Fort_3.wav
+				end
+			vocal Building_Tower
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Building_Tower_1.wav
+				end
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Death_Cry_1.wav
+					Arabic_General_1_Death_Cry_2.wav
+					Arabic_General_1_Death_Cry_3.wav
+				end
+			vocal Dismantling_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Dismantling_Fort_1.wav
+					Arabic_General_1_Dismantling_Fort_2.wav
+					Arabic_General_1_Dismantling_Fort_3.wav
+				end
+			vocal Dismantling_Tower
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Dismantling_Tower_1.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_Joins_Army_1.wav
+					Arabic_General_Joins_Army_2.wav
+					Arabic_General_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_Leaves_Army_1.wav
+					Arabic_General_Leaves_Army_2.wav
+					Arabic_General_Leaves_Army_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Movement_Completed_1.wav
+					Arabic_General_1_Movement_Completed_2.wav
+					Arabic_General_1_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Movement_Disembark_1.wav
+					Arabic_General_1_Movement_Disembark_2.wav
+					Arabic_General_1_Movement_Disembark_3.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Movement_Embark_1.wav
+					Arabic_General_1_Movement_Embark_2.wav
+					Arabic_General_1_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Movement_Ordered_1.wav
+					Arabic_General_1_Movement_Ordered_2.wav
+					Arabic_General_1_Movement_Ordered_3.wav
+					Arabic_General_1_Movement_Ordered_4.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Movement_Ordered_Illegal_Move_1.wav
+					Arabic_General_1_Movement_Ordered_Illegal_Move_2.wav
+					Arabic_General_1_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Placed_for_Ambush
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Placed_for_Ambush_1.wav
+					Arabic_General_1_Placed_for_Ambush_2.wav
+					Arabic_General_1_Placed_for_Ambush_3.wav
+					Arabic_General_1_Placed_for_Ambush_4.wav
+				end
+			vocal Pursue_Retreating_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_pursue_Retreating_General_1_1.wav
+					Arabic_General_1_pursue_Retreating_General_1_2.wav
+					Arabic_General_1_pursue_Retreating_General_1_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Selected_1.wav
+					Arabic_General_1_Selected_2.wav
+					Arabic_General_1_Selected_3.wav
+					Arabic_General_1_Selected_4.wav
+				end
+			vocal Settlement_Capture_Celebration
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_Settlement_Capture_Celebration_1.wav
+					Arabic_General_1_Settlement_Capture_Celebration_2.wav
+					Arabic_General_1_Settlement_Capture_Celebration_3.wav
+				end
+			vocal siege_Begun
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_siege_Begun_1.wav
+					Arabic_General_1_siege_Begun_2.wav
+				end
+			vocal siege_Besieged
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_siege_Besieged_1.wav
+					Arabic_General_1_siege_Besieged_2.wav
+					Arabic_General_1_siege_Besieged_3.wav
+				end
+			vocal siege_Lifted
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_siege_Lifted_1.wav
+					Arabic_General_1_siege_Lifted_2.wav
+					Arabic_General_1_siege_Lifted_3.wav
+				end
+			vocal siege_Ongoing
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_General_1_siege_Ongoing_1.wav
+					Arabic_General_1_siege_Ongoing_2.wav
+				end
+		type Spy
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Spy_Joins_Army_1.wav
+					Arabic_Spy_Joins_Army_2.wav
+					Arabic_Spy_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Spy_Leaves_Army_1.wav
+					Arabic_Spy_Leaves_Army_2.wav
+					Arabic_Spy_Leaves_Army_3.wav
+				end
+			vocal Movement_BlackOps
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Spy_Movement_BlackOps_1.wav
+					Arabic_Spy_Movement_BlackOps_2.wav
+					Arabic_Spy_Movement_BlackOps_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Spy_Movement_Completed_1.wav
+					Arabic_Spy_Movement_Completed_2.wav
+					Arabic_Spy_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Spy_Movement_Disembark_1.wav
+					Arabic_Spy_Movement_Disembark_2.wav
+					Arabic_Spy_Movement_Disembark_3.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Spy_Movement_Embark_1.wav
+					Arabic_Spy_Movement_Embark_2.wav
+					Arabic_Spy_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Spy_Movement_Ordered_1.wav
+					Arabic_Spy_Movement_Ordered_2.wav
+					Arabic_Spy_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Spy_Movement_Ordered_Illegal_Move_1.wav
+					Arabic_Spy_Movement_Ordered_Illegal_Move_2.wav
+					Arabic_Spy_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Spy_Selected_1.wav
+					Arabic_Spy_Selected_2.wav
+					Arabic_Spy_Selected_3.wav
+				end
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Arabic_Spy_Death_Cry_1.wav
+					Arabic_Spy_Death_Cry_2.wav
+					Arabic_Spy_Death_Cry_3.wav
+				end
+	cultures Barbarian
+		type Admiral
+			vocal Attacked_Enemy
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Admiral_Attacked_Enemy_1.wav
+				end
+			vocal Attacking
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Admiral_Attacking_1.wav
+					Barbarian_Admiral_Attacking_2.wav
+					Barbarian_Admiral_Attacking_3.wav
+				end
+			vocal Battle_lost_retreat
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Admiral_Battle_lost_retreat_1.wav
+					Barbarian_Admiral_Battle_lost_retreat_2.wav
+					Barbarian_Admiral_Battle_lost_retreat_3.wav
+				end
+			vocal Battle_won
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Admiral_Battle_won_1.wav
+					Barbarian_Admiral_Battle_won_2.wav
+					Barbarian_Admiral_Battle_won_3.wav
+				end
+			vocal Death_Cry
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					ship_sinking.wav
+					ship_sinking.wav
+					ship_sinking.wav
+				end
+			vocal Joins_Fleet
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Admiral_Joins_Fleet_1.wav
+					Barbarian_Admiral_Joins_Fleet_2.wav
+					Barbarian_Admiral_Joins_Fleet_3.wav
+				end
+			vocal Leaves_Fleet
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Admiral_Leaves_Fleet_1.wav
+					Barbarian_Admiral_Leaves_Fleet_2.wav
+					Barbarian_Admiral_Leaves_Fleet_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Admiral_Movement_Completed_1.wav
+					Barbarian_Admiral_Movement_Completed_2.wav
+					Barbarian_Admiral_Movement_Completed_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Admiral_Movement_Ordered_1.wav
+					Barbarian_Admiral_Movement_Ordered_2.wav
+					Barbarian_Admiral_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Admiral_Movement_Ordered_Illegal_Move_1.wav
+					Barbarian_Admiral_Movement_Ordered_Illegal_Move_2.wav
+					Barbarian_Admiral_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Pursue_Retreating_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Admiral_pursue_Retreating_Admiral_1.wav
+					Barbarian_Admiral_pursue_Retreating_Admiral_2.wav
+					Barbarian_Admiral_pursue_Retreating_Admiral_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Admiral_Selection_1.wav
+					Barbarian_Admiral_Selection_2.wav
+					Barbarian_Admiral_Selection_3.wav
+				end
+			vocal Units_Disembark
+				event delay 0 pref SFX
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					board_ship.wav
+					board_ship.wav
+				end
+			vocal Units_Embark
+				event delay 0 pref SFX
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					board_ship.wav
+					board_ship.wav
+					board_ship.wav
+				end
+		type Army
+			vocal Ambushed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Ambushed_1.wav
+					Barbarian_Army_Ambushed_2.wav
+					Barbarian_Army_Ambushed_3.wav
+				end
+			vocal Attacking
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Attacking_1.wav
+					Barbarian_Army_Attacking_2.wav
+					Barbarian_Army_Attacking_3.wav
+				end
+			vocal Battle_lost_retreat
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Battle_lost_retreat_1.wav
+					Barbarian_Army_Battle_lost_retreat_2.wav
+					Barbarian_Army_Battle_lost_retreat_3.wav
+				end
+			vocal Battle_won
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Battle_won_1.wav
+					Barbarian_Army_Battle_won_2.wav
+					Barbarian_Army_Battle_won_3.wav
+				end
+			vocal Building_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Building_Fort_1.wav
+					Barbarian_Army_Building_Fort_2.wav
+					Barbarian_Army_Building_Fort_3.wav
+				end
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Death_Cry_1.wav
+					Barbarian_Army_Death_Cry_2.wav
+					Barbarian_Army_Death_Cry_3.wav
+				end
+			vocal Dismantling_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Dismantling_Fort_1.wav
+					Barbarian_Army_Dismantling_Fort_2.wav
+					Barbarian_Army_Dismantling_Fort_3.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Joins_Army_1.wav
+					Barbarian_Army_Joins_Army_2.wav
+					Barbarian_Army_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Leaves_Army_1.wav
+					Barbarian_Army_Leaves_Army_2.wav
+					Barbarian_Army_Leaves_Army_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Movement_Completed_1.wav
+					Barbarian_Army_Movement_Completed_2.wav
+					Barbarian_Army_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Movement_Disembark_1.wav
+					Barbarian_Army_Movement_Disembark_2.wav
+					Barbarian_Army_Movement_Disembark_3.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Movement_Embark_1.wav
+					Barbarian_Army_Movement_Embark_2.wav
+					Barbarian_Army_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Movement_Ordered_1.wav
+					Barbarian_Army_Movement_Ordered_2.wav
+					Barbarian_Army_Movement_Ordered_3.wav
+					Barbarian_Army_Movement_Ordered_4.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Movement_Ordered_Illegal_Move_1.wav
+					Barbarian_Army_Movement_Ordered_Illegal_Move_2.wav
+					Barbarian_Army_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Placed_for_Ambush
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Placed_for_Ambush_1.wav
+					Barbarian_Army_Placed_for_Ambush_2.wav
+					Barbarian_Army_Placed_for_Ambush_3.wav
+					Barbarian_Army_Placed_for_Ambush_4.wav
+				end
+			vocal Pursue_Retreating_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_pursue_Retreating_Army_1.wav
+					Barbarian_Army_pursue_Retreating_Army_2.wav
+					Barbarian_Army_pursue_Retreating_Army_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Selected_1.wav
+					Barbarian_Army_Selected_2.wav
+					Barbarian_Army_Selected_3.wav
+					Barbarian_Army_Selected_4.wav
+				end
+			vocal Settlement_Capture_Celebration
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_Settlement_Capture_Celebration_1.wav
+					Barbarian_Army_Settlement_Capture_Celebration_2.wav
+					Barbarian_Army_Settlement_Capture_Celebration_3.wav
+				end
+			vocal siege_Begun
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_siege_Begun_1.wav
+					Barbarian_Army_siege_Begun_2.wav
+				end
+			vocal siege_Besieged
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_siege_Besieged_1.wav
+					Barbarian_Army_siege_Besieged_2.wav
+					Barbarian_Army_siege_Besieged_3.wav
+				end
+			vocal siege_Lifted
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_siege_Lifted_1.wav
+					Barbarian_Army_siege_Lifted_2.wav
+					Barbarian_Army_siege_Lifted_3.wav
+				end
+			vocal siege_Ongoing
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Army_siege_Ongoing_1.wav
+					Barbarian_Army_siege_Ongoing_2.wav
+				end
+		type Assassin
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Assassin_Death_Cry_1.wav
+					Barbarian_Assassin_Death_Cry_2.wav
+					Barbarian_Assassin_Death_Cry_3.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Assassin_Joins_Army_1.wav
+					Barbarian_Assassin_Joins_Army_2.wav
+					Barbarian_Assassin_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Assassin_Leaves_Army_1.wav
+					Barbarian_Assassin_Leaves_Army_2.wav
+					Barbarian_Assassin_Leaves_Army_3.wav
+				end
+			vocal Movement_BlackOps
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Assassin_Movement_BlackOps_1.wav
+					Barbarian_Assassin_Movement_BlackOps_2.wav
+					Barbarian_Assassin_Movement_BlackOps_3.wav
+					Barbarian_Assassin_Movement_BlackOps_4.wav
+					Barbarian_Assassin_Movement_BlackOps_5.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Assassin_Movement_Completed_1.wav
+					Barbarian_Assassin_Movement_Completed_2.wav
+					Barbarian_Assassin_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Assassin_Movement_Disembark_1.wav
+					Barbarian_Assassin_Movement_Disembark_2.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Assassin_Movement_Embark_1.wav
+					Barbarian_Assassin_Movement_Embark_2.wav
+					Barbarian_Assassin_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Assassin_Movement_Ordered_1.wav
+					Barbarian_Assassin_Movement_Ordered_2.wav
+					Barbarian_Assassin_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Assassin_Movement_Ordered_Illegal_Move_1.wav
+					Barbarian_Assassin_Movement_Ordered_Illegal_Move_2.wav
+					Barbarian_Assassin_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Assassin_Selected_1.wav
+					Barbarian_Assassin_Selected_2.wav
+					Barbarian_Assassin_Selected_3.wav
+				end
+		type Diplomat
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Diplomat_Death_Cry_1.wav
+					Barbarian_Diplomat_Death_Cry_2.wav
+					Barbarian_Diplomat_Death_Cry_3.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Diplomat_Joins_Army_1.wav
+					Barbarian_Diplomat_Joins_Army_2.wav
+					Barbarian_Diplomat_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Diplomat_Leaves_Army_1.wav
+					Barbarian_Diplomat_Leaves_Army_2.wav
+					Barbarian_Diplomat_Leaves_Army_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Diplomat_Movement_Completed_1.wav
+					Barbarian_Diplomat_Movement_Completed_2.wav
+					Barbarian_Diplomat_Movement_Completed_3.wav
+				end
+			vocal Movement_Diplomacy
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Diplomat_Movement_Diplomacy_1.wav
+					Barbarian_Diplomat_Movement_Diplomacy_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Diplomat_Movement_Disembark_1.wav
+					Barbarian_Diplomat_Movement_Disembark_2.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Diplomat_Movement_Embark_1.wav
+					Barbarian_Diplomat_Movement_Embark_2.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Diplomat_Movement_Ordered_1.wav
+					Barbarian_Diplomat_Movement_Ordered_2.wav
+					Barbarian_Diplomat_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Diplomat_Movement_Ordered_Illegal_Move_1.wav
+					Barbarian_Diplomat_Movement_Ordered_Illegal_Move_2.wav
+					Barbarian_Diplomat_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Diplomat_Selected_1.wav
+					Barbarian_Diplomat_Selected_2.wav
+					Barbarian_Diplomat_Selected_3.wav
+					Barbarian_Diplomat_Selected_4.wav
+					Barbarian_Diplomat_Selected_5.wav
+					Barbarian_Diplomat_Selected_6.wav
+				end
+		type General_1
+			vocal Ambushed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Ambushed_1.wav
+					Barbarian_General_1_Ambushed_2.wav
+					Barbarian_General_1_Ambushed_3.wav
+				end
+			vocal Attacking
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Attacking_1.wav
+					Barbarian_General_1_Attacking_2.wav
+					Barbarian_General_1_Attacking_3.wav
+				end
+			vocal Battle_lost_retreat
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Battle_lost_retreat_1.wav
+					Barbarian_General_1_Battle_lost_retreat_2.wav
+					Barbarian_General_1_Battle_lost_retreat_3.wav
+				end
+			vocal Battle_won
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Battle_won_1.wav
+					Barbarian_General_1_Battle_won_2.wav
+					Barbarian_General_1_Battle_won_3.wav
+				end
+			vocal Building_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Building_Fort_1.wav
+					Barbarian_General_1_Building_Fort_2.wav
+					Barbarian_General_1_Building_Fort_3.wav
+				end
+			vocal Building_Tower
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Building_Tower_1.wav
+				end
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Death_Cry_1.wav
+					Barbarian_General_1_Death_Cry_2.wav
+					Barbarian_General_1_Death_Cry_3.wav
+				end
+			vocal Dismantling_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Dismantling_Fort_1.wav
+					Barbarian_General_1_Dismantling_Fort_2.wav
+					Barbarian_General_1_Dismantling_Fort_3.wav
+				end
+			vocal Dismantling_Tower
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Dismantling_Tower_1.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_Joins_Army_1.wav
+					Barbarian_General_Joins_Army_2.wav
+					Barbarian_General_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_Leaves_Army_1.wav
+					Barbarian_General_Leaves_Army_2.wav
+					Barbarian_General_Leaves_Army_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Movement_Completed_1.wav
+					Barbarian_General_1_Movement_Completed_2.wav
+					Barbarian_General_1_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Movement_Disembark_1.wav
+					Barbarian_General_1_Movement_Disembark_2.wav
+					Barbarian_General_1_Movement_Disembark_3.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Movement_Embark_1.wav
+					Barbarian_General_1_Movement_Embark_2.wav
+					Barbarian_General_1_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Movement_Ordered_1.wav
+					Barbarian_General_1_Movement_Ordered_2.wav
+					Barbarian_General_1_Movement_Ordered_3.wav
+					Barbarian_General_1_Movement_Ordered_4.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Movement_Ordered_Illegal_Move_1.wav
+					Barbarian_General_1_Movement_Ordered_Illegal_Move_2.wav
+					Barbarian_General_1_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Placed_for_Ambush
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Placed_for_Ambush_1.wav
+					Barbarian_General_1_Placed_for_Ambush_2.wav
+					Barbarian_General_1_Placed_for_Ambush_3.wav
+					Barbarian_General_1_Placed_for_Ambush_4.wav
+				end
+			vocal Pursue_Retreating_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_pursue_Retreating_General_1_1.wav
+					Barbarian_General_1_pursue_Retreating_General_1_2.wav
+					Barbarian_General_1_pursue_Retreating_General_1_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Selected_1.wav
+					Barbarian_General_1_Selected_2.wav
+					Barbarian_General_1_Selected_3.wav
+					Barbarian_General_1_Selected_4.wav
+				end
+			vocal Settlement_Capture_Celebration
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_Settlement_Capture_Celebration_1.wav
+					Barbarian_General_1_Settlement_Capture_Celebration_2.wav
+					Barbarian_General_1_Settlement_Capture_Celebration_3.wav
+				end
+			vocal siege_Begun
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_siege_Begun_1.wav
+					Barbarian_General_1_siege_Begun_2.wav
+				end
+			vocal siege_Besieged
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_siege_Besieged_1.wav
+					Barbarian_General_1_siege_Besieged_2.wav
+					Barbarian_General_1_siege_Besieged_3.wav
+				end
+			vocal siege_Lifted
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_siege_Lifted_1.wav
+					Barbarian_General_1_siege_Lifted_2.wav
+					Barbarian_General_1_siege_Lifted_3.wav
+				end
+			vocal siege_Ongoing
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_General_1_siege_Ongoing_1.wav
+					Barbarian_General_1_siege_Ongoing_2.wav
+				end
+		type Spy
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Spy_Joins_Army_1.wav
+					Barbarian_Spy_Joins_Army_2.wav
+					Barbarian_Spy_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Spy_Leaves_Army_1.wav
+					Barbarian_Spy_Leaves_Army_2.wav
+					Barbarian_Spy_Leaves_Army_3.wav
+				end
+			vocal Movement_BlackOps
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Spy_Movement_BlackOps_1.wav
+					Barbarian_Spy_Movement_BlackOps_2.wav
+					Barbarian_Spy_Movement_BlackOps_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Spy_Movement_Completed_1.wav
+					Barbarian_Spy_Movement_Completed_2.wav
+					Barbarian_Spy_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Spy_Movement_Disembark_1.wav
+					Barbarian_Spy_Movement_Disembark_2.wav
+					Barbarian_Spy_Movement_Disembark_3.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Spy_Movement_Embark_1.wav
+					Barbarian_Spy_Movement_Embark_2.wav
+					Barbarian_Spy_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Spy_Movement_Ordered_1.wav
+					Barbarian_Spy_Movement_Ordered_2.wav
+					Barbarian_Spy_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Spy_Movement_Ordered_Illegal_Move_1.wav
+					Barbarian_Spy_Movement_Ordered_Illegal_Move_2.wav
+					Barbarian_Spy_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Spy_Selected_1.wav
+					Barbarian_Spy_Selected_2.wav
+					Barbarian_Spy_Selected_3.wav
+				end
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Barbarian_Spy_Death_Cry_1.wav
+					Barbarian_Spy_Death_Cry_2.wav
+					Barbarian_Spy_Death_Cry_3.wav
+				end
+	cultures Greek
+		type Admiral
+			vocal Attacked_Enemy
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Admiral_Attacked_Enemy_1.wav
+				end
+			vocal Attacking
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Admiral_Attacking_1.wav
+					Greek_Admiral_Attacking_2.wav
+					Greek_Admiral_Attacking_3.wav
+				end
+			vocal Battle_lost_retreat
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Admiral_Battle_lost_retreat_1.wav
+					Greek_Admiral_Battle_lost_retreat_2.wav
+					Greek_Admiral_Battle_lost_retreat_3.wav
+				end
+			vocal Battle_won
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Admiral_Battle_won_1.wav
+					Greek_Admiral_Battle_won_2.wav
+					Greek_Admiral_Battle_won_3.wav
+				end
+			vocal Death_Cry
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					ship_sinking.wav
+					ship_sinking.wav
+					ship_sinking.wav
+				end
+			vocal Joins_Fleet
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Admiral_Joins_Fleet_1.wav
+					Greek_Admiral_Joins_Fleet_2.wav
+					Greek_Admiral_Joins_Fleet_3.wav
+				end
+			vocal Leaves_Fleet
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Admiral_Leaves_Fleet_1.wav
+					Greek_Admiral_Leaves_Fleet_2.wav
+					Greek_Admiral_Leaves_Fleet_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Admiral_Movement_Completed_1.wav
+					Greek_Admiral_Movement_Completed_2.wav
+					Greek_Admiral_Movement_Completed_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Admiral_Movement_Ordered_1.wav
+					Greek_Admiral_Movement_Ordered_2.wav
+					Greek_Admiral_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Admiral_Movement_Ordered_Illegal_Move_1.wav
+					Greek_Admiral_Movement_Ordered_Illegal_Move_2.wav
+					Greek_Admiral_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Pursue_Retreating_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Admiral_pursue_Retreating_Admiral_1.wav
+					Greek_Admiral_pursue_Retreating_Admiral_2.wav
+					Greek_Admiral_pursue_Retreating_Admiral_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Admiral_Selection_1.wav
+					Greek_Admiral_Selection_2.wav
+					Greek_Admiral_Selection_3.wav
+				end
+			vocal Units_Disembark
+				event delay 0 pref SFX
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					board_ship.wav
+					board_ship.wav
+				end
+			vocal Units_Embark
+				event delay 0 pref SFX
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					board_ship.wav
+					board_ship.wav
+					board_ship.wav
+				end
+		type Army
+			vocal Ambushed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Ambushed_1.wav
+					Greek_Army_Ambushed_2.wav
+					Greek_Army_Ambushed_3.wav
+				end
+			vocal Attacking
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Attacking_1.wav
+					Greek_Army_Attacking_2.wav
+					Greek_Army_Attacking_3.wav
+				end
+			vocal Battle_lost_retreat
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Battle_lost_retreat_1.wav
+					Greek_Army_Battle_lost_retreat_2.wav
+					Greek_Army_Battle_lost_retreat_3.wav
+				end
+			vocal Battle_won
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Battle_won_1.wav
+					Greek_Army_Battle_won_2.wav
+					Greek_Army_Battle_won_3.wav
+				end
+			vocal Building_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Building_Fort_1.wav
+					Greek_Army_Building_Fort_2.wav
+					Greek_Army_Building_Fort_3.wav
+				end
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Death_Cry_1.wav
+					Greek_Army_Death_Cry_2.wav
+					Greek_Army_Death_Cry_3.wav
+				end
+			vocal Dismantling_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Dismantling_Fort_1.wav
+					Greek_Army_Dismantling_Fort_2.wav
+					Greek_Army_Dismantling_Fort_3.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Joins_Army_1.wav
+					Greek_Army_Joins_Army_2.wav
+					Greek_Army_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Leaves_Army_1.wav
+					Greek_Army_Leaves_Army_2.wav
+					Greek_Army_Leaves_Army_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Movement_Completed_1.wav
+					Greek_Army_Movement_Completed_2.wav
+					Greek_Army_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Movement_Disembark_1.wav
+					Greek_Army_Movement_Disembark_2.wav
+					Greek_Army_Movement_Disembark_3.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Movement_Embark_1.wav
+					Greek_Army_Movement_Embark_2.wav
+					Greek_Army_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Movement_Ordered_1.wav
+					Greek_Army_Movement_Ordered_2.wav
+					Greek_Army_Movement_Ordered_3.wav
+					Greek_Army_Movement_Ordered_4.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Movement_Ordered_Illegal_Move_1.wav
+					Greek_Army_Movement_Ordered_Illegal_Move_2.wav
+					Greek_Army_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Placed_for_Ambush
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Placed_for_Ambush_1.wav
+					Greek_Army_Placed_for_Ambush_2.wav
+					Greek_Army_Placed_for_Ambush_3.wav
+					Greek_Army_Placed_for_Ambush_4.wav
+				end
+			vocal Pursue_Retreating_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_pursue_Retreating_Army_1.wav
+					Greek_Army_pursue_Retreating_Army_2.wav
+					Greek_Army_pursue_Retreating_Army_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Selected_1.wav
+					Greek_Army_Selected_2.wav
+					Greek_Army_Selected_3.wav
+					Greek_Army_Selected_4.wav
+				end
+			vocal Settlement_Capture_Celebration
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_Settlement_Capture_Celebration_1.wav
+					Greek_Army_Settlement_Capture_Celebration_2.wav
+					Greek_Army_Settlement_Capture_Celebration_3.wav
+				end
+			vocal siege_Begun
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_siege_Begun_1.wav
+					Greek_Army_siege_Begun_2.wav
+				end
+			vocal siege_Besieged
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_siege_Besieged_1.wav
+					Greek_Army_siege_Besieged_2.wav
+					Greek_Army_siege_Besieged_3.wav
+				end
+			vocal siege_Lifted
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_siege_Lifted_1.wav
+					Greek_Army_siege_Lifted_2.wav
+					Greek_Army_siege_Lifted_3.wav
+				end
+			vocal siege_Ongoing
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Army_siege_Ongoing_1.wav
+					Greek_Army_siege_Ongoing_2.wav
+				end
+		type Assassin
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Assassin_Death_Cry_1.wav
+					Greek_Assassin_Death_Cry_2.wav
+					Greek_Assassin_Death_Cry_3.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Assassin_Joins_Army_1.wav
+					Greek_Assassin_Joins_Army_2.wav
+					Greek_Assassin_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Assassin_Leaves_Army_1.wav
+					Greek_Assassin_Leaves_Army_2.wav
+					Greek_Assassin_Leaves_Army_3.wav
+				end
+			vocal Movement_BlackOps
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Assassin_Movement_BlackOps_1.wav
+					Greek_Assassin_Movement_BlackOps_2.wav
+					Greek_Assassin_Movement_BlackOps_3.wav
+					Greek_Assassin_Movement_BlackOps_4.wav
+					Greek_Assassin_Movement_BlackOps_5.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Assassin_Movement_Completed_1.wav
+					Greek_Assassin_Movement_Completed_2.wav
+					Greek_Assassin_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Assassin_Movement_Disembark_1.wav
+					Greek_Assassin_Movement_Disembark_2.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Assassin_Movement_Embark_1.wav
+					Greek_Assassin_Movement_Embark_2.wav
+					Greek_Assassin_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Assassin_Movement_Ordered_1.wav
+					Greek_Assassin_Movement_Ordered_2.wav
+					Greek_Assassin_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Assassin_Movement_Ordered_Illegal_Move_1.wav
+					Greek_Assassin_Movement_Ordered_Illegal_Move_2.wav
+					Greek_Assassin_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Assassin_Selected_1.wav
+					Greek_Assassin_Selected_2.wav
+					Greek_Assassin_Selected_3.wav
+				end
+		type Diplomat
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Diplomat_Death_Cry_1.wav
+					Greek_Diplomat_Death_Cry_2.wav
+					Greek_Diplomat_Death_Cry_3.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Diplomat_Joins_Army_1.wav
+					Greek_Diplomat_Joins_Army_2.wav
+					Greek_Diplomat_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Diplomat_Leaves_Army_1.wav
+					Greek_Diplomat_Leaves_Army_2.wav
+					Greek_Diplomat_Leaves_Army_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Diplomat_Movement_Completed_1.wav
+					Greek_Diplomat_Movement_Completed_2.wav
+					Greek_Diplomat_Movement_Completed_3.wav
+				end
+			vocal Movement_Diplomacy
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Diplomat_Movement_Diplomacy_1.wav
+					Greek_Diplomat_Movement_Diplomacy_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Diplomat_Movement_Disembark_1.wav
+					Greek_Diplomat_Movement_Disembark_2.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Diplomat_Movement_Embark_1.wav
+					Greek_Diplomat_Movement_Embark_2.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Diplomat_Movement_Ordered_1.wav
+					Greek_Diplomat_Movement_Ordered_2.wav
+					Greek_Diplomat_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Diplomat_Movement_Ordered_Illegal_Move_1.wav
+					Greek_Diplomat_Movement_Ordered_Illegal_Move_2.wav
+					Greek_Diplomat_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Diplomat_Selected_1.wav
+					Greek_Diplomat_Selected_2.wav
+					Greek_Diplomat_Selected_3.wav
+					Greek_Diplomat_Selected_4.wav
+					Greek_Diplomat_Selected_5.wav
+					Greek_Diplomat_Selected_6.wav
+				end
+		type General_1
+			vocal Ambushed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Ambushed_1.wav
+					Greek_General_1_Ambushed_2.wav
+					Greek_General_1_Ambushed_3.wav
+				end
+			vocal Attacking
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Attacking_1.wav
+					Greek_General_1_Attacking_2.wav
+					Greek_General_1_Attacking_3.wav
+				end
+			vocal Battle_lost_retreat
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Battle_lost_retreat_1.wav
+					Greek_General_1_Battle_lost_retreat_2.wav
+					Greek_General_1_Battle_lost_retreat_3.wav
+				end
+			vocal Battle_won
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Battle_won_1.wav
+					Greek_General_1_Battle_won_2.wav
+					Greek_General_1_Battle_won_3.wav
+				end
+			vocal Building_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Building_Fort_1.wav
+					Greek_General_1_Building_Fort_2.wav
+					Greek_General_1_Building_Fort_3.wav
+				end
+			vocal Building_Tower
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Building_Tower_1.wav
+				end
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Death_Cry_1.wav
+					Greek_General_1_Death_Cry_2.wav
+					Greek_General_1_Death_Cry_3.wav
+				end
+			vocal Dismantling_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Dismantling_Fort_1.wav
+					Greek_General_1_Dismantling_Fort_2.wav
+					Greek_General_1_Dismantling_Fort_3.wav
+				end
+			vocal Dismantling_Tower
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Dismantling_Tower_1.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_Joins_Army_1.wav
+					Greek_General_Joins_Army_2.wav
+					Greek_General_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_Leaves_Army_1.wav
+					Greek_General_Leaves_Army_2.wav
+					Greek_General_Leaves_Army_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Movement_Completed_1.wav
+					Greek_General_1_Movement_Completed_2.wav
+					Greek_General_1_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Movement_Disembark_1.wav
+					Greek_General_1_Movement_Disembark_2.wav
+					Greek_General_1_Movement_Disembark_3.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Movement_Embark_1.wav
+					Greek_General_1_Movement_Embark_2.wav
+					Greek_General_1_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Movement_Ordered_1.wav
+					Greek_General_1_Movement_Ordered_2.wav
+					Greek_General_1_Movement_Ordered_3.wav
+					Greek_General_1_Movement_Ordered_4.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Movement_Ordered_Illegal_Move_1.wav
+					Greek_General_1_Movement_Ordered_Illegal_Move_2.wav
+					Greek_General_1_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Placed_for_Ambush
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Placed_for_Ambush_1.wav
+					Greek_General_1_Placed_for_Ambush_2.wav
+					Greek_General_1_Placed_for_Ambush_3.wav
+					Greek_General_1_Placed_for_Ambush_4.wav
+				end
+			vocal Pursue_Retreating_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_pursue_Retreating_General_1_1.wav
+					Greek_General_1_pursue_Retreating_General_1_2.wav
+					Greek_General_1_pursue_Retreating_General_1_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Selected_1.wav
+					Greek_General_1_Selected_2.wav
+					Greek_General_1_Selected_3.wav
+					Greek_General_1_Selected_4.wav
+				end
+			vocal Settlement_Capture_Celebration
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_Settlement_Capture_Celebration_1.wav
+					Greek_General_1_Settlement_Capture_Celebration_2.wav
+					Greek_General_1_Settlement_Capture_Celebration_3.wav
+				end
+			vocal siege_Begun
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_siege_Begun_1.wav
+					Greek_General_1_siege_Begun_2.wav
+				end
+			vocal siege_Besieged
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_siege_Besieged_1.wav
+					Greek_General_1_siege_Besieged_2.wav
+					Greek_General_1_siege_Besieged_3.wav
+				end
+			vocal siege_Lifted
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_siege_Lifted_1.wav
+					Greek_General_1_siege_Lifted_2.wav
+					Greek_General_1_siege_Lifted_3.wav
+				end
+			vocal siege_Ongoing
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_General_1_siege_Ongoing_1.wav
+					Greek_General_1_siege_Ongoing_2.wav
+				end
+		type Spy
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Spy_Joins_Army_1.wav
+					Greek_Spy_Joins_Army_2.wav
+					Greek_Spy_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Spy_Leaves_Army_1.wav
+					Greek_Spy_Leaves_Army_2.wav
+					Greek_Spy_Leaves_Army_3.wav
+				end
+			vocal Movement_BlackOps
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Spy_Movement_BlackOps_1.wav
+					Greek_Spy_Movement_BlackOps_2.wav
+					Greek_Spy_Movement_BlackOps_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Spy_Movement_Completed_1.wav
+					Greek_Spy_Movement_Completed_2.wav
+					Greek_Spy_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Spy_Movement_Disembark_1.wav
+					Greek_Spy_Movement_Disembark_2.wav
+					Greek_Spy_Movement_Disembark_3.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Spy_Movement_Embark_1.wav
+					Greek_Spy_Movement_Embark_2.wav
+					Greek_Spy_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Spy_Movement_Ordered_1.wav
+					Greek_Spy_Movement_Ordered_2.wav
+					Greek_Spy_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Spy_Movement_Ordered_Illegal_Move_1.wav
+					Greek_Spy_Movement_Ordered_Illegal_Move_2.wav
+					Greek_Spy_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Spy_Selected_1.wav
+					Greek_Spy_Selected_2.wav
+					Greek_Spy_Selected_3.wav
+				end
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Greek_Spy_Death_Cry_1.wav
+					Greek_Spy_Death_Cry_2.wav
+					Greek_Spy_Death_Cry_3.wav
+				end
+	cultures Roman
+		type Admiral
+			vocal Attacked_Enemy
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Admiral_Attacked_Enemy_1.wav
+				end
+			vocal Attacking
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Admiral_Attacking_1.wav
+					Roman_Admiral_Attacking_2.wav
+					Roman_Admiral_Attacking_3.wav
+				end
+			vocal Battle_lost_retreat
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Admiral_Battle_lost_retreat_1.wav
+					Roman_Admiral_Battle_lost_retreat_2.wav
+					Roman_Admiral_Battle_lost_retreat_3.wav
+				end
+			vocal Battle_won
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Admiral_Battle_won_1.wav
+					Roman_Admiral_Battle_won_2.wav
+					; Roman_Admiral_Battle_won_3.wav
+				end
+			vocal Death_Cry
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					ship_sinking.wav
+					ship_sinking.wav
+					ship_sinking.wav
+				end
+			vocal Joins_Fleet
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Admiral_Joins_Fleet_1.wav
+					Roman_Admiral_Joins_Fleet_2.wav
+					Roman_Admiral_Joins_Fleet_3.wav
+				end
+			vocal Leaves_Fleet
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Admiral_Leaves_Fleet_1.wav
+					Roman_Admiral_Leaves_Fleet_2.wav
+					Roman_Admiral_Leaves_Fleet_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Admiral_Movement_Completed_1.wav
+					Roman_Admiral_Movement_Completed_2.wav
+					Roman_Admiral_Movement_Completed_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Admiral_Movement_Ordered_1.wav
+					Roman_Admiral_Movement_Ordered_2.wav
+					Roman_Admiral_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Admiral_Movement_Ordered_Illegal_Move_1.wav
+					Roman_Admiral_Movement_Ordered_Illegal_Move_2.wav
+					Roman_Admiral_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Pursue_Retreating_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Admiral_pursue_Retreating_Admiral_1.wav
+					Roman_Admiral_pursue_Retreating_Admiral_2.wav
+					Roman_Admiral_pursue_Retreating_Admiral_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Admiral_Selection_1.wav
+					Roman_Admiral_Selection_2.wav
+					Roman_Admiral_Selection_3.wav
+				end
+			vocal Units_Disembark
+				event delay 0 pref SFX
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					board_ship.wav
+					board_ship.wav
+				end
+			vocal Units_Embark
+				event delay 0 pref SFX
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					board_ship.wav
+					board_ship.wav
+					board_ship.wav
+				end
+		type Army
+			vocal Ambushed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Ambushed_1.wav
+					Roman_Army_Ambushed_2.wav
+					Roman_Army_Ambushed_3.wav
+				end
+			vocal Attacking
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Attacking_1.wav
+					Roman_Army_Attacking_2.wav
+					Roman_Army_Attacking_3.wav
+				end
+			vocal Battle_lost_retreat
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Battle_lost_retreat_1.wav
+					Roman_Army_Battle_lost_retreat_2.wav
+					Roman_Army_Battle_lost_retreat_3.wav
+				end
+			vocal Battle_won
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Battle_won_1.wav
+					; Roman_Army_Battle_won_2.wav
+					Roman_Army_Battle_won_3.wav
+				end
+			vocal Building_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Building_Fort_1.wav
+					Roman_Army_Building_Fort_2.wav
+					Roman_Army_Building_Fort_3.wav
+				end
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Death_Cry_1.wav
+					Roman_Army_Death_Cry_2.wav
+					Roman_Army_Death_Cry_3.wav
+				end
+			vocal Dismantling_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Dismantling_Fort_1.wav
+					Roman_Army_Dismantling_Fort_2.wav
+					Roman_Army_Dismantling_Fort_3.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Joins_Army_1.wav
+					Roman_Army_Joins_Army_2.wav
+					Roman_Army_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Leaves_Army_1.wav
+					Roman_Army_Leaves_Army_2.wav
+					Roman_Army_Leaves_Army_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Movement_Completed_1.wav
+					Roman_Army_Movement_Completed_2.wav
+					Roman_Army_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Movement_Disembark_1.wav
+					Roman_Army_Movement_Disembark_2.wav
+					Roman_Army_Movement_Disembark_3.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Movement_Embark_1.wav
+					Roman_Army_Movement_Embark_2.wav
+					Roman_Army_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Movement_Ordered_1.wav
+					Roman_Army_Movement_Ordered_2.wav
+					Roman_Army_Movement_Ordered_3.wav
+					Roman_Army_Movement_Ordered_4.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Movement_Ordered_Illegal_Move_1.wav
+					Roman_Army_Movement_Ordered_Illegal_Move_2.wav
+					Roman_Army_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Placed_for_Ambush
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Placed_for_Ambush_1.wav
+					Roman_Army_Placed_for_Ambush_2.wav
+					Roman_Army_Placed_for_Ambush_3.wav
+					Roman_Army_Placed_for_Ambush_4.wav
+				end
+			vocal Pursue_Retreating_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_pursue_Retreating_Army_1.wav
+					Roman_Army_pursue_Retreating_Army_2.wav
+					Roman_Army_pursue_Retreating_Army_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Selected_1.wav
+					Roman_Army_Selected_2.wav
+					Roman_Army_Selected_3.wav
+					Roman_Army_Selected_4.wav
+				end
+			vocal Settlement_Capture_Celebration
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_Settlement_Capture_Celebration_1.wav
+					Roman_Army_Settlement_Capture_Celebration_2.wav
+					Roman_Army_Settlement_Capture_Celebration_3.wav
+				end
+			vocal siege_Begun
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_siege_Begun_1.wav
+					Roman_Army_siege_Begun_2.wav
+				end
+			vocal siege_Besieged
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_siege_Besieged_1.wav
+					Roman_Army_siege_Besieged_2.wav
+					Roman_Army_siege_Besieged_3.wav
+				end
+			vocal siege_Lifted
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_siege_Lifted_1.wav
+					Roman_Army_siege_Lifted_2.wav
+					Roman_Army_siege_Lifted_3.wav
+				end
+			vocal siege_Ongoing
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Army_siege_Ongoing_1.wav
+					Roman_Army_siege_Ongoing_2.wav
+				end
+		type Assassin
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Assassin_Death_Cry_1.wav
+					Roman_Assassin_Death_Cry_2.wav
+					Roman_Assassin_Death_Cry_3.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Assassin_Joins_Army_1.wav
+					Roman_Assassin_Joins_Army_2.wav
+					Roman_Assassin_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Assassin_Leaves_Army_1.wav
+					Roman_Assassin_Leaves_Army_2.wav
+					Roman_Assassin_Leaves_Army_3.wav
+				end
+			vocal Movement_BlackOps
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Assassin_Movement_BlackOps_1.wav
+					Roman_Assassin_Movement_BlackOps_2.wav
+					Roman_Assassin_Movement_BlackOps_3.wav
+					Roman_Assassin_Movement_BlackOps_4.wav
+					Roman_Assassin_Movement_BlackOps_5.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Assassin_Movement_Completed_1.wav
+					Roman_Assassin_Movement_Completed_2.wav
+					Roman_Assassin_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Assassin_Movement_Disembark_1.wav
+					Roman_Assassin_Movement_Disembark_2.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Assassin_Movement_Embark_1.wav
+					Roman_Assassin_Movement_Embark_2.wav
+					Roman_Assassin_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Assassin_Movement_Ordered_1.wav
+					Roman_Assassin_Movement_Ordered_2.wav
+					Roman_Assassin_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Assassin_Movement_Ordered_Illegal_Move_1.wav
+					Roman_Assassin_Movement_Ordered_Illegal_Move_2.wav
+					Roman_Assassin_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Assassin_Selected_1.wav
+					Roman_Assassin_Selected_2.wav
+					Roman_Assassin_Selected_3.wav
+				end
+		type Diplomat
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Diplomat_Death_Cry_1.wav
+					Roman_Diplomat_Death_Cry_2.wav
+					Roman_Diplomat_Death_Cry_3.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Diplomat_Joins_Army_1.wav
+					Roman_Diplomat_Joins_Army_2.wav
+					Roman_Diplomat_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Diplomat_Leaves_Army_1.wav
+					Roman_Diplomat_Leaves_Army_2.wav
+					Roman_Diplomat_Leaves_Army_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Diplomat_Movement_Completed_1.wav
+					Roman_Diplomat_Movement_Completed_2.wav
+					Roman_Diplomat_Movement_Completed_3.wav
+				end
+			vocal Movement_Diplomacy
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Diplomat_Movement_Diplomacy_1.wav
+					Roman_Diplomat_Movement_Diplomacy_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Diplomat_Movement_Disembark_1.wav
+					Roman_Diplomat_Movement_Disembark_2.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Diplomat_Movement_Embark_1.wav
+					Roman_Diplomat_Movement_Embark_2.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Diplomat_Movement_Ordered_1.wav
+					Roman_Diplomat_Movement_Ordered_2.wav
+					Roman_Diplomat_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Diplomat_Movement_Ordered_Illegal_Move_1.wav
+					Roman_Diplomat_Movement_Ordered_Illegal_Move_2.wav
+					Roman_Diplomat_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Diplomat_Selected_1.wav
+					Roman_Diplomat_Selected_2.wav
+					Roman_Diplomat_Selected_3.wav
+					Roman_Diplomat_Selected_4.wav
+					Roman_Diplomat_Selected_5.wav
+					Roman_Diplomat_Selected_6.wav
+				end
+		type General_1
+			vocal Ambushed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Ambushed_1.wav
+					Roman_General_1_Ambushed_2.wav
+					Roman_General_1_Ambushed_3.wav
+				end
+			vocal Attacking
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Attacking_1.wav
+					Roman_General_1_Attacking_2.wav
+					Roman_General_1_Attacking_3.wav
+				end
+			vocal Battle_lost_retreat
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Battle_lost_retreat_1.wav
+					Roman_General_1_Battle_lost_retreat_2.wav
+					Roman_General_1_Battle_lost_retreat_3.wav
+				end
+			vocal Battle_won
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Battle_won_1.wav
+					; Roman_General_1_Battle_won_2.wav
+					Roman_General_1_Battle_won_3.wav
+				end
+			vocal Building_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Building_Fort_1.wav
+					Roman_General_1_Building_Fort_2.wav
+					Roman_General_1_Building_Fort_3.wav
+				end
+			vocal Building_Tower
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Building_Tower_1.wav
+				end
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Death_Cry_1.wav
+					Roman_General_1_Death_Cry_2.wav
+					Roman_General_1_Death_Cry_3.wav
+				end
+			vocal Dismantling_Fort
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Dismantling_Fort_1.wav
+					Roman_General_1_Dismantling_Fort_2.wav
+					Roman_General_1_Dismantling_Fort_3.wav
+				end
+			vocal Dismantling_Tower
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Dismantling_Tower_1.wav
+				end
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_Joins_Army_1.wav
+					Roman_General_Joins_Army_2.wav
+					Roman_General_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_Leaves_Army_1.wav
+					Roman_General_Leaves_Army_2.wav
+					Roman_General_Leaves_Army_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Movement_Completed_1.wav
+					Roman_General_1_Movement_Completed_2.wav
+					Roman_General_1_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Movement_Disembark_1.wav
+					Roman_General_1_Movement_Disembark_2.wav
+					Roman_General_1_Movement_Disembark_3.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Movement_Embark_1.wav
+					Roman_General_1_Movement_Embark_2.wav
+					Roman_General_1_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Movement_Ordered_1.wav
+					Roman_General_1_Movement_Ordered_2.wav
+					Roman_General_1_Movement_Ordered_3.wav
+					Roman_General_1_Movement_Ordered_4.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Movement_Ordered_Illegal_Move_1.wav
+					Roman_General_1_Movement_Ordered_Illegal_Move_2.wav
+					Roman_General_1_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Placed_for_Ambush
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Placed_for_Ambush_1.wav
+					Roman_General_1_Placed_for_Ambush_2.wav
+					Roman_General_1_Placed_for_Ambush_3.wav
+					Roman_General_1_Placed_for_Ambush_4.wav
+				end
+			vocal Pursue_Retreating_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_pursue_Retreating_General_1_1.wav
+					Roman_General_1_pursue_Retreating_General_1_2.wav
+					Roman_General_1_pursue_Retreating_General_1_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Selected_1.wav
+					Roman_General_1_Selected_2.wav
+					Roman_General_1_Selected_3.wav
+					Roman_General_1_Selected_4.wav
+				end
+			vocal Settlement_Capture_Celebration
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_Settlement_Capture_Celebration_1.wav
+					Roman_General_1_Settlement_Capture_Celebration_2.wav
+					Roman_General_1_Settlement_Capture_Celebration_3.wav
+				end
+			vocal siege_Begun
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_siege_Begun_1.wav
+					Roman_General_1_siege_Begun_2.wav
+				end
+			vocal siege_Besieged
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_siege_Besieged_1.wav
+					Roman_General_1_siege_Besieged_2.wav
+					Roman_General_1_siege_Besieged_3.wav
+				end
+			vocal siege_Lifted
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_siege_Lifted_1.wav
+					Roman_General_1_siege_Lifted_2.wav
+					Roman_General_1_siege_Lifted_3.wav
+				end
+			vocal siege_Ongoing
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_General_1_siege_Ongoing_1.wav
+					Roman_General_1_siege_Ongoing_2.wav
+				end
+		type Spy
+			vocal Entering_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_close.wav
+					door_close.wav
+					door_close.wav
+				end
+			vocal Exiting_City
+				event delay 0 pref SFX volume 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					door_open.wav
+					door_open.wav
+					door_open.wav
+				end
+			vocal Joins_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Spy_Joins_Army_1.wav
+					Roman_Spy_Joins_Army_2.wav
+					Roman_Spy_Joins_Army_3.wav
+				end
+			vocal Leaves_Army
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Spy_Leaves_Army_1.wav
+					Roman_Spy_Leaves_Army_2.wav
+					Roman_Spy_Leaves_Army_3.wav
+				end
+			vocal Movement_BlackOps
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Spy_Movement_BlackOps_1.wav
+					Roman_Spy_Movement_BlackOps_2.wav
+					Roman_Spy_Movement_BlackOps_3.wav
+				end
+			vocal Movement_Completed
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Spy_Movement_Completed_1.wav
+					Roman_Spy_Movement_Completed_2.wav
+					Roman_Spy_Movement_Completed_3.wav
+				end
+			vocal Movement_Disembark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Spy_Movement_Disembark_1.wav
+					Roman_Spy_Movement_Disembark_2.wav
+					Roman_Spy_Movement_Disembark_3.wav
+				end
+			vocal Movement_Embark
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Spy_Movement_Embark_1.wav
+					Roman_Spy_Movement_Embark_2.wav
+					Roman_Spy_Movement_Embark_3.wav
+				end
+			vocal Movement_Ordered
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Spy_Movement_Ordered_1.wav
+					Roman_Spy_Movement_Ordered_2.wav
+					Roman_Spy_Movement_Ordered_3.wav
+				end
+			vocal Movement_Ordered_Illegal_Move
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Spy_Movement_Ordered_Illegal_Move_1.wav
+					Roman_Spy_Movement_Ordered_Illegal_Move_2.wav
+					Roman_Spy_Movement_Ordered_Illegal_Move_3.wav
+				end
+			vocal Selected
+				event 
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Spy_Selected_1.wav
+					Roman_Spy_Selected_2.wav
+					Roman_Spy_Selected_3.wav
+				end
+			vocal Death_Cry
+				event delay 0
+					folder data/sounds/Voice/Human/Localized/Camp_Map
+					Roman_Spy_Death_Cry_1.wav
+					Roman_Spy_Death_Cry_2.wav
+					Roman_Spy_Death_Cry_3.wav
+				end

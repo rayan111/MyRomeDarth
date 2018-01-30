@@ -1,0 +1,129 @@
+romans_senate
+imperator
+
+romans_julii
+imperator
+short_campaign outlive_factions
+gauls
+
+romans_brutii
+imperator
+short_campaign outlive_factions
+macedon greek_cities
+
+romans_scipii
+imperator
+short_campaign outlive_factions
+carthage numidia
+
+macedon
+;take_rome
+hold_regions Macedonia Thessalia Epirus Paionia Aetolia Apulia Umbria Propontis Thrace Bithynia
+take_regions 30 
+short_campaign outlive_factions
+greek_cities thrace
+
+egypt
+;take_rome 
+hold_regions Nile_Delta Middle_Egypt Thebais Judaea Phoenicia Cyprus Libya Syria Galatia
+take_regions 30 
+short_campaign outlive_factions
+seleucid armenia
+
+seleucid
+;take_rome 
+hold_regions Syria Babylonia Coele_Syria Ionia Assyria Lycia Cilicia Phoenicia Judaea 
+take_regions 30 
+short_campaign outlive_factions
+egypt
+
+carthage
+;take_rome
+hold_regions Africa Sicilia_Poeni Sardinia Baetica Hispania Byzacium Numidia Mauretania Baliares Sicilia_Romanus Campania Celtiberia Taraconenis
+take_regions 30  
+short_campaign outlive_factions
+romans_scipii spain
+
+parthia
+;take_rome
+hold_regions Media Elymais Arabia Regnum_Palmyrae Babylonia Phrygia 
+take_regions 30  
+short_campaign outlive_factions
+seleucid armenia
+
+pontus
+;take_rome 
+hold_regions Pontus Cappadocia Bithynia Galatia Armenia Propontis
+take_regions 30 
+short_campaign outlive_factions
+armenia thrace
+
+gauls
+;take_rome
+hold_regions Central_Gaul Venetia Cisalpine_Gaul Narbonensis Transalpine_Gaul Aquitania Armorica Lugdinensis Etruria Umbria Liguria Latium
+take_regions 30   
+short_campaign outlive_factions
+romans_julii romans_senate
+
+germans
+;take_rome 
+hold_regions Belgica Germania_Superior Germania_Inferior Tribus_Chattii Boihaemum Agri_Decumates Locus_Gothi Tribus_Saxones Britannia_Superior Cisalpine_Gaul
+take_regions 30   
+short_campaign outlive_factions
+dacia scythia
+
+britons
+;take_rome 
+hold_regions Britannia_Superior Tribus_Silurii Britannia_Inferior Hibernia Belgica Tribus_Saxones
+take_regions 30 
+short_campaign outlive_factions
+gauls
+
+armenia
+;take_rome 
+hold_regions Armenia Colchis Atropatene Bosphorus Pontus Cappadocia 
+take_regions 30 
+short_campaign outlive_factions
+seleucid
+
+dacia
+;take_rome 
+hold_regions Pannonia Dacia Tribus_Iazyges Pripet Illyria Dalmatia Noricum
+take_regions 30 
+short_campaign outlive_factions
+macedon thrace
+
+greek_cities
+;take_rome 
+hold_regions Attica Peloponnesus Laconia Crete Rhodos Sicilia_Graecus Sicilia_Romanus Bruttium Phrygia Ionia Lycia
+take_regions 30 
+short_campaign outlive_factions
+macedon thrace
+
+numidia
+;take_rome 
+hold_regions Gaetulia Sahara Tripolitania Cyrenaica Libya Middle_Egypt Nile_Delta Thebais
+take_regions 30
+short_campaign outlive_factions
+carthage
+
+scythia
+;take_rome 
+hold_regions Scythia Tribus_Sarmatae Tribus_Alanni Tribus_Sakae Maeotis Bosphorus Pripet Locus_Gepidae Tribus_Getae
+take_regions 30
+short_campaign outlive_factions
+dacia thrace
+
+spain
+;take_rome 
+hold_regions Celtiberia Lusitania Gallaecia Taraconenis Hispania Baetica 
+take_regions 30
+short_campaign outlive_factions
+carthage
+
+thrace
+;take_rome 
+hold_regions Propontis Thrace Tribus_Getae 
+take_regions 30
+short_campaign outlive_factions
+macedon

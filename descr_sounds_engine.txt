@@ -1,0 +1,737 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Engine movement bank
+;;
+;; classes: ballista catapult scorpion tower ram ladder sap_point
+;;			chariot (special case)
+;; drawn from SIEGE_ENGINE_CLASS
+;;
+;; types: ballista onager scorpion siege_tower middle_tower heliopolis
+;;		  tortoise_ram eastern_ram open_frame_ram town_ladder sap_point
+;; a list of RCID
+;;
+;; from descr_engines.txt (17/06/2003 16:11)
+;;
+;; type             class
+;;---------------------------
+;; ballista         ballista
+;; onager           catapult
+;; scorpion         scorpion
+;; siege_tower      tower
+;; middle_tower     tower
+;; heliopolis       tower
+;; tortoise_ram     ram
+;; eastern_ram      ram
+;; open_frame_ram   ram
+;; town_ladder      ladder
+;; sap_point        sap_point
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: 3d mindist 5 minPitch .8 maxPitch 1.2 priority 70 fadein .5 fadeout 2 Volume 0 probability 1 distancepriority 0 randomdelay .25 effect_level .25
+
+BANK: engine_move
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;  SCORPION  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+	class scorpion
+			season spring, summer, autumn
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock
+					event lod 1 volume -40 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Scorpion/Grass
+						Siege_Scorp_Move_Grass_01
+						Siege_Scorp_Move_Grass_02
+						Siege_Scorp_Move_Grass_03
+					end
+					event lod 2 volume -55 mindist 3
+						folder data/sounds/SFX/Group/Siege/Scorpion
+						Siege_Group_Scorpion_Move_Grass
+						
+					end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+					
+			season spring, summer, autumn
+				terrain  stone_road
+					event lod 1 volume -40 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Scorpion/Stone
+					    Siege_Scorp_Move_Stone_01
+						Siege_Scorp_Move_Stone_02
+						Siege_Scorp_Move_Stone_03
+					end
+					event lod 2 volume -55 mindist 3
+						folder data/sounds/SFX/Group/Siege/Scorpion
+						Siege_Group_Scorpion_Move_Stone
+						
+					end				
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+			season spring, summer, autumn
+	       			terrain  water
+					event lod 1 volume -40 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Scorpion/Water
+						Siege_Scorp_Move_Water_01
+						Siege_Scorp_Move_Water_02
+						Siege_Scorp_Move_Water_03
+					end
+					event lod 2 volume -55 mindist 3
+						folder data/sounds/SFX/Group/Siege/Scorpion
+						Siege_Group_Scorpion_Move_water
+						
+					end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+			season spring, summer, autumn
+				terrain swamp, mud, mud_road
+					event lod 1 volume -40 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Scorpion/Mud
+						Siege_Scorp_Move_Mud_01
+						Siege_Scorp_Move_Mud_02
+						Siege_Scorp_Move_Mud_03
+					end
+					event lod 2 volume -55 mindist 3
+						folder data/sounds/SFX/Group/Siege/Scorpion
+						Siege_Group_Scorpion_Move_mud
+						
+					end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+					
+			season spring, summer, autumn, winter
+				terrain wood
+					event lod 1 volume -40 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Scorpion/Wood
+						Siege_Scorp_Move_Wood_01
+						Siege_Scorp_Move_Wood_02
+						Siege_Scorp_Move_Wood_03
+					end
+					event lod 2 volume -55 mindist 3
+						folder data/sounds/SFX/Group/Siege/Scorpion
+						Siege_Group_Scorpion_Move_wood
+						
+					end
+
+;;;;;;;;;;;;;;;;;;; ICE ;;;;;;;;;
+			season winter
+			climates temperate_grassland_fertile, temperate_grassland_infertile, temperate_forest_open, temperate_forest_deep, highland, alpine, sub_arctic
+				terrain ice
+					event lod 1 volume -40 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Scorpion/stone
+						Siege_Scorp_Move_Stone_01
+						Siege_Scorp_Move_Stone_02
+						Siege_Scorp_Move_Stone_03
+			       	end
+					event lod 2 volume -55 mindist 3
+						folder data/sounds/SFX/Group/Siege/Scorpion
+						Siege_Group_Scorpion_Move_stone
+						
+					end
+
+;;;;;;;;;;;;;;;;; SNOW ;;;;;;;;;;
+			season winter
+			climates temperate_grassland_fertile, temperate_grassland_infertile, temperate_forest_open, temperate_forest_deep, highland, alpine, sub_arctic
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock
+					event lod 1 volume -40 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Scorpion/snow
+						Siege_Scorp_Move_Snow_01
+						Siege_Scorp_Move_Snow_02
+						Siege_Scorp_Move_Snow_03
+			       	end
+					event lod 2 volume -55 mindist 3
+						folder data/sounds/SFX/Group/Siege/Scorpion
+						Siege_Group_Scorpion_Move_snow
+						
+					end	       	
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;  BALLISTA  ;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+	class ballista
+			season spring, summer, autumn
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock
+					event lod 1 volume -5 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Ballista/Grass
+						Siege_Ball_Move_Grass_03
+						Siege_Ball_Move_Grass_04
+						Siege_Ball_Move_Grass_05
+
+					end
+
+					event lod 2 volume 0 mindist 4
+					folder data/sounds/SFX/Group/Siege/Ballista
+						Siege_Group_Ball_Move_Grass
+						
+					end
+					
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;					
+					
+				terrain  stone_road
+					event lod 1 volume -20 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Ballista/Stone
+						Siege_Ball_Move_Stone_01
+						Siege_Ball_Move_Stone_02
+						Siege_Ball_Move_Stone_03
+
+					end
+					event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Ballista
+						Siege_Group_Ball_Move_Stone
+						
+					end
+					
+					
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;					
+
+	       			terrain  water
+					event lod 1 volume -20 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Ballista/Water
+						Siege_Ball_Move_Water_01
+						Siege_Ball_Move_Water_02
+						Siege_Ball_Move_Water_03
+
+					end
+
+					event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Ballista
+						Siege_Group_Ball_Move_Water
+						
+					end
+					
+						
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+			        terrain  swamp, mud, mud_road
+					event lod 1 volume -20 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Ballista/Mud
+						Siege_Ball_Move_Mud
+
+					end
+
+					event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Ballista
+						Siege_Group_Ball_Move_mud
+						
+					end
+					
+					
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+				terrain wood
+					event lod 1 volume -20 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Ballista/Wood
+						Siege_Ball_Move_Wood_01
+						Siege_Ball_Move_Wood_02
+						Siege_Ball_Move_Wood_03
+
+
+					end
+
+					event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Ballista
+						Siege_Group_Ball_Move_wood
+						
+					end					
+					
+					
+
+;;;;;;;;;;;;;;; ICE ;;;;;;;;;;;;;;;
+			season winter
+			climates temperate_grassland_fertile, temperate_grassland_infertile, temperate_forest_open, temperate_forest_deep, highland, alpine, sub_arctic
+				terrain ice
+					event lod 1 volume -20 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Ballista/stone
+						Siege_Ball_Move_Stone_01
+						Siege_Ball_Move_Stone_02
+						Siege_Ball_Move_Stone_03
+
+			        	end
+					event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Ballista
+						Siege_Group_Ball_Move_stone
+						
+					end
+
+;;;;;;;;;;;;;; SNOW ;;;;;;;;;;;;;
+			season winter
+			climates temperate_grassland_fertile, temperate_grassland_infertile, temperate_forest_open, temperate_forest_deep, highland, alpine, sub_arctic
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock
+					event lod 1 volume -25 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Ballista/snow
+						Siege_Ball_Move_Snow_01
+						Siege_Ball_Move_Snow_02
+						Siege_Ball_Move_Snow_03
+
+			        		end
+
+					event lod 2 volume -10 mindist 4
+					folder data/sounds/SFX/Group/Siege/Ballista
+						Siege_Group_Ball_Move_snow
+						
+					end
+
+					
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;  ONAGER  ;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	      class onager
+			season spring, summer, autumn
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock
+					event lod 1 volume -5 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Onager/Grass
+						Siege_Onager_Move_Grass
+
+					end
+					event lod 2 volume 0 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+						Siege_Group_Onager_Move_Grass
+						
+					end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+				terrain  stone_road
+					event lod 1 volume -10 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Onager/Stone
+						Siege_Onager_Move_Stone
+
+					end
+				event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+						Siege_Group_Onager_Move_Stone
+						
+					end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	       		terrain  water
+					event lod 1 volume -10 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Onager/Water
+						Siege_Onager_Move_Water
+
+					end
+					event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+						Siege_Group_Onager_Move_water
+						
+					end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+				terrain  swamp, mud, mud_road
+					event lod 1 volume -10 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Onager/Mud
+						Siege_Onager_Move_Mud
+
+					end
+				event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+						Siege_Group_Onager_Move_mud
+						
+					end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+				terrain wood
+					event lod 1 volume -10 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Onager/Wood
+						Siege_Onager_Move_Wood
+
+					end
+					event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+						Siege_Group_Onager_Move_wood
+						
+					end
+					
+;;;;;;;;;;;;;;;;;;;;;;;;  ICE  ;;;;;;;;;;;
+			season winter
+			climates temperate_grassland_fertile, temperate_grassland_infertile, temperate_forest_open, temperate_forest_deep, highland, alpine, sub_arctic
+				terrain ice
+					event lod 1 volume -10 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Onager/Stone
+						Siege_Onager_Move_Stone
+			        		end
+					event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+						Siege_Group_Onager_Move_stone
+						
+					end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;; SNOW ;;;;;;;;;;;;;;
+			season winter
+			climates temperate_grassland_fertile, temperate_grassland_infertile, temperate_forest_open, temperate_forest_deep, highland, alpine, sub_arctic
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock
+					event lod 1 volume -15 mindist 1
+						folder data/sounds/SFX/Individual/Siege_Engines/Onager/Snow
+						Siege_Onager_Move_Snow
+
+			        		end
+					event lod 2 volume -10 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+						Siege_Group_Onager_Move_snow
+						
+					end
+
+					
+					
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;  RAM  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	      class ram
+			season spring, summer, autumn
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock
+					event lod 1 volume 0
+						folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+						Siege_Ram_Move_Grass_03
+
+					end
+
+
+				terrain  stone_road
+					event lod 1 volume 0
+						folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+						Siege_Ram_Move_Stone_02
+
+					end
+
+
+	       			terrain  water
+					event lod 1 volume 0
+						folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+						Siege_Ram_Move_Water
+
+					end
+
+
+				terrain  swamp, mud, mud_road
+					event lod 1 volume 0
+						folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+						Siege_Ram_Move_Mud
+
+					end
+
+
+				terrain wood
+					event lod 1 volume 0
+						folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+						Siege_Ram_Move_Wood
+
+					end
+
+			;;;;  ICE  ;;;;
+			season winter
+			climates temperate_grassland_fertile, temperate_grassland_infertile, temperate_forest_open, temperate_forest_deep, highland, alpine, sub_arctic
+				terrain ice
+					event lod 1 volume 0
+						folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+						Siege_Ram_Move_Stone
+			        		end
+
+
+
+			;;;; SNOW ;;;;
+			season winter
+			climates temperate_grassland_fertile, temperate_grassland_infertile, temperate_forest_open, temperate_forest_deep, highland, alpine, sub_arctic
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock
+					event lod 1 volume 0
+						folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+						Siege_Ram_Move_Snow
+
+			        		end
+
+;;;;;;;;;;;;;;;;;
+;;;;  TOWER ;;;;;
+;;;;;;;;;;;;;;;;;
+
+	class tower
+			season spring, summer, autumn
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock
+					event lod 1 volume 0 mindist 10
+						folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/Grass
+						Siege_Tower_Move_Grass
+
+					end
+
+
+				terrain  stone_road
+					event lod 1 mindist 10
+						folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/Stone
+						Siege_Tower_Move_Stone
+
+					end
+
+
+	       			terrain  water
+					event lod 1 mindist 10
+						folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/Water
+						Siege_Tower_Move_Water
+
+					end
+
+
+				terrain  swamp, mud, mud_road
+					event lod 1 mindist 10
+						folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/Mud
+						Siege_Tower_Move_Mud
+
+					end
+
+
+				terrain wood
+					event lod 1 mindist 10
+						folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/Wood
+						Siege_Tower_Move_Wood
+
+
+
+					end
+
+
+			;;;; ICE ;;;;
+			season winter
+			climates temperate_grassland_fertile, temperate_grassland_infertile, temperate_forest_open, temperate_forest_deep, highland, alpine, sub_arctic
+				terrain ice
+					event lod 1 mindist 10
+						folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/stone
+						Siege_Tower_Move_Stone
+
+			        		end
+
+
+			;;;; SNOW ;;;;
+			season winter
+			climates temperate_grassland_fertile, temperate_grassland_infertile, temperate_forest_open, temperate_forest_deep, highland, alpine, sub_arctic
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock
+					event lod 1 mindist 10 volume -15
+						folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/snow
+						Siege_Tower_Move_Snow
+
+			        		end
+
+
+
+
+;;;;;;;;;;;;;;;;;;;
+;;;;  CHARIOT ;;;;;
+;;;;;;;;;;;;;;;;;;;
+
+	class chariot
+			season spring, summer, autumn
+				terrain  grass_short, grass_long, forest_dense, scrub_dense, rock, swamp, mud, mud_road, sand, stone_road, wood
+					event lod 1 volume 0 mindist 2
+						folder data/sounds/SFX/Individual/Footsteps/Chariots/Grass
+						Chariot_FS_Walk_Blade_01b
+						Chariot_FS_Walk_Blade_02b
+						end
+					
+
+
+				terrain  water
+					event lod 1 volume 0 mindist 2
+						folder data/sounds/SFX/Individual/Footsteps/Chariots/Water
+						Chariot_Walk_Water_01
+						Chariot_Walk_Water_02
+						Chariot_Walk_Water_03
+					end
+
+
+
+			;;;; ICE ;;;;
+			season winter
+			climates temperate_grassland_fertile, temperate_grassland_infertile, temperate_forest_open, temperate_forest_deep, highland, alpine, sub_arctic
+				terrain ice
+					event lod 1 mindist 2
+						folder data/sounds/SFX/Individual/Footsteps/Chariots/Grass
+						Chariot_FS_Walk_Blade_01b
+						Chariot_FS_Walk_Blade_02b
+			        		end
+
+
+			;;;; SNOW ;;;;
+			season winter
+			climates temperate_grassland_fertile, temperate_grassland_infertile, temperate_forest_open, temperate_forest_deep, highland, alpine, sub_arctic
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock
+					event lod 1 volume 0 mindist 2
+						folder data/sounds/SFX/Individual/Footsteps/Chariots/Snow
+						Chariot_Walk_Snow_01
+						Chariot_Walk_Snow_02
+						Chariot_Walk_Snow_03
+			        		end
+
+
+			        					        		
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;     ENGINE  AMBIENT    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+DEFAULT: probability 0.05 volume 0 rndvolume -10 minpitch .7 maxpitch 1.1 mindist 1.5 fadein 0 fadeout 0
+
+BANK: engine_ambient
+
+	class onager
+			season spring, summer, autumn
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock, stone_road, mud, mud_road, wood, ice, water, swamp
+					event  
+						folder data/sounds/SFX/Individual/Movement
+						Onager_Creak_01
+						Onager_Creak_02
+						Onager_Creak_03
+						Onager_Creak_04
+						Onager_Creak_05
+						Onager_Creak_06
+						
+						end
+
+	class tower
+			season spring, summer, autumn
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock, stone_road, mud, mud_road, wood, ice, water, swamp
+					event  
+						folder data/sounds/SFX/Individual/Movement
+						Onager_Creak_01
+						Onager_Creak_02
+						Onager_Creak_03
+						Onager_Creak_04
+						Onager_Creak_05
+						Onager_Creak_06
+						
+						end
+						
+	class ram
+			season spring, summer, autumn
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock, stone_road, mud, mud_road, wood, ice, water, swamp
+					event  
+										
+					folder data/sounds/SFX/Individual/Movement
+						ballista_Creak_01
+						ballista_Creak_02
+						ballista_Creak_03
+						ballista_Creak_04
+						ballista_Creak_05
+						ballista_Creak_06
+						ballista_Creak_07
+						ballista_Creak_08
+						ballista_Creak_08
+						Onager_Creak_01
+						Onager_Creak_02
+						Onager_Creak_03
+						Onager_Creak_04
+						Onager_Creak_05
+						Onager_Creak_06
+						
+						
+						end
+						
+						
+										
+						
+	class ballista
+			season spring, summer, autumn
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock, stone_road, mud, mud_road, wood, ice, water, swamp
+					event  minpitch .8 maxpitch 1.1 
+						
+					
+					folder data/sounds/SFX/Individual/Movement
+						ballista_Creak_01
+						ballista_Creak_02
+						ballista_Creak_03
+						ballista_Creak_04
+						ballista_Creak_05
+						ballista_Creak_06
+						ballista_Creak_07
+						ballista_Creak_08
+						ballista_Creak_08
+						
+						end
+						
+	class scorpion
+			season spring, summer, autumn
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock, stone_road, mud, mud_road, wood, ice, water, swamp
+					event  minpitch .9 maxpitch 1.1 
+					
+					
+					folder data/sounds/SFX/Individual/Movement
+						scorpion_creak_01
+						scorpion_creak_02
+						scorpion_creak_03
+						scorpion_creak_04
+						scorpion_creak_05
+						scorpion_creak_06
+						scorpion_creak_07
+						scorpion_creak_08
+												
+						end				
+						
+						
+	class chariot
+			season spring, summer, autumn
+				terrain  grass_short, grass_long, sand, forest_dense, scrub_dense, rock, stone_road, mud, mud_road, wood, ice, water, swamp
+					event  minpitch .8 maxpitch 1.1  
+									
+					folder data/sounds/SFX/Individual/Movement
+						ballista_Creak_01
+						ballista_Creak_02
+						ballista_Creak_03
+						ballista_Creak_04
+						ballista_Creak_05
+						ballista_Creak_06
+						ballista_Creak_07
+						ballista_Creak_08
+						ballista_Creak_08
+						scorpion_creak_01
+						scorpion_creak_02
+						scorpion_creak_03
+						scorpion_creak_04
+						scorpion_creak_05
+						scorpion_creak_06
+						scorpion_creak_07
+						scorpion_creak_08
+						end		
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;     ENGINE  ALIGHT    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: 3d mindist 3 minPitch 1 maxPitch 1 priority 240 fadein 0.25 fadeout 0.5 Volume 0 probability 1 distancepriority 0 
+BANK: engine_alight
+
+	class onager
+		event  looped
+			folder data/sounds/SFX/Structure/Buildings
+			building_on_fire_med
+		end
+
+	class tower
+		event  looped mindist 5
+			folder data/sounds/SFX/Structure/Buildings
+			building_on_fire_high
+		end
+						
+	class ram
+		event  looped
+			folder data/sounds/SFX/Structure/Buildings
+			building_on_fire_med
+		end
+						
+	class ballista
+		event  looped
+			folder data/sounds/SFX/Structure/Buildings
+			building_on_fire_med
+		end
+						
+	class scorpion
+		event  looped  mindist 2 volume -15
+			folder data/sounds/SFX/Structure/Buildings
+			building_on_fire_med
+		end
+						
+						
+	class chariot
+		event  looped mindist 2 volume -15
+			folder data/sounds/SFX/Structure/Buildings
+			building_on_fire_med
+		end

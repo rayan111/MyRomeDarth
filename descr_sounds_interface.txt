@@ -1,0 +1,1883 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;FRONTEND AND GLOBAL GUI SFX
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;   power pan level from 0 (hard-left) to 1.0 (hard-right).
+;;;;;;;    0.5 - centre
+
+
+
+DEFAULT: 1d priority 250 volume -30 fadein 0 fadeout 0
+DEFAULT: randomdelay 0 rndvolume 0 pan .5
+DEFAULT: dry_level 1 wet_level 1 delay 0 minpitch 1.0 maxpitch 1.0
+DEFAULT: pref INTERFACE
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; list of types:
+;   normal
+;   battle
+;   strat
+;   strat_v2
+
+; list of modes:
+; 	attack
+; 	attack_range
+; 	attack_thrown
+; 	attack_siege
+; 	attack_range_out_of_range
+; 	attack_thrown_out_of_range
+; 	attack_siege_out_of_range
+; 	move
+; 	move_in_range
+; 	move_out_of_range
+; 	select
+; 	timer
+; 	cohort
+; 	step_left
+; 	step_right
+; 	step_fwd
+; 	step_back
+; 	rotate_right
+; 	rotate_left
+; 	mouse_look
+; 	click_down
+; 	exchange
+; 	default_action
+; 	no_action
+; 	enter_settlement
+; 	disembark
+; 	set_rally_point
+; 	set_rally_point_and_select
+; 	object_placement
+; 	pickup_equipment
+; 	enter
+
+BANK: cursor_click
+
+	type battle
+		
+	mode attack
+			event volume -25
+				folder data/sounds/SFX/interface/battlefield
+				Metalicius_Low
+			end
+		
+			double
+			event 
+				folder data/sounds/SFX/interface/battlefield
+				run_swoosh_07b volume -35
+			end
+			
+			
+	mode attack_range
+			event volume -25
+				folder data/sounds/SFX/interface/battlefield
+				Metalicius_Low  
+			end
+		
+			double
+			event 
+				folder data/sounds/SFX/interface/battlefield
+				run_swoosh_07b volume -35
+			end
+			
+			
+			
+	mode attack_thrown
+			event volume -25
+				folder data/sounds/SFX/interface/battlefield
+				Metalicius_Low 
+			end
+		
+			double
+			event 
+				folder data/sounds/SFX/interface/battlefield
+				run_swoosh_07b volume -35
+			end
+			
+			
+			
+	mode attack_siege
+			event 
+				folder data/sounds/SFX/interface/battlefield
+				siege_attack_05
+			end
+				
+				
+	mode move, move_in_range, move_out_of_range
+			event volume -25 minpitch 1.0 maxpitch 1.0 dry_level .9 wet_level 1
+				folder data/sounds/SFX/interface/battlefield
+				move_02
+			end
+			
+			double
+			event 
+				folder data/sounds/SFX/interface/battlefield
+				run_swoosh_07b volume -35
+			end
+
+			
+;;;;;;;   triggers when cursor right-clicks an invalid position		
+	mode select
+			event 
+				folder data/sounds/SFX/interface/battlefield
+				
+			end
+			
+;;;;;;;;;;;;;;;;;;;;;;;;;;		
+
+			
+		mode attack_range_out_of_range
+			event volume -25 dry_level 0.9 wet_level 1
+				folder data/sounds/SFX/interface/battlefield
+				attack_out_of_range_01
+			end
+			
+		mode attack_thrown_out_of_range
+			event volume -25 dry_level 0.9 wet_level 1
+				folder data/sounds/SFX/interface/battlefield
+				attack_out_of_range_01
+			end
+			
+		mode attack_siege_out_of_range
+			event volume -25 dry_level 0.9 wet_level 1
+				folder data/sounds/SFX/interface/battlefield
+				attack_out_of_range_01
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;			
+			
+		mode pickup_equipment
+			event
+				folder data/sounds/SFX/interface/battlefield
+				grab_siege_06
+			end		
+
+		mode enter
+			event
+				folder data/sounds/SFX/interface/battlefield
+				grab_siege_06
+			end				
+			
+;;;;;;;;;;;;;;;;;;;;
+
+			
+	type strat_v2
+		mode attack
+			event volume -40
+				folder data/sounds/SFX/interface/battlefield
+				Metalicius_Low
+			end
+			
+		mode move
+			event  volume -40 dry_level 0.9 wet_level 1
+				folder data/sounds/SFX/interface/battlefield
+				Move_02
+			end
+			
+		mode select
+			event  volume -40
+				folder data/sounds/SFX/interface/battlefield
+				
+			end
+
+		mode exchange
+			event  volume -40 dry_level 0.9 wet_level 1
+				folder data/sounds/SFX/interface/battlefield
+				Move_02
+			end			
+
+		mode enter_settlement
+			event  volume -40 dry_level 0.9 wet_level 1
+				folder data/sounds/SFX/interface/battlefield
+				Move_02
+			end				
+						
+; we need this here to signal the end of the bank
+DEFAULT: 1d volume -10
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;   COMMONLY USED
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event STRAT_SELECT_CARD volume -35  dry_level 1 wet_level .5
+folder data/sounds/SFX/interface/battlefield
+card_select_02
+end
+
+event STRAT_DESELECT_CARD volume -35 dry_level 1 wet_level .5
+folder data/sounds/SFX/interface/battlefield
+card_deselect_02
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event BATTLE_UI_START_DRAG_FORMATION volume 0 minpitch 1.0 maxpitch 1.0 dry_level 0.9 wet_level 1
+folder data/sounds/SFX/interface/Battlefield
+drag_formation_07
+end
+
+
+event BATTLE_UI_END_DRAG_FORMATION volume -25 minpitch 1.0 maxpitch 1.0 dry_level 0.9 wet_level 1
+folder data/sounds/SFX/interface/Battlefield
+move_02
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+event BATTLE_UI_START_DRAG_SELECTION volume -5 minpitch 1.0 maxpitch 1.0 dry_level 0.9 wet_level 1
+folder data/sounds/SFX/interface/Battlefield
+start_formation_01b
+end
+
+event BATTLE_UI_END_DRAG_SELECTION volume -25 minpitch 1.0 maxpitch 1.0 dry_level 0.9 wet_level 1
+folder data/sounds/SFX/interface/Battlefield
+card_select_02
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; WORKING GLOBAL
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event BUTTON_DOWN 
+	folder data/sounds/SFX/Interface
+	switch_09
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; WORKING  FRONT END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: 1d dry_level 1 wet_level .5
+
+
+
+
+event  UI_NEXT_FACTION_BUTTON  volume -50 
+folder data/sounds/SFX/interface/frontend
+change_faction_01
+end
+
+event UI_NEXT_TEAM_BUTTON volume -65 
+folder data/sounds/SFX/interface/frontend
+donga_01
+end
+
+
+event UI_CHANGE_ARMOUR volume -50 
+folder data/sounds/SFX/interface/frontend
+metal_06
+end
+
+
+event  UI_CHANGE_EXPERIENCE volume -55 
+folder data/sounds/SFX/interface/frontend
+change_experience_01
+end
+
+
+event   UI_CHANGE_WEAPON volume -65 
+folder data/sounds/SFX/interface/frontend
+Change_Weapon_02
+end
+
+
+event   UI_CLEAR_CURRENT_ARMY volume -30 
+folder data/sounds/SFX/interface/frontend
+remove_army_01
+end
+
+
+event  UI_COMPUTER_CHOOSE_ARMY volume -50 
+folder data/sounds/SFX/interface/frontend
+peewhoo
+end
+
+
+event  UI_REFRESH_GAME_LIST
+folder data/sounds/SFX/interface/frontend
+switch_09
+end
+
+
+event  UI_MULTIPLAYER_TOGGLE_RECIEVE_INCOMING
+folder data/sounds/SFX/interface/frontend
+quick_03
+end
+
+
+event UI_MULTIPLAYER_TOGGLE_RECIEVE_OUTGOING
+folder data/sounds/SFX/interface/frontend
+quick_03
+end
+
+
+event  UI_LOAD_KEY_SETTINGS
+folder data/sounds/SFX/interface/frontend
+switch_09
+end
+
+
+event  UI_SAVE_KEY_SETTINGS
+folder data/sounds/SFX/interface/frontend
+switch_09
+end
+
+
+event START_GAME volume 0 
+folder data/sounds/SFX/interface/frontend
+start_battle_03
+end
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event UI_HIGHLIGHT volume -50 
+folder data/sounds/SFX/interface/frontend
+metslide_04_02
+end
+
+
+event UI_SELECT_MENU_ITEM volume -35 
+folder data/sounds/SFX/interface/frontend
+next_02
+end
+
+event UI_RETURN_TO_PREVIOUS volume -35 
+folder data/sounds/SFX/interface/frontend
+back_03
+end
+
+event UI_TEXT_FIELD_CLICKED 
+folder data/sounds/SFX/interface/frontend
+;text_field_clicked
+end
+
+event UI_TEXT_FIELD_ENTERED 
+folder data/sounds/SFX/interface/frontend
+quick_05 volume -90
+end
+
+event UI_FIELD_CHANGED
+folder data/sounds/SFX/interface/frontend
+quick_05 volume -90
+end
+
+; this doubles up on choose defender or attacker
+event UI_TICK_BOX_ON 
+folder data/sounds/SFX/interface/frontend
+tick_on_03 volume -40
+end
+
+; this doubles up on choose defender or attacker
+event UI_TICK_BOX_OFF 
+folder data/sounds/SFX/interface/frontend
+tick_on_01 volume -65
+end
+
+
+; this is the semi-transparent window that pops up
+event UI_HELP_DIALOG_APPEAR 
+folder data/sounds/SFX/interface/frontend
+deepa_01 volume -30
+end
+
+; this is the semi-transparent window that pops and closes
+event UI_HELP_DIALOG_DISAPPEAR
+folder data/sounds/SFX/interface/frontend
+metslide_09
+end
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;  WORKING STRAT MAP
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+DEFAULT: 1d volume -10
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;  ON STRAT MAP
+;;; - UNIT AND BUILDING SELECT/HIGHLIGHT
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+; Strat map - when new message is clicked on and opened
+event OPEN_MSG volume -15
+folder data/sounds/SFX/interface
+	open_msg_switch_04
+end
+
+event MERGE_ARMIES volume -35 
+	folder data/sounds/SFX/campaign_map
+	merge_armies_02
+end
+
+event STRAT_SELECT_CHARACTER volume -25 dry_level 1 wet_level .5
+folder data/sounds/SFX/interface
+card_select_02
+end
+
+
+
+
+
+; This is when you click on a city on the strat map - currently it plays on the big button on the UI
+event STRAT_SELECT_CITY_DOWN volume -30 dry_level .5 wet_level 1 streamed
+   folder data/sounds/SFX/Interface
+	select_building_city_noise_01.mp3
+	select_building_city_noise_02.mp3
+	select_building_city_noise_03.mp3
+	select_building_city_noise_04.mp3
+	select_building_city_noise_05.mp3
+	select_building_city_noise_06.mp3
+	select_building_city_noise_07.mp3
+	end
+
+
+event STRAT_SELECT_CITY volume -35 dry_level .5 wet_level .5
+folder data/sounds/SFX/campaign_map
+;city_noise_01
+;city_noise_02
+;city_noise_03
+;city_noise_04
+;city_noise_05
+;city_noise_06
+;city_noise_07
+
+;dry_level .4 wet_level 1
+;volume -20
+;folder data/sounds/SFX/interface
+;select_building_04
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event STRAT_SENATE_POLICY_TAB volume -45
+   folder data/sounds/SFX/interface
+	show_switch_07
+end
+
+event STRAT_SENATE_MISSIONS_TAB volume -45
+   folder data/sounds/SFX/interface
+	show_switch_07
+end
+
+event STRAT_SENATE_FLOOR_TAB volume -45
+   folder data/sounds/SFX/interface
+	show_switch_07
+end
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;  mouse UP
+event END_TURN volume 0 priority 260 streamed
+  folder data/sounds/SFX/interface
+   end_turn_001.mp3
+   end_turn_002.mp3
+   end_turn_003.mp3
+   end_turn_004.mp3
+   end_turn_005.mp3
+   end_turn_006.mp3
+   end_turn_007.mp3
+   end_turn_008.mp3
+   end_turn_009.mp3
+   end_turn_010.mp3
+   end_turn_011.mp3
+end
+
+;;; mouse DOWN
+event  STRAT_END_TURN_DOWN volume -30 
+  folder data/sounds/SFX/interface
+switch_09
+end
+
+
+event STRAT_BATTLE_ZOOM streamed volume -10
+folder data/sounds/SFX/interface
+view_settlement_battlefield_03.mp3
+end
+;;;;;;;;;;;;
+
+event STRAT_BUILD_FORT volume -30 minpitch .8 maxpitch .8
+   folder data/sounds/SFX/interface
+	switch_09
+end
+
+event STRAT_BUILD_WATCHTOWER volume -30 minpitch .8 maxpitch .8
+folder data/sounds/SFX/interface
+	switch_09
+end
+
+;;;;;;;;;;;;
+
+event STRAT_TRAINING_QUEUE_SELECT_UNIT
+   folder data/sounds/SFX/interface
+	select_building
+end
+
+event STRAT_TRAINING_QUEUE_DELETE_UNIT volume -35
+   folder data/sounds/SFX/interface
+	remove_from_queue
+end
+
+event STRAT_TRAINING_QUEUE_DRAG_UNIT volume -30
+    folder data/sounds/SFX/interface
+	pickup_card
+end
+
+;;;;;;;;;;;;
+
+
+event STRAT_CONSTRUCTION_SELECT_BUILDING volume -55
+   folder data/sounds/SFX/interface
+	add_building
+end
+
+event STRAT_CONSTRUCTION_DELETE_BUILDING volume -35
+      folder data/sounds/SFX/interface
+	remove_from_queue
+end
+
+event STRAT_CONSTRUCTION_DRAG_BUILDING volume -30
+   folder data/sounds/SFX/interface
+	pickup_building
+	end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+;;; not needed
+; event STRAT_HIGHLIGHT
+; end
+
+event STRAT_TOOLTIP  volume -70
+folder data/sounds/SFX/interface
+tooltip_02
+end
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event STRAT_SHOW_INFO_RIGHT_CLICK
+
+; folder data/sounds/SFX/interface
+; paper_07
+end
+
+event STRAT_HIDE_INFO_RIGHT_CLICK_AGAIN
+
+; folder data/sounds/SFX/interface
+; paper_07_deselect
+end
+
+event STRAT_DISBAND_UNIT volume -35 
+	folder data/sounds/SFX/campaign_map
+	merge_armies_02
+end
+
+event STRAT_DESTROY_BUILDING volume -15 streamed
+folder data/sounds/SFX/interface 
+keep_collapse.mp3
+end
+
+event STRAT_SCROLL_OPENS volume -15
+	folder data/sounds/SFX/interface
+	scroll_02_open
+	scroll_03_open
+	scroll_06_open
+	scroll_08_open
+	scroll_10_open
+	scroll_12_open
+	scroll_13_open
+	scroll_14_open
+	scroll_16_open
+	scroll_17_open
+	scroll_18_open
+	scroll_19_open
+	
+end
+
+event STRAT_SCROLL_CLOSES volume -25
+	folder data/sounds/SFX/interface
+	scroll_01_close
+	scroll_04_close
+	scroll_05_close
+	scroll_07_close
+	scroll_09_close
+	scroll_11_close
+	scroll_15_close
+	scroll_22_close
+		
+	end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+event STRAT_PANEL_MENU_SELECT
+	folder data/sounds/SFX/interface
+	;switch_09
+end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event STRAT_PANEL_MENU_SCROLL_BALL
+folder data/sounds/SFX/interface
+	slidey_03
+end
+
+event STRAT_PANEL_MENU_SCROLL_ARROWS
+folder data/sounds/SFX/interface
+	slidey_03
+end
+
+event STRAT_PANEL_MENU_SCROLLING volume -10 minpitch .2 maxpitch .3
+folder data/sounds/SFX/interface
+slider
+end
+
+event STRAT_PANEL_MENU_TICK_BOX_ON volume -30
+folder data/sounds/SFX/interface
+card_deselect_02
+end
+
+event STRAT_PANEL_MENU_TICK_BOX_OFF volume -10
+folder data/sounds/SFX/interface
+card_select_02
+end
+
+event STRAT_PANEL_MENU_CLOSE_BUTTON volume -25
+folder data/sounds/SFX/interface
+;panel_close
+end
+
+event STRAT_PANEL_MENU_CHECK_BUTTON
+folder data/sounds/SFX/interface
+check_button_02
+end
+
+event STRAT_PANEL_MENU_X_BUTTON volume -20
+folder data/sounds/SFX/interface
+;panel_close
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+event STRAT_PANEL_MENU_FACTION_SHIELD_BUTTON
+	folder data/sounds/SFX/interface
+	switch_09
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;  FOUR LEFT BUTTONS  ;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event STRAT_SET_GAME_OPTIONS  volume -10
+folder data/sounds/SFX/interface
+;left_four_buttons
+end
+
+event STRAT_OPEN_DIPLOMATIC_STANDING_WINDOW  volume -35 streamed looped
+folder data/sounds/SFX/campaign_map
+senate_info.mp3
+
+end
+
+
+event STRAT_OPEN_FINANCES_WINDOW volume -35 streamed looped
+folder data/sounds/SFX/campaign_map
+finance_info.mp3
+
+end
+
+event STRAT_OPEN_SENATE_MISSIONS_LOG volume -40 streamed looped
+folder data/sounds/SFX/campaign_map
+senate_info.mp3
+
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event STRAT_OPEN_CONTRUCTION_PANEL  volume -45 streamed looped
+folder data/sounds/SFX/campaign_map
+building_info_01.mp3
+building_info_02.mp3
+
+end
+
+event STRAT_OPEN_TRAINING_PANEL  volume -50 streamed looped
+folder data/sounds/SFX/campaign_map
+training_info_01.mp3
+training_info_02.mp3
+
+end
+
+event STRAT_CLICK_ON_RADAR_TELEPORTS_SCREEN 
+folder data/sounds/SFX/interface
+radar_click
+end
+
+
+event STRAT_PICKUP_CARD
+folder data/sounds/SFX/interface
+pickup_card
+end
+
+event STRAT_DROP_CARD volume -10
+folder data/sounds/SFX/interface
+drop_building
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;   FOUR SHOW TABS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event STRAT_SHOW_UNITS_IN_GARRISON volume -30
+folder data/sounds/SFX/interface
+show_switch_07
+end
+
+event STRAT_SHOW_BUILDS_IN_SETTLEMENT volume -30
+folder data/sounds/SFX/interface
+show_switch_07
+end
+
+event STRAT_SHOW_VISITORS_IN_SETTLEMENT volume -30
+folder data/sounds/SFX/interface
+show_switch_07
+end
+
+event STRAT_SHOW_UNITS_ON_SHIP volume -30
+folder data/sounds/SFX/interface
+show_switch_07
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event STRAT_MOVE_CAMERA_TO_SELECTION_BUTTON volume -50
+folder data/sounds/SFX/interface
+move_camera_slidey_06
+end
+
+event STRAT_OPEN_FACTION_SUMMARY
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event STRAT_SELECT_NEXT
+folder data/sounds/SFX/interface
+slidey_033
+end
+
+event STRAT_SELECT_PREVIOUS
+folder data/sounds/SFX/interface
+slidey_033
+end
+
+event STRAT_SHOW_MISSION_TARGET
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event STRAT_SHOW_SENATE_OFFICES_LIST
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;  ON STRAT MAP - construction screen
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event STRAT_SELECT_BUILDING volume -40
+folder data/sounds/SFX/interface
+;select_building
+end
+
+event STRAT_ADD_BUILDING_TO_QUEUE
+folder data/sounds/SFX/interface
+;add_building
+end
+
+event STRAT_REMOVE_FROM_QUEUE
+folder data/sounds/SFX/interface
+;remove_from_queue
+end
+
+event STRAT_PICKUP_BUILDING
+folder data/sounds/SFX/interface
+;pickup_building
+end
+
+event STRAT_DROP_BUILDING volume -20
+folder data/sounds/SFX/interface
+drop_building
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; ON STRAT MAP - training screen
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event STRAT_ADD_UNIT_TO_QUEUE volume -40
+folder data/sounds/SFX/interface
+;select_building
+end
+
+event STRAT_REMOVE_UNIT_FROM_QUEUE
+folder data/sounds/SFX/interface
+;remove_from_queue
+end
+
+
+event STRAT_PICKUP_UNIT
+folder data/sounds/SFX/interface
+;pickup_card
+end
+
+event STRAT_DROP_UNIT volume -20
+folder data/sounds/SFX/interface
+drop_building
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+event STRAT_ASK_FOR_ADVICE
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event STRAT_LOCATE_POSITION_OF_SETTLEMENT
+folder data/sounds/SFX/interface
+slidey_033
+end
+
+
+event STRAT_ASK_FOR_UNIT_ADVICE
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event STRAT_SHOW_RALLY_POINTS
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event STRAT_REMOVE_RALLY_POINT
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event STRAT_SHOW_UNITS_IN_GARRISON_THAT_REQURE_RETRAINING
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event STRAT_SHOW_EVENTS_LOG
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event STRAT_SHOW_FAMILY_TREE
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event STRAT_LOCATE_SELECTED_CHARACTER_ON_MAP volume -50
+folder data/sounds/SFX/interface
+move_camera_slidey_06
+end
+
+event STRAT_SET_FACTION_HEIR
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event STRAT_VIEW_SETTLEMENT_ON_BATTLEMAP streamed volume -10
+folder data/sounds/SFX/interface
+view_settlement_battlefield_03.mp3
+end
+
+event STRAT_SHOW_TRADE_SUMMARY
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event STRAT_LOCATION_POSITION_OF_SETTLEMENT
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event STRAT_SHOW_BUILDINGS_IN_SETTLEMENT
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event STRAT_ARROW_BUTTONS
+folder data/sounds/SFX/interface
+;slidey_03
+end
+
+event STRAT_SELECT_DETAIL
+folder data/sounds/SFX/interface
+	daha_01
+end
+
+;;;;;;;;;;;;;;;;;;;;;;
+
+event STRAT_ADVICE_PANEL_SLIDING_IN volume -50 pan .25 
+	folder data/sounds/SFX/interface
+	small_swoosh_04
+end
+
+event STRAT_ADVICE_PANEL_SLIDING_OUT volume -55 pan .25  
+	folder data/sounds/SFX/interface
+	small_swoosh_04_low
+end
+
+event STRAT_ADVICE_BUBBLE_APPEARS pan .25
+	folder data/sounds/SFX/interface
+	;advisor_bubble_appear
+end
+
+;; advice slide out covers sound - RV
+event STRAT_ADVICE_BUBBLE_DISAPPEARS pan .25
+	folder data/sounds/SFX/interface
+	;advisor_bubble_disappear
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event STRAT_NEW_MESSAGES_AVAILABLE volume -25 pan .25
+folder data/sounds/SFX/interface
+message_02
+end
+
+event STRAT_EVENT_CARD_STARTS_TO_FALL pan .25  volume 0 
+folder data/sounds/SFX/interface
+message_fall_04
+end
+
+event STRAT_EVENT_CARD_STOPS_FALLING pan .25 volume 0
+folder data/sounds/SFX/interface
+ting_09
+;message_stop
+end
+
+event STRAT_MESSAGE_DISMISS pan .25 volume 0
+folder data/sounds/SFX/interface
+panel_close
+end
+
+
+;;;;;;;;;;;   New diplomatic window August 2004 ;;;;;;;;;;;;;
+
+event STRAT_DIPLOMACY_AMBIENT  volume -40 streamed looped
+folder data/sounds/SFX/Campaign_Map
+senate_info.mp3
+end
+
+event STRAT_DIPLOMACY_SCROLL_OPEN  volume -20 
+folder data/sounds/SFX/interface
+	scroll_02_open
+	scroll_03_open
+	scroll_06_open
+	scroll_08_open
+	scroll_10_open
+	scroll_12_open
+	scroll_13_open
+	scroll_14_open
+	scroll_16_open
+	scroll_17_open
+	scroll_18_open
+	scroll_19_open
+end
+
+event STRAT_DIPLOMACY_SCROLL_CLOSE  volume -25 
+folder data/sounds/SFX/interface
+	scroll_01_close
+	scroll_04_close
+	scroll_05_close
+	scroll_07_close
+	scroll_09_close
+	scroll_11_close
+	scroll_15_close
+	scroll_22_close
+end
+
+event STRAT_DIPLOMACY_TEXT_CLICK  volume -20 
+folder data/sounds/SFX/interface
+switch_09
+end
+
+event STRAT_DIPLOMACY_ARROW_BUTTONS volume -25 
+folder data/sounds/SFX/interface
+show_switch_07
+end
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; WORKING BATTLE MAP
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: volume 0 
+
+
+
+
+
+event BATTLE_UI_SELECT_UNIT
+folder data/sounds/SFX
+;peep
+end
+
+
+event BATTLE_UI_SWORD_ATTACK
+folder data/sounds/SFX
+;peep
+end
+
+
+event BATTLE_UI_QUICK_SWORD_ATTACK
+folder data/sounds/SFX
+;peep
+end
+
+
+event BATTLE_UI_SPEAR_ATTACK
+folder data/sounds/SFX
+;peep
+end
+
+
+event BATTLE_UI_QUICK_SPEAR_ATTACK
+folder data/sounds/SFX
+;peep
+end
+
+
+event BATTLE_UI_MISSILE_ATTACK
+folder data/sounds/SFX
+;peep
+end
+
+
+event BATTLE_UI_QUICK_MISSILE_ATTACK
+folder data/sounds/SFX
+;peep
+end
+
+
+event BATTLE_UI_SIEGE_ATTACK
+folder data/sounds/SFX
+;peep
+end
+
+
+event BATTLE_UI_GRAB_SIEGE_WEAPON
+folder data/sounds/SFX
+;peep
+end
+
+
+event BATTLE_UI_WALK_TO_LOCATION
+folder data/sounds/SFX
+;peep
+end
+
+
+event BATTLE_UI_RUN_TO_LOCATION
+folder data/sounds/SFX
+;peep
+end
+
+
+
+event BATTLE_SCROLL_OPENS
+folder data/sounds/SFX/interface
+	scroll_02_open
+	scroll_03_open
+	scroll_06_open
+	scroll_08_open
+	scroll_10_open
+	scroll_12_open
+	scroll_13_open
+	scroll_14_open
+	scroll_16_open
+	scroll_17_open
+	scroll_18_open
+	scroll_19_open
+	
+end
+
+event BATTLE_SCROLL_CLOSES volume -15
+folder data/sounds/SFX/interface
+	scroll_01_close
+	scroll_04_close
+	scroll_05_close
+	scroll_07_close
+	scroll_09_close
+	scroll_11_close
+	scroll_15_close
+	scroll_22_close
+end
+
+event BATTLE_PANEL_MENU_SELECT
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event BATTLE_PANEL_MENU_SCROLL_BALL
+folder data/sounds/SFX/interface
+slidey_03
+end
+
+event BATTLE_PANEL_MENU_SCROLL_ARROWS
+folder data/sounds/SFX/interface
+slidey_03
+end
+
+ event BATTLE_PANEL_MENU_SCROLLING volume -10 minpitch .2 maxpitch .3
+ folder data/sounds/SFX/interface
+ slider
+ end
+
+event BATTLE_PANEL_MENU_TICK_BOX_ON volume -30
+folder data/sounds/SFX/interface
+card_deselect_02
+end
+
+event BATTLE_PANEL_MENU_TICK_BOX_OFF volume -10
+folder data/sounds/SFX/interface
+card_select_02
+end
+
+event BATTLE_PANEL_MENU_CLOSE_BUTTON volume -20
+folder data/sounds/SFX/interface
+panel_close
+end
+
+event BATTLE_PANEL_MENU_CHECK_BUTTON
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event BATTLE_PANEL_MENU_X_BUTTON volume -20
+folder data/sounds/SFX/interface
+panel_close
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event BATTLE_END_DEPLOYMENT
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event BATTLE_FOLLOW_UNIT
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event BATTLE_STOP_FOLLOWING_UNIT
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event BATTLE_ZOOM_UNIT
+folder data/sounds/SFX/interface
+radar_click
+end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event BATTLE_HIDE_UI
+	folder data/sounds/SFX/interface/battlefield
+	GUI_slide_down
+end
+
+event BATTLE_UNHIDE_UI
+folder data/sounds/SFX/interface/battlefield
+	GUI_slide_up
+end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event BATTLE_TURN_MUSIC_ON
+folder data/sounds/SFX/interface
+card_select_02
+end
+
+event BATTLE_TURN_MUSIC_OFF
+folder data/sounds/SFX/interface
+card_deselect_02
+end
+
+event BATTLE_TURN_SOUND_EFFECTS_ON_
+folder data/sounds/SFX/interface
+card_select_02
+end
+
+event BATTLE_TURN_SOUND_EFFECTS_OFF
+folder data/sounds/SFX/interface
+card_deselect_02
+end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+event BATTLE_ZOOM_RADAR_IN volume 0
+folder data/sounds/SFX/interface
+	daha_02
+end
+
+event BATTLE_ZOOM_RADAR_OUT volume 0
+folder data/sounds/SFX/interface
+	daha_01
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event BATTLE_PAUSE
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event BATTLE_UNPAUSE
+folder data/sounds/SFX/interface
+;switch_09
+end
+
+event BATTLE_DOUBLE_SPEED
+folder data/sounds/SFX/interface
+double_button
+end
+
+event BATTLE_TRIPLE_SPEED
+folder data/sounds/SFX/interface
+triple_button
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event BATTLE_SELECT_CARD volume 0
+folder data/sounds/SFX/interface/battlefield
+card_select_02
+end
+
+event BATTLE_DESELECT_CARD
+folder data/sounds/SFX/interface/battlefield
+card_deselect_02
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event BATTLE_PICKUP_CARD
+folder data/sounds/SFX/interface
+pickup_card
+end
+
+event BATTLE_DROP_CARD
+folder data/sounds/SFX/interface
+drop_building
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event BATTLE_ZOOM_TO_UNIT volume -40
+folder data/sounds/SFX/interface/battlefield
+zoom_to_unit
+end
+
+event BATTLE_ZOOM_GENERAL  volume -40
+folder data/sounds/SFX/interface/battlefield
+zoom_to_unit
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event BATTLE_SELECT_ALL volume -35 dry_level 1 wet_level .5
+folder data/sounds/SFX/interface/battlefield
+card_select_02
+end
+
+
+event BATTLE_DESELECT_ALL
+folder data/sounds/SFX/interface/battlefield
+card_deselect_02
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event BATTLE_SELECT_CAVALRY
+folder data/sounds/SFX
+;peep
+end
+
+
+event BATTLE_SELECT_INFANTRY
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_SELECT_MELEE
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_SELECT_MISSILE_
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_SELECT_SIEGE
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_SELECT_NEXT_GROUP
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_SELECT_PREVIOUS_GROUP
+folder data/sounds/SFX
+;peep
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+event BATTLE_HALT_STOP_CURRENT_ORDERS
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_WITHDRAW
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_GROUP_SELECTED_UNITS
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_UNGROUP_SELECTED_UNITS
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_ENABLE_LINKING
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_DISABLE_LINKING
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_TIGHT_FORMATION
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_LOOSE_FORMATION
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_ENABLE_SKIRMISH_MODE
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_DISABLE_SKIRMISH_MODE
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_ENABLE_FIRE_AT_WILL
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_DISABLE_FIRE_AT_WILL
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_NORMAL_FORMATION
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_SPECIAL_FORMATION
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_ENABLE_GUARD_MODE
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_DISABLE_GUARD_MODE
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_RUN_MODE
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_WALK_MODE
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_SHOW_GROUP_FORMATIONS
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_HIDE_GROUP_FORMATIONS
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_SELECT_GROUP_FORMATION
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_AI_ASSISTANCE_ON
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_AI_ASSISTANCE_OFF
+folder data/sounds/SFX
+;peep
+end
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;  NOT WORKING FRONTEND 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+event UI_F1_HELP volume -5
+folder data/sounds/SFX
+;peep
+end
+
+
+event UI_HELP_DIALOG_CHECK
+folder data/sounds/SFX/interface/frontend
+card_select_02
+end
+
+
+event UI_ESC_KEY
+folder data/sounds/SFX
+;peep
+end
+
+event UI_QUIT_DIALOG_APPEAR
+folder data/sounds/SFX
+;peep
+end
+
+event UI_QUIT_DIALOG_CHECK
+folder data/sounds/SFX/interface/frontend
+check_button_02
+end
+
+event UI_QUIT_DIALOG_X
+folder data/sounds/SFX/interface/frontend
+check_button_02
+end
+
+
+event UI_QUIT_DIALOG_DISAPPEAR
+folder data/sounds/SFX
+;peep
+end
+
+
+event UI_ERROR_DIALOG_APPEAR
+folder data/sounds/SFX
+;peep
+end
+
+event UI_ERROR_DIALOG_CHECK
+folder data/sounds/SFX/interface/frontend
+check_button_02
+end
+
+event UI_ERROR_DIALOG_DISAPPEAR
+folder data/sounds/SFX
+;peep
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+event UI_DROP_MENUS_DOWN volume -10
+folder data/sounds/SFX/interface/frontend
+slidey_03
+end
+
+event UI_DROP_MENUS_UP
+folder data/sounds/SFX/interface/frontend
+slidey_03
+end
+
+event UI_DROP_MENU_ITEM_HIGHLIGHT
+folder data/sounds/SFX
+;peep
+end
+
+event UI_DROP_MENU_ITEM_SELECT
+folder data/sounds/SFX
+;peep
+end
+
+event UI_DROP_MENU_SCROLL_ARROW_HEAD
+folder data/sounds/SFX/interface/frontend
+slidey_03
+end
+
+
+event UI_DROP_MENU_SCROLL_BALL
+folder data/sounds/SFX/interface/frontend
+slidey_03
+end
+
+
+event UI_DROP_MENU_SCROLLING minpitch .2 maxpitch .3 volume -15
+folder data/sounds/SFX/interface
+slider
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event UI_CONTINUE_CAMPAIGN streamed
+folder data/sounds/SFX/campaign_map
+battle_02.mp3
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event UI_SELECT_A_FACTION
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_FACTION_SHIELD_BUTTONS
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+
+event UI_START_THE_CAMPAIGN streamed
+folder data/sounds/SFX/campaign_map
+battle_02.mp3
+end
+
+event UI_SELECT_CAMPAIGN
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_SELECT_BATTLE
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event UI_CHOOSE_AN_ARMY 
+folder data/sounds/SFX/interface/frontend
+slam_01
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event UI_START_THE_HISTORICAL_BATTLE
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_CHOOSE_LOCATION
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_CUSTOMISE_THE_BATTLE
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_ARROW_BUTTONS
+folder data/sounds/SFX/interface/frontend
+slidey_03
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event UI_ATTACKER_BUTTON
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_DEFFENDER_BUTTON
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event UI_NO_FACTION_BUTTON
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_CUSTOMISE_THE_ARMIES
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_PICK_UP_CARD
+folder data/sounds/SFX/interface/frontend
+card_select_02
+end
+
+event UI_DROP_CARD
+folder data/sounds/SFX/interface/frontend
+card_deselect_02
+end
+
+event UI_SELECT_UNIT
+folder data/sounds/SFX/interface/frontend
+select_building
+end
+
+event UI_REMOVE_UNIT
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_LEVELS_ARROWS
+folder data/sounds/SFX/interface/frontend
+slidey_03
+end
+
+event UI_START_THE_BATTLE streamed
+folder data/sounds/SFX/campaign_map
+battle_02.mp3
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event UI_GAME_APPEARS
+folder data/sounds/SFX
+;peep
+end
+
+event UI_GAME_DISAPPEARS 
+folder data/sounds/SFX/interface/frontend
+slam_01
+end
+
+
+event UI_JOIN_AS_SPECTATOR
+folder data/sounds/SFX
+;peep
+end
+
+event UI_JOIN_GAME
+folder data/sounds/SFX
+;peep
+end
+
+event UI_HOST_GAME
+folder data/sounds/SFX
+;peep
+end
+
+event UI_REFRESH_GAME_LIST
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_SORT_BY_COLUMN_BUTTONS
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_SELECT_GAME
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event UI_CHOOSE_CONDITIONS_FOR_BATTLE
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_LOAD_SELECT_GAME
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_APPLY_VIDEO_SETTINGS
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_SELECT_FUNCTION
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_START_REASSIGNMENT
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_KEY_REASSIGNED
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+event UI_RESTORE_DEFAULT_KEYS
+folder data/sounds/SFX/interface/frontend
+chopa_02
+end
+
+
+
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;  NOT WORKING BATTLEMAP
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event BATTLE_SELECT_UNIT_DESTINATION
+folder data/sounds/SFX/interface
+;promote_02
+end
+
+event BATTLE_INVALID_DESTINATION
+folder data/sounds/SFX/interface
+;lock
+end
+
+event BATTLE_MELEE_ATTACK_UNIT
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_CHARGE_MELEE_ATTACK_UNIT
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_MISSILE_ATTACK_UNIT
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_CHARGE_MISSILE_ATTACK_UNIT
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_SIEGE_ATTACK
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_CHARGE_SIEGE_ATTACK
+folder data/sounds/SFX
+;peep
+end
+
+event BATTLE_INVALID_ATTACK_TARGET
+folder data/sounds/SFX
+;peep
+end
