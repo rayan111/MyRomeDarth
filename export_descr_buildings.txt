@@ -554,17 +554,11 @@ building equestrian
         {
             capability
             {
-                ;recruit "carthaginian warhounds"  0  requires factions { spain, } 
                 recruit "carthaginian cavalry"  0  requires factions { spain, } 
                 recruit "barb cavalry gaul"  0  requires factions { gauls, } 
                 recruit "barb cavalry german"  0  requires factions { germans, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
-                ;recruit "barb wardogs briton"  0  requires factions {  britons, } 
-                ;recruit "barb wardogs dacian"  0  requires factions { dacia, } 
-                ;recruit "barb wardogs gaul"  0  requires factions { gauls, } 
-                ;recruit "barb wardogs german"  0  requires factions { germans, } 
-                ;recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "carthaginian cavalry"  0  requires factions { carthage, } 
                 recruit "numidian cavalry"  0  requires factions { numidia, } 
                 recruit "east cavalry"  0  requires factions { pontus, } 
@@ -574,7 +568,6 @@ building equestrian
                 recruit "greek cavalry"  0  requires factions { seleucid, thrace, greek_cities, } 
                 recruit "roman medium cavalry"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman light cavalry"  0  requires factions { roman, }  and not marian_reforms 
-                ;recruit "roman wardogs"  0  requires factions { roman, }
                 recruit "barb medium cavalry briton"  0  requires factions { britons, } 
             }
             construction  3 
@@ -589,18 +582,12 @@ building equestrian
         {
             capability
             {
-                ;recruit "carthaginian warhounds"  0  requires factions { spain, } 
                 recruit "carthaginian cavalry"  1  requires factions { spain, } 
                 recruit "barb cavalry gaul"  0  requires factions { gauls, } 
                 recruit "barb cavalry german"  0  requires factions { germans, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, }
                 recruit "barb sword cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
-                ;recruit "barb wardogs briton"  0  requires factions {  britons, } 
-                ;recruit "barb wardogs dacian"  0  requires factions { dacia, } 
-                ;recruit "barb wardogs gaul"  0  requires factions { gauls, } 
-                ;recruit "barb wardogs german"  0  requires factions { germans, } 
-                ;recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "barb noble cavalry gaul"  0  requires factions { gauls, } 
                 recruit "barb noble cavalry german"  0  requires factions { germans, } 
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } 
@@ -628,7 +615,6 @@ building equestrian
                 recruit "roman cavalry auxillia"  0  requires factions { roman, } 
                 recruit "roman light cavalry"  0  requires factions { roman, }  and not marian_reforms 
                 recruit "roman medium cavalry"  0  requires factions { roman, }  and marian_reforms 
-                ;recruit "roman wardogs"  0  requires factions { roman, }
                 recruit "Spartan cavalry"  0  requires factions { greek_cities, }  and hidden_resource sparta
                 recruit "barb medium cavalry briton"  0  requires factions { britons, } 
             }
@@ -644,17 +630,11 @@ building equestrian
         {
             capability
             {
-                ;recruit "carthaginian warhounds"  0  requires factions { spain, } 
                 recruit "carthaginian cavalry"  1  requires factions { spain, } 
                 recruit "barb cavalry gaul"  0  requires factions { gauls, } 
                 recruit "barb cavalry german"  0  requires factions { germans, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
-                ;recruit "barb wardogs briton"  0  requires factions {  britons, } 
-                ;recruit "barb wardogs dacian"  0  requires factions { dacia, } 
-                ;recruit "barb wardogs gaul"  0  requires factions { gauls, } 
-                ;recruit "barb wardogs german"  0  requires factions { germans, } 
-                ;recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "barb noble cavalry gaul"  0  requires factions { gauls, } 
                 recruit "barb noble cavalry german"  0  requires factions { germans, } 
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } 
@@ -691,7 +671,6 @@ building equestrian
                 recruit "roman light cavalry"  1  requires factions { roman, }  and not marian_reforms 
                 recruit "roman medium cavalry"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman heavy cavalry"  0  requires factions { roman, }  and marian_reforms 
-                ;recruit "roman wardogs"  0  requires factions { roman, } 
                 ;recruit "roman pigs"  0  requires factions { roman, }
                 recruit "greek noble cavalry"  0  requires factions { greek_cities, macedon, }
                 recruit "Spartan cavalry"  1  requires factions { greek_cities, }  and hidden_resource sparta 
@@ -711,17 +690,11 @@ building equestrian
         {
             capability
             {
-                ;recruit "carthaginian warhounds"  0  requires factions { spain, } 
                 recruit "carthaginian cavalry"  1  requires factions { spain, } 
                 recruit "barb cavalry gaul"  0  requires factions { gauls, } 
                 recruit "barb cavalry german"  0  requires factions { germans, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
-                ;recruit "barb wardogs briton"  0  requires factions {  britons, } 
-                ;recruit "barb wardogs dacian"  0  requires factions { dacia, } 
-                ;recruit "barb wardogs gaul"  0  requires factions { gauls, } 
-                ;recruit "barb wardogs german"  0  requires factions { germans, } 
-                ;recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "barb noble cavalry gaul"  0  requires factions { gauls, } 
                 recruit "barb noble cavalry german"  0  requires factions { germans, } 
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } 
@@ -764,7 +737,6 @@ building equestrian
                 recruit "roman medium cavalry"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman heavy cavalry"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman praetorian cavalry"  0  requires factions { roman, }  and marian_reforms 
-                ;recruit "roman wardogs"  0  requires factions { roman, } 
                 ;recruit "roman pigs"  0  requires factions { roman, }
                 recruit "greek noble cavalry"  0  requires factions { greek_cities, macedon, } 
                 recruit "carthaginian elite cavalry"  0  requires factions { carthage, }
@@ -1357,7 +1329,7 @@ building health
     {
     }
 }
-building hinterland_farms
+building farms
 {
     levels farms farms+1 farms+2 farms+3 farms+4 
     {
