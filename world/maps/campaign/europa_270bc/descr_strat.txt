@@ -971,7 +971,7 @@ settlement ; x 161, y 139
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -1006,7 +1006,7 @@ settlement ; x 167, y 148
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -1037,7 +1037,7 @@ settlement ; x 175, y 135
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -1166,7 +1166,7 @@ settlement ; x 179, y 116
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -1197,7 +1197,7 @@ settlement ; x 203, y 112
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -1232,7 +1232,7 @@ settlement; x 186, y 125
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 
@@ -1353,7 +1353,7 @@ settlement ; x 186, y 107
 	}
 	building
 	{
-		type hinterland_farms farms+1
+		type farms farms+1
 	}
 	building
 	{
@@ -1388,7 +1388,7 @@ settlement ; x 201, y 100
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -1680,7 +1680,7 @@ settlement ; x 239, y 118
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -1720,7 +1720,7 @@ settlement ; x 248, y 113
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -1760,7 +1760,7 @@ settlement ; x 245, y 104
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -1792,7 +1792,7 @@ settlement ; x 226, y 138
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -1824,7 +1824,7 @@ settlement ; x 241, y 145
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -1856,7 +1856,7 @@ settlement ; x 220, y 127
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -1888,7 +1888,7 @@ settlement ; x 219, y 113
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -2150,7 +2150,7 @@ settlement ; x 303, y 32
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -2186,7 +2186,7 @@ settlement ; x 320, y 19
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -2214,7 +2214,7 @@ settlement ; x 337, y 5
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -2241,7 +2241,7 @@ settlement ; x 347, y 43
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -2308,7 +2308,7 @@ settlement ; x 350, y 29
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -2787,7 +2787,7 @@ settlement ; x 441, y 85
 	}
 	building
 	{
-		type hinterland_farms farms+2
+		type farms farms+2
 	}
 	building
 	{
@@ -2873,7 +2873,7 @@ settlement ; x 271, y 107
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -3210,7 +3210,7 @@ settlement ; x 454, y 120
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -3479,7 +3479,7 @@ settlement ; x 483, y 70
 	}
 	building
 	{
-		type hinterland_farms farms+2
+		type farms farms+2
 	}
 	building
 	{
@@ -3600,7 +3600,7 @@ settlement ; x 449, y 57
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -4009,7 +4009,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -4037,7 +4037,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
          building
 	{
@@ -4375,7 +4375,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -4410,7 +4410,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -4914,7 +4914,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
         building
 	{
@@ -5248,7 +5248,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -5394,7 +5394,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -5526,7 +5526,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -5554,7 +5554,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -6328,8 +6328,8 @@ traits GoodCommander 1, Intelligent 2, Austere 2, PublicFaith 2, NightBattleCapa
 ancillaries druid
 army
 unit		barb british general briton				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry briton				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry briton				exp 0 armour 0 weapon_lvl 0
+unit		warband woad briton				exp 0 armour 0 weapon_lvl 0
+unit		warband woad briton				exp 0 armour 0 weapon_lvl 0
 unit		barb chariot light briton				exp 0 armour 0 weapon_lvl 0
 
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -6339,9 +6339,9 @@ traits NaturalMilitarySkill 1, Intelligent 1, Austere 1, PublicFaith 1, Drink 1
 ancillaries bard
 army
 unit		barb british general briton				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry briton				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry briton				exp 0 armour 0 weapon_lvl 0
-unit		barb slinger briton				exp 0 armour 0 weapon_lvl 0
+unit		warband woad briton				exp 0 armour 0 weapon_lvl 0
+unit		warband woad briton				exp 0 armour 0 weapon_lvl 0
+unit		barb archer briton				exp 0 armour 0 weapon_lvl 0
 unit		barb chariot light briton				exp 0 armour 0 weapon_lvl 0
 
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -6351,9 +6351,9 @@ traits NaturalMilitarySkill 1, Intelligent 1, Bloodthirsty 2
 ancillaries armourer
 army
 unit		barb british general briton				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry briton				exp 0 armour 0 weapon_lvl 0
-unit		barb slinger briton				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry briton				exp 0 armour 0 weapon_lvl 0
+unit		warband woad briton				exp 0 armour 0 weapon_lvl 0
+unit		barb archer briton				exp 0 armour 0 weapon_lvl 0
+unit		warband woad briton				exp 0 armour 0 weapon_lvl 0
 
 ;---------------------------------------------------------------------------------------------------------------------------------------
 
@@ -6362,7 +6362,7 @@ traits Energetic 1, PublicFaith 3, Intelligent 1
 ancillaries druid2
 army
 unit		barb british general briton				exp 0 armour 0 weapon_lvl 0
-unit		barb druids briton				exp 1 armour 0 weapon_lvl 0
+unit		barb chariot light briton				exp 1 armour 0 weapon_lvl 0
 
 ;---------------------------------------------------------------------------------------------------------------------------------------
 
@@ -6435,7 +6435,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -6463,7 +6463,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -6487,7 +6487,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -6515,7 +6515,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -6834,7 +6834,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -6874,7 +6874,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -6910,7 +6910,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
@@ -6946,7 +6946,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -7016,7 +7016,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -7488,7 +7488,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -7963,7 +7963,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -8774,7 +8774,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 }
 ;---------------------------------------------------------------------------------------------------------------------------------------
@@ -8879,7 +8879,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type farms farms
 	}
 	building
 	{
