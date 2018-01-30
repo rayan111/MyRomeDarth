@@ -238,7 +238,6 @@ building barracks
         {
             capability
             {
-                recruit "barb infantry briton"  0  requires factions { britons, } 
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
                 recruit "warband spear german"  0  requires factions { germans, } 
@@ -253,7 +252,8 @@ building barracks
                 recruit "carthaginian infantry"  0  requires factions { spain, }
                 recruit "carthaginian infantry"  0  requires factions { carthage, }
                 recruit "numidian desert warriors"  0  requires factions { numidia, }
-                recruit "warband sword briton"  0  requires factions { britons, } 
+                recruit "barb archer briton"  0  requires factions { britons, } 
+                recruit "warband woad briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
                 recruit "warband axe german"  0  requires factions { germans, } 
                 recruit "warband axe scythian"  0  requires factions { scythia, } 
@@ -276,12 +276,13 @@ building barracks
             capability
             {
                 recruit "carthaginian infantry"  1  requires factions { spain, } 
-                recruit "barb infantry briton"  1  requires factions { britons, } 
                 recruit "barb infantry dacian"  1  requires factions { dacia, } 
                 recruit "barb infantry gaul"  1  requires factions { gauls, } 
                 recruit "warband spear german"  1  requires factions { germans, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
-                recruit "warband sword briton"  1  requires factions { britons, } 
+                recruit "barb archer briton"  0  requires factions { britons, } 
+                recruit "warband woad briton"  1  requires factions { britons, } 
+                recruit "warband sword briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  1  requires factions { gauls, } 
                 recruit "warband axe german"  1  requires factions { germans, } 
                 recruit "warband axe scythian"  1  requires factions { scythia, } 
@@ -307,7 +308,6 @@ building barracks
                 recruit "spanish scutarii"  0  requires factions { spain, }
                 recruit "carthage scutarii"  0  requires factions { carthage, }
                 recruit "Thracian hoplite"  0  requires factions { thrace, }
-                recruit "warband sword geal"  0  requires factions { britons, }  and marian_reforms 
                 recruit "warband sword celta"  0  requires factions { gauls, }  and marian_reforms
                 recruit "roman princeps"  0  requires factions { roman, }  and not marian_reforms
                 law_bonus bonus 2 
@@ -326,20 +326,21 @@ building barracks
             {
                 recruit "carthaginian infantry"  1  requires factions { spain, } 
                 recruit "spanish scutarii"  1  requires factions { spain, }
-                recruit "carthage scutarii"  1  requires factions { carthage, } 
-                recruit "barb infantry briton"  1  requires factions { britons, } 
+                recruit "carthage scutarii"  1  requires factions { carthage, }  
                 recruit "barb infantry dacian"  1  requires factions { dacia, } 
                 recruit "barb infantry gaul"  1  requires factions { gauls, } 
                 recruit "warband spear german"  1  requires factions { germans, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, }
                 recruit "barb heavy spearmen scythian"  0  requires factions { scythia, } 
+                recruit "barb archer briton"  0  requires factions { britons, } 
+                recruit "warband woad briton"  2  requires factions { britons, } 
                 recruit "warband sword briton"  1  requires factions { britons, } 
+                recruit "barb warguard briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  1  requires factions { gauls, } 
                 recruit "warband axe german"  1  requires factions { germans, } 
                 recruit "warband falx dacian"  1  requires factions { dacia, } 
                 recruit "barb warguard gaul"  0  requires factions { gauls, }
                 recruit "barb heavy spearmen gaul"  0  requires factions { gauls, } 
-                recruit "barb warguard briton"  0  requires factions { britons, } 
                 recruit "barb warguard dacian"  0  requires factions { dacia, }
                 recruit "barb heavy spearmen dacian"  0  requires factions { dacia, } 
                 recruit "warband dhaxe german"  0  requires factions { germans, }
@@ -377,8 +378,6 @@ building barracks
                 recruit "greek royal pikemen"  0  requires factions { macedon, }
                 recruit "carthage scutarii 3"  0  requires factions { carthage, }
                 recruit "celt warguard gaul"  0  requires factions { gauls, }  and marian_reforms 
-                recruit "celt warguard briton"  0  requires factions { britons, }  and marian_reforms
-                recruit "celt clanguard briton"  0  requires factions { britons, }  and marian_reforms 
                 recruit "celt clanguard gaul"  0  requires factions { gauls, }  and marian_reforms
                 law_bonus bonus 3 
             }
@@ -397,17 +396,18 @@ building barracks
                 recruit "carthaginian infantry"  1  requires factions { spain, } 
                 recruit "spanish scutarii"  1  requires factions { spain, }
                 recruit "carthage scutarii"  1  requires factions { carthage, } 
-                recruit "barb infantry briton"  0  requires factions { britons, } 
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
                 recruit "warband spear german"  0  requires factions { germans, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
-                recruit "warband sword briton"  0  requires factions { britons, } 
+                recruit "barb archer briton"  0  requires factions { britons, } 
+                recruit "warband woad briton"  3  requires factions { britons, } 
+                recruit "warband sword briton"  2  requires factions { britons, } 
+                recruit "barb warguard briton"  1  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
                 recruit "warband axe german"  0  requires factions { germans, } 
                 recruit "warband falx dacian"  0  requires factions { dacia, } 
                 recruit "barb warguard gaul"  0  requires factions { gauls, } 
-                recruit "barb warguard briton"  0  requires factions { britons, } 
                 recruit "barb warguard dacian"  0  requires factions { dacia, } 
                 recruit "warband dhaxe german"  0  requires factions { germans, } 
                 recruit "warband axe scythian"  1  requires factions { scythia, }  
@@ -452,8 +452,6 @@ building barracks
                 recruit "carthage scutarii 3"  1  requires factions { carthage, }
                 recruit "early carthaginian legion"  0  requires factions { carthage, }  and marian_reforms 
                 recruit "celt warguard gaul"  0  requires factions { gauls, }  and marian_reforms 
-                recruit "celt warguard briton"  0  requires factions { britons, }  and marian_reforms
-                recruit "celt clanguard briton"  0  requires factions { britons, }  and marian_reforms 
                 recruit "celt clanguard gaul"  0  requires factions { gauls, }  and marian_reforms
                 law_bonus bonus 4 
             }
@@ -471,17 +469,18 @@ building barracks
             {
                 recruit "carthaginian infantry"  1  requires factions { spain, } 
                 recruit "spanish scutarii"  0  requires factions { spain, } 
-                recruit "barb infantry briton"  0  requires factions { britons, } 
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
                 recruit "warband spear german"  0  requires factions { germans, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
-                recruit "warband sword briton"  0  requires factions { britons, } 
+                recruit "barb archer briton"  0  requires factions { britons, } 
+                recruit "warband woad briton"  3  requires factions { britons, } 
+                recruit "warband sword briton"  3  requires factions { britons, } 
+                recruit "barb warguard briton"  2  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
                 recruit "warband axe german"  0  requires factions { germans, } 
                 recruit "warband falx dacian"  0  requires factions { dacia, } 
                 recruit "barb warguard gaul"  0  requires factions { gauls, } 
-                recruit "barb warguard briton"  0  requires factions { britons, } 
                 recruit "barb warguard dacian"  0  requires factions { dacia, } 
                 recruit "warband dhaxe german"  0  requires factions { germans, } 
                 recruit "warband axe scythian"  1  requires factions { scythia, }  
@@ -523,8 +522,6 @@ building barracks
                 recruit "roman praetorian cohort urban i"  0  requires factions { roman, }  and marian_reforms
                 recruit "Seleucid Heavy Pikemen"  0  requires factions { seleucid, } 
                 recruit "celt warguard gaul"  0  requires factions { gauls, }  and marian_reforms 
-                recruit "celt warguard briton"  0  requires factions { britons, }  and marian_reforms
-                recruit "celt clanguard briton"  0  requires factions { britons, }  and marian_reforms 
                 recruit "celt clanguard gaul"  0  requires factions { gauls, }  and marian_reforms
                 recruit "greek hoplite elite2"  1  requires factions { greek_cities, } 
                 recruit "greek hoplite2"  2  requires factions { greek_cities, }
@@ -550,7 +547,7 @@ building equestrian
 {
     levels stables cavalry_barracks hippodrome circus_maximus 
     {
-        stables requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } 
+        stables requires factions { spain, scythia, germans, gauls, dacia, carthaginian, eastern, parthia, egyptian, greek, roman, } 
         {
             capability
             {
@@ -568,7 +565,6 @@ building equestrian
                 recruit "greek cavalry"  0  requires factions { seleucid, thrace, greek_cities, } 
                 recruit "roman medium cavalry"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman light cavalry"  0  requires factions { roman, }  and not marian_reforms 
-                recruit "barb medium cavalry briton"  0  requires factions { britons, } 
             }
             construction  3 
             cost  1200 
@@ -616,7 +612,6 @@ building equestrian
                 recruit "roman light cavalry"  0  requires factions { roman, }  and not marian_reforms 
                 recruit "roman medium cavalry"  0  requires factions { roman, }  and marian_reforms 
                 recruit "Spartan cavalry"  0  requires factions { greek_cities, }  and hidden_resource sparta
-                recruit "barb medium cavalry briton"  0  requires factions { britons, } 
             }
             construction  4 
             cost  2400 
@@ -675,7 +670,6 @@ building equestrian
                 recruit "greek noble cavalry"  0  requires factions { greek_cities, macedon, }
                 recruit "Spartan cavalry"  1  requires factions { greek_cities, }  and hidden_resource sparta 
                 recruit "carthaginian elite cavalry"  0  requires factions { carthage, } 
-                recruit "barb medium cavalry briton"  0  requires factions { britons, }
                 stage_races 1 requires factions { roman,}
             }
             construction  6 
@@ -740,7 +734,6 @@ building equestrian
                 ;recruit "roman pigs"  0  requires factions { roman, }
                 recruit "greek noble cavalry"  0  requires factions { greek_cities, macedon, } 
                 recruit "carthaginian elite cavalry"  0  requires factions { carthage, }
-                recruit "barb medium cavalry briton"  0  requires factions { britons, }
                 recruit "greek noble cavalry"  0  requires factions { greek_cities, macedon, }
                 recruit "Spartan cavalry"  1  requires factions { greek_cities, }  and hidden_resource sparta 
                 stage_races 2 requires factions { roman,}
@@ -761,15 +754,13 @@ building missiles
 {
     levels practice_field archery_range catapult_range siege_engineer 
     {
-        practice_field requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } 
+        practice_field requires factions { spain, scythia, germans, gauls, dacia, carthaginian, eastern, parthia, egyptian, greek, roman, } 
         {
             capability
             {
                 recruit "carthaginian peltast"  0  requires factions { spain, } 
                 recruit "barb peltast gaul"  0  requires factions { gauls, } 
                 recruit "barb peltast german"  0  requires factions { germans, } 
-                recruit "barb slinger briton"  0  requires factions { britons, }
-                recruit "barb archer briton"  0  requires factions { britons, } 
                 recruit "barb archer dacian"  0  requires factions { dacia, } 
                 recruit "barb archer scythian"  0  requires factions { scythia, } 
                 recruit "carthaginian peltast"  0  requires factions { carthage, }
@@ -799,7 +790,6 @@ building missiles
                 recruit "carthaginian peltast"  0  requires factions { spain, } 
                 recruit "barb peltast gaul"  0  requires factions { gauls, } 
                 recruit "barb peltast german"  0  requires factions { germans, } 
-                recruit "barb slinger briton"  0  requires factions { britons, } 
                 recruit "barb archer dacian"  0  requires factions { dacia, } 
                 recruit "barb archer scythian"  0  requires factions { scythia, } 
                 recruit "warband archer german"  0  requires factions { germans, } 
@@ -829,8 +819,7 @@ building missiles
                 recruit "roman archer auxillia"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman ballista"  0  requires factions { roman, } 
                 recruit "barb peltast celt"  0  requires factions { gauls, }
-                recruit "Roman Slingers"  0  requires factions { roman, }
-                recruit "barb archer briton"  0  requires factions { britons, }  
+                recruit "Roman Slingers"  0  requires factions { roman, } 
             }
             construction  4 
             cost  2400 
@@ -848,7 +837,6 @@ building missiles
                 recruit "carthaginian peltast"  0  requires factions { spain, } 
                 recruit "barb peltast gaul"  0  requires factions { gauls, } 
                 recruit "barb peltast german"  0  requires factions { germans, } 
-                recruit "barb slinger briton"  0  requires factions { britons, } 
                 recruit "barb archer dacian"  0  requires factions { dacia, } 
                 recruit "barb archer scythian"  0  requires factions { scythia, } 
                 recruit "warband archer german"  0  requires factions { germans, } 
@@ -887,7 +875,6 @@ building missiles
                 recruit "roman scorpion"  0  requires factions { roman, } 
                 recruit "roman onager"  0  requires factions { roman, }
                 recruit "Roman Slingers"  0  requires factions { roman, }
-                recruit "barb archer briton"  0  requires factions { britons, } 
                 recruit "barb peltast celt"  0  requires factions { gauls, } 
             }
             construction  6 
@@ -906,7 +893,6 @@ building missiles
                 recruit "carthaginian peltast"  0  requires factions { spain, } 
                 recruit "barb peltast gaul"  0  requires factions { gauls, } 
                 recruit "barb peltast german"  0  requires factions { germans, } 
-                recruit "barb slinger briton"  0  requires factions { britons, } 
                 recruit "barb archer dacian"  0  requires factions { dacia, } 
                 recruit "barb archer scythian"  0  requires factions { scythia, } 
                 recruit "warband archer german"  0  requires factions { germans, } 
@@ -950,7 +936,6 @@ building missiles
                 recruit "roman repeating ballista"  0  requires factions { roman, }
                 recruit "carthaginian heavy cavalry"  0  requires factions { carthage, }
                 recruit "Roman Slingers"  0  requires factions { roman, }
-                recruit "barb archer briton"  0  requires factions { britons, }
                 recruit "barb peltast celt"  0  requires factions { gauls, }  
             }
             construction  7 
@@ -1120,8 +1105,8 @@ building smith
             capability
             {
                 recruit "barb chariot heavy briton"  0  requires factions { britons, }
-                recruit "Noble britons"  0  requires factions { britons, } 
                 recruit "barb chariot light briton"  0  requires factions { britons, } 
+                recruit "domnan clan warrior"  0  requires factions { britons, }  and marian_reforms
                 recruit "east scythed chariot"  0  requires factions { pontus, } 
                 recruit "east chariot archer"  0  requires factions { pontus, } 
                 recruit "egyptian chariot"  0  requires factions { egyptian, } 
@@ -1130,7 +1115,6 @@ building smith
                 recruit "greek chariot scythed"  0  requires factions { seleucid, }
                 recruit "Parthia heavy infantry"  0  requires factions { parthia, }
                 recruit "Ptolemaic Garisson"  0  requires factions { egyptian, }
-                recruit "domnan clan warrior"  0  requires factions { britons, }  and marian_reforms 
                 weapon_simple 1
                 weapon_bladed 1
                 weapon_missile 1
@@ -1150,6 +1134,7 @@ building smith
             {
                 recruit "barb chariot heavy briton"  0  requires factions { britons, } 
                 recruit "barb chariot light briton"  0  requires factions { britons, } 
+                recruit "domnan clan warrior"  0  requires factions { britons, }  and marian_reforms
                 recruit "east scythed chariot"  0  requires factions { pontus, } 
                 recruit "east chariot archer"  0  requires factions { pontus, } 
                 recruit "egyptian chariot"  0  requires factions { egyptian, } 
@@ -1162,7 +1147,6 @@ building smith
                 recruit "Pontus Heavy Pikemen"  0  requires factions { pontus, }
                 recruit "Thracian Heavy Pikemen"  0  requires factions { thrace, }
                 recruit "numidian legionaries2"  0  requires factions { numidia, }  and marian_reforms 
-                recruit "Noble britons"  0  requires factions { britons, }
                 weapon_simple 2
                 weapon_bladed 2
                 weapon_missile 2
@@ -2431,7 +2415,6 @@ building temple_of_healing
         {
             capability
             {
-                recruit "barb druids briton"  0  requires factions { britons, } 
                 happiness_bonus bonus 3
                 population_health_bonus bonus 3
             }
@@ -2447,7 +2430,6 @@ building temple_of_healing
         {
             capability
             {
-                recruit "barb druids briton"  0  requires factions { britons, } 
                 happiness_bonus bonus 4
                 population_health_bonus bonus 4
             }
@@ -2463,7 +2445,6 @@ building temple_of_healing
         {
             capability
             {
-                recruit "barb druids briton"  0  requires factions { britons, } 
                 happiness_bonus bonus 5
                 population_health_bonus bonus 5
                 trade_base_income_bonus bonus  2
@@ -3227,7 +3208,6 @@ building temple_of_trade
         {
             capability
             {
-                recruit "Celtic Bowmen"  0  requires factions { britons, }
                 happiness_bonus bonus 3
                 trade_base_income_bonus bonus 3
             }
@@ -3258,7 +3238,6 @@ building temple_of_trade
         {
             capability
             {
-                recruit "Celtic Bowmen"  0  requires factions { britons, }
                 happiness_bonus bonus 5
                 trade_base_income_bonus bonus 5
                 population_health_bonus bonus 2
@@ -3284,8 +3263,8 @@ building temple_of_victory
         {
             capability
             {
-                recruit "warband woad briton"  0  requires factions { britons, } 
                 happiness_bonus bonus 1
+                recruits_exp_bonus bonus 1
             }
             construction  1 
             cost  400 
@@ -3299,10 +3278,8 @@ building temple_of_victory
         {
             capability
             {
-                recruit "warband woad briton"  0  requires factions { britons, } 
-                recruit "warband hurler briton"  0  requires factions { britons, } 
                 happiness_bonus bonus 2
-                recruits_exp_bonus bonus 1
+                recruits_exp_bonus bonus 2
             }
             construction  2 
             cost  800 
@@ -3316,10 +3293,9 @@ building temple_of_victory
         {
             capability
             {
-                recruit "warband woad briton"  1  requires factions { britons, } 
-                recruit "warband hurler briton"  1  requires factions { britons, } 
                 happiness_bonus bonus 3
-                recruits_exp_bonus bonus 2
+                recruits_exp_bonus bonus 3
+                recruit "Celtic Bowmen"  0  requires factions { britons, }
             }
             construction  3 
             cost  1600 
@@ -3333,11 +3309,9 @@ building temple_of_victory
         {
             capability
             {
-                recruit "warband woad celt"  0  requires factions { britons, }
-                recruit "warband woad briton"  1  requires factions { britons, } 
-                recruit "warband hurler briton"  1  requires factions { britons, } 
                 happiness_bonus bonus 4
-                recruits_exp_bonus bonus 3
+                recruits_exp_bonus bonus 4
+                recruit "Celtic Bowmen"  0  requires factions { britons, }
             }
             construction  5 
             cost  3200 
@@ -3351,11 +3325,10 @@ building temple_of_victory
         {
             capability
             {
-                recruit "warband woad briton"  2  requires factions { britons, } 
-                recruit "warband hurler briton"  2  requires factions { britons, }
                 recruit "goldshielded guards"  1  requires factions { greek_cities, } 
                 happiness_bonus bonus 5
-                recruits_exp_bonus 3
+                recruits_exp_bonus 4
+                recruit "Celtic Bowmen"  0  requires factions { britons, }
                 population_growth_bonus bonus 2
                 law_bonus bonus 2
                 trade_base_income_bonus bonus 2
